@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# Leroy Brothers
 
-## Project info
+Art, hospitality, and contemporary experience. The official website for Leroy Brothers—showcasing art projects, international exhibitions, and the Toile Blanche destination in Saint-Paul-de-Vence, France.
 
-**URL**: https://lovable.dev/projects/579d6e2e-0fb6-4955-b651-d44e31050caf
+**Live site:** [www.leroybrothers.com](https://www.leroybrothers.com)
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+This site serves as the hub for:
 
-**Use Lovable**
+- **Leroy Brothers** — Art projects, exhibitions, and digital works from the collective
+- **Toile Blanche** — The boutique hotel and restaurant in Saint-Paul-de-Vence
+- **TB Contemporary** — The on-site art space, curated exhibitions, and sculpture park
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/579d6e2e-0fb6-4955-b651-d44e31050caf) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **[Astro](https://astro.build)** — Static site generation with island architecture
+- **React** — Interactive components (project galleries, lightboxes, forms)
+- **TypeScript** — Type safety
+- **Tailwind CSS** — Styling
+- **shadcn/ui** — UI components (Radix primitives)
+- **Supabase** — Backend (if applicable)
+- **Framer Motion** — Animations
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Node.js** 18+ (recommended: [nvm](https://github.com/nvm-sh/nvm))
+- **npm**
 
-Follow these steps:
+### Setup
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/YOUR_ORG/leroybrothers2026.git
+cd leroybrothers2026
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:4321](http://localhost:4321) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Scripts
 
-**Use GitHub Codespaces**
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server with hot reload |
+| `npm run build` | Build for production (includes sitemap) |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint |
+| `npm run audit` | Run npm security audit |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/     # Astro & React components (UI, Header, Footer, etc.)
+├── data/           # Content data (projects, artworks, exhibitions)
+├── integrations/   # Supabase client & types
+├── layouts/        # Astro layouts (Layout, LandingLayout)
+├── pages/          # Astro pages & routes
+├── styles/         # CSS and Tailwind
+└── views/          # Page-level React views
+```
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The site is built as a static output (`output: 'static'`). Deploy the contents of `dist/` to any static host (Vercel, Netlify, GitHub Pages, etc.).
 
-## How can I deploy this project?
+```sh
+npm run build
+# Deploy the `dist/` directory
+```
 
-Simply open [Lovable](https://lovable.dev/projects/579d6e2e-0fb6-4955-b651-d44e31050caf) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Private — All rights reserved.
