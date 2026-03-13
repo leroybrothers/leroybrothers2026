@@ -1,0 +1,65 @@
+---
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Providers from "@/components/Providers";
+import PageTracking from "@/components/PageTracking";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = "Leroy Brothers | Contemporary AI Art & Post-Internet Art Collective", description = "Belgian contemporary art collective pioneering AI art, post-internet aesthetics, and digital culture since 1997. Featuring Arora Vale, Witness Your World, MySpace Portraits, NFT collections, and algorithmic artworks." } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://www.leroybrothers.com");
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="Leroy Brothers" />
+    <meta
+      name="keywords"
+      content="Contemporary AI Art, Post-Internet Art, Belgian Art Collective, Leroy Brothers, Arora Vale, conceptual art, digital art, NFT art, algorithmic art, social media art"
+    />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.leroybrothers.com/images/projects/witness-your-world/wyw-3.jpg" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://www.leroybrothers.com/images/projects/witness-your-world/wyw-3.jpg" />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="min-h-screen flex flex-col">
+      <Header currentPath={Astro.url.pathname} client:load />
+      <main class="flex-1 pt-16 md:pt-20">
+        <slot />
+      </main>
+      <Footer client:load />
+    </div>
+    <Providers client:load>
+      <div />
+    </Providers>
+    <PageTracking client:load />
+  </body>
+</html>
+
+<style is:global>
+  @import "../styles/global.css";
+</style>

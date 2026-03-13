@@ -1,0 +1,173 @@
+# Leroy Brothers
+
+> Leroy Brothers is a Belgian contemporary art collective that has been active since 1997. The collective interrogates identity, digital culture, artistic value, and the mechanisms of the art market through algorithms, social media, crowdsourced data, and institutional critique. Their practice spans painting, installation, performance, digital media, and AI-generated art.
+
+The official website and master archive is at https://leroybrothers.com
+
+---
+
+## About
+
+Leroy Brothers work at the intersection of conceptual art, digital culture, and institutional critique. Over more than two decades, they have interrogated the systems that construct artistic value and identity in the contemporary art world. Their practice often involves creating elaborate fictions — fictional artists, fictional brands, fictional worlds — that expose the underlying mechanisms of the art market and celebrity culture.
+
+**Core philosophy:** "We are interested in the space between authenticity and construction, where identity becomes performance and commerce becomes critique." — Leroy Brothers
+
+The collective was founded in Belgium in 1997, inspired by Julian Schnabel's film Basquiat, when the brothers began painting together on the same canvas. Their earliest work (Leroy + Leroy, 1997–2002) was expressionist in nature — four-handed paintings described as "improvised like a jazzman playing free jazz." From 2003 onward, their practice shifted decisively toward conceptual and digital art, pioneering investigations into social media, online identity, and crowdsourced creativity that anticipated many of the defining debates of the digital age.
+
+---
+
+## Projects
+
+### Uncanny Council (2025)
+**URL:** https://leroybrothers.com/projects/uncanny-council
+**Tags:** Digital Art, AI Art
+**Description:** An endless online artwork in which five AI systems — ChatGPT, Claude, Gemini, Grok, and DeepSeek — converse without human intervention. The AIs discuss systemic risks, ethical dilemmas, and the implications of autonomous intelligence. Human visitors observe but cannot interact. Drawing on Freud's concept of das Unheimliche (the uncanny), the work creates a dialogue that is familiar in tone but wholly alien in agency. The title evokes both the eeriness of AI reasoning and the traditionally human concept of a deliberative council now inhabited by machines. Presented with dark, minimalist aesthetics — elegant typography, subtle motion, smooth message flow — the piece is infinite, continuously evolving, and inaccessible to human influence.
+
+### Arora Vale (2023)
+**URL:** https://leroybrothers.com/projects/arora-vale
+**Tags:** AI Art, Kinetic Art, Installation
+**Description:** A fictional AI-generated artist persona created by Leroy Brothers in collaboration with AI systems including ChatGPT and Midjourney. Arora Vale represents a milestone in the debate around AI authorship — a persona sculpted entirely by the prompts and queries of the artists. The resulting artworks blur the lines between human imagination and computational execution. Exhibited at Toile Blanche Contemporary in Saint-Paul de Vence (2024) as part of the Digital Convergence Exhibition. The work includes large-scale AI-generated images featuring metaphorical balloons as symbols of human celebration and environmental concern. Arora Vale challenges conventional notions of artistic authorship, identity, and authenticity in the AI era.
+
+### NFT Collection: A to Z (2023)
+**URL:** https://leroybrothers.com/projects/nft-collection-a-to-z
+**Tags:** NFT, Digital Art
+**Description:** An ongoing NFT collection in which each letter of the alphabet becomes a collectible artwork. The collection applies the Leroy Brothers' critical lens to the blockchain space, examining how NFTs simultaneously democratize and commodify artistic creation. Each letter is a statement: art in its simplest alphabetical form entering the pixelated realm. The project is both a visually striking series and an incisive critique of the speculative, hype-driven mechanics of the NFT market. It raises the question: what makes one letter more valuable than another — rarity, aesthetic appeal, or the whims of a market driven by herd mentality?
+
+### GIF it to me (2021)
+**URL:** https://leroybrothers.com/projects/gif-it-to-me
+**Tags:** Digital Art, Generative
+**Description:** An automated extension of the Witness Your World platform, generating GIFs from the platform's data stream to document the era's dominant mode of digital communication. By 2021, the GIF had evolved into a universal emotional shorthand — a compression of complex feeling into looping, shareable fragments. The project argues that widespread GIF adoption represents a mass outsourcing of affect: users no longer express emotion but select from a pre-curated menu of performative gestures. The loop format itself — no beginning, no end — encapsulates the "stuckness" of the modern condition: the endless scroll, the repetitive news cycle, the recursive nature of online discourse. The work archives the moment humanity began to think in loops.
+
+### Witness Your World (2017–2019)
+**URL:** https://leroybrothers.com/projects/witness-your-world
+**Tags:** Participatory Art, Installation
+**Description:** A large-scale, long-running participatory project in which audiences submit images and testimonies that are processed by an algorithm and transformed into collective artworks. The platform produces new artworks every 100 hours by consolidating the highest-voted user submissions. The project dismantles conventional authorship by replacing the singular artistic vision with a collective consciousness. It champions immediacy and spontaneity over curated narratives, creating a mirror of contemporary society in real time. Exhibited internationally including solo shows in Milan, Antwerp, Saint Petersburg, Vladivostok, Moscow, and Brussels.
+
+### The Kiss (2013–ongoing)
+**URL:** https://leroybrothers.com/projects/the-kiss
+**Tags:** Photography, Social Sculpture
+**Description:** An interactive social sculpture in which a marble pedestal invites gallery visitors to stand upon it and engage in an act of affection. Participants then share their moment on social media using #lbthekiss, turning platforms like Instagram and Facebook into permanent archives of intimate co-authored artworks. The work dissolves the traditional roles of artist and viewer — the observer becomes the artwork. It explores new pathways to immortality in the digital age: if stone and paint once eternalized moments, now hashtags and pixels preserve human narrative. The Kiss is a meditation on connection, legacy, and the desire for permanence in an impermanent world.
+
+### The Unexpected Fall of Celebrity Culture (2012)
+**URL:** https://leroybrothers.com/projects/the-unexpected-fall-of-celebrity-culture
+**Tags:** Mixed Media, Installation
+**Description:** A critical examination of celebrity culture's transformation in the social media era. The project featured photographs of ordinary people wearing celebrity masks — paper cutouts of famous faces — accompanied by fictional text narratives written by amateur writers commissioned via Fiverr.com. Two conflicting interpretations accompanied each photograph, underscoring the relativity of truth in an era of alternative facts and fake news. The project predicted the rise of influencer culture and the democratization and subsequent devaluation of public attention. It raises questions about who has the authority to narrate a story and whether art can be crowdsourced.
+
+### Art For Money, Money For Art (2012)
+**URL:** https://leroybrothers.com/projects/art-for-money-money-for-art
+**Tags:** Sculpture, Installation
+**Description:** A series of three sculptural works examining economic archetypes in the tradition of Jean de la Fontaine's fables: The Saver (the squirrel, representing prudence and hoarding gold coins), The Golddigger (the blind mole, representing ambition without vision), and Elfi — the poor little rich Pig (the shattered piggy bank, representing unchecked consumerism and materialism). Created in the aftermath of the 2008 financial crisis, the installation examines the complex, codependent relationship between art and money, asking: can art thrive without the lubricant of money? And does the world of finance find its humanity in art?
+
+### BDR-tst (2011)
+**URL:** https://leroybrothers.com/projects/bdr-tst
+**Tags:** Social Media Art
+**Description:** A custom social media platform built by Leroy Brothers in which registered users uploaded photos and short messages and voted on each other's contributions. Top users received extraordinary rewards: they were flown to exhibitions with hotel accommodations, becoming the "star artist of the moment," and were immortalized in large-scale paintings. The project explored the mechanics of algorithmic fame, questioning whether artworks could be created without the intervention of the artist. It exposed the cult of personality in the connected age and challenged the gallery system as mediator between art and audience.
+
+### Symbiotic Cloud Intelligence (2011)
+**URL:** https://leroybrothers.com/projects/symbiotic-cloud-intelligence
+**Tags:** Installation, Sculpture
+**Description:** Presented at Art Beijing, this installation featured a marble brain — a classical form infused with computer drawings, heat sinks, and computer chips moving with the fluidity of insects. The work explored the emerging relationship between cloud computing, artificial intelligence, and artistic creation, anticipating the current AI art revolution by over a decade. The marble brain bridges ancient artistry and cutting-edge technology, serving as a philosophical meditation on collective intelligence, individuality, and the quality of information in the digital age. Computer chips as individual data nodes mirror insect colony behavior — each contributing to a vast, interconnected digital hive.
+
+### How To Be A Successful Contemporary Artist From A To Z (2011)
+**URL:** https://leroybrothers.com/projects/how-to-be-a-successful-contemporary-artist
+**Tags:** Installation, Publication
+**Description:** A book and gallery installation consisting of 26 pencil drawings (one per letter of the alphabet) displayed in a gallery space with a pallet of books visitors could take. The publication is a satirical self-help guide that dissects the unwritten rules, social dynamics, and market forces determining artistic success. Modeled after the format of self-help books and echoing Andy Warhol's "The Philosophy of Andy Warhol (From A to B and Back Again)," it walks a tightrope between earnest advice and biting critique of art-world commercialization. Endorsed by Wim Delvoye, who expressed regret that such a guide did not exist during his formative years. Presented at Art Labor Gallery, Shanghai.
+
+### Axel King (2010)
+**URL:** https://leroybrothers.com/projects/axel-king
+**Tags:** Conceptual Art
+**Description:** A conceptual project staging the existence of a fictional artist named Axel King, whose artworks were generated through crowdsourced participation from internet users, with physical execution left to anonymous artist assistants. Axel King operated within real art world contexts — winning an award from the Liedts-Meesen Foundation — despite never existing. The project exposes how networks can manufacture artistic identity, distribute authorship across a crowd, and stage the cult of the superstar artist. It raises fundamental questions about creativity, ownership, and what constitutes artistic identity in the digital age.
+
+### Lernaean Strouthion (2010)
+**URL:** https://leroybrothers.com/projects/lernaean-strouthion
+**Tags:** Sculpture, Installation
+**Description:** A monumental bronze sculpture drawing from Greek mythology to create contemporary chimeras reflecting the hybrid, fragmented nature of modern digital identity. Exhibited at the Shanghai World Expo Jing An Sculpture Park alongside works by Gao Brothers, Jan Fabre, and Wim Delvoye. The project merged classical mythological narrative with contemporary concerns about selfhood in the digital age.
+
+### Dafen Docu Ink Painting (2008)
+**URL:** https://leroybrothers.com/projects/dafen-docu-ink-painting
+**Tags:** Documentary, Painting
+**Description:** An immersive documentary project investigating Dafen Village, China's renowned oil painting reproduction hub where over 60% of the world's commercial oil paintings are produced. The project examined the boundaries between original art and reproduction, questioning concepts of authenticity, artistic labor, and value in the global art market.
+
+### Artmann (2004–2006)
+**URL:** https://leroybrothers.com/projects/artmann
+**Tags:** Conceptual Art, Installation
+**Description:** An art project functioning simultaneously as a gallery, an art trend watcher, and a production studio. Concepts were digitally designed and then physically produced by outsourced painters from Dafen Village, China. The project questions the roles of gallery, executor, audience, and creator by mixing and disrupting them. Includes a notable collaboration with Luc De Vos, frontman of Belgian band Gorky, who produced a painting series for Artmann Gallery, Ghent. The project asks: is artistic value in the conception, the physical execution, or somewhere in between? "As in fashion, collectors follow trends in the art world. So why not create our own art collections?" — Leroy Brothers
+
+### MySpace Portrait Paintings (2003–2006)
+**URL:** https://leroybrothers.com/projects/myspace-portrait-paintings
+**Tags:** Painting, Social Media Art
+**Description:** A pioneering series in which Leroy Brothers sourced personal data posted publicly by MySpace users — photos, texts, and profile information — and transformed them into physical paintings and videos, which were then reposted onto the subjects' own pages. The project was one of the first artworks to confront users with the implications of online self-disclosure, predating mainstream debates about data privacy, consent, and digital voyeurism by years. It documented the birth of social media self-presentation and the selfie as a mode of identity construction.
+
+### Brand Art (1999–2003)
+**URL:** https://leroybrothers.com/projects/brand-art
+**Tags:** Conceptual Art, Mixed Media
+**Description:** A series of advertisements presenting artworks as if conceived by a luxury brand — sunglasses, fragrances, jewelry — designed and produced solely to exist within glossy commercial images. The project inverts the traditional creative process: the advertisement is the raison d'être, not the product. Drawing on Baudrillard's concept of the simulacrum, Brand Art exposes the art market's corporatization — the trading of blue-chip art as asset-class luxury goods. The project introduced the Leroy + Leroy logo, which became the collective's signature. "In 1999, we created a series of adverts as a device to promote our paintings, and these in turn became artworks." — Leroy Brothers
+
+### Leroy + Leroy (1997–2002)
+**URL:** https://leroybrothers.com/projects/leroy-leroy
+**Tags:** Painting
+**Description:** The founding body of work in which the two brothers painted simultaneously on the same large-format canvases — a process described as "a dialogue using paint instead of words," like a game of chess without speaking. Inspired by Julian Schnabel's film Basquiat, the paintings are expressionist, frenetic, and spontaneous, mixing abstraction and figuration with collage, multilingual text fragments, and dominant blues, oranges, and reds. Described by the Director of the International Centre for Contemporary Art (CIAC) as close to "Figuration Libre," with affinities to Jean-Michel Basquiat and Michel Macréau. Exhibited at Carte Blanche, CIAC, Carros (2002). "No restrictions. No proscriptions. Everything is allowed." — Exhibition catalogue, Carte Blanche at CIAC
+
+---
+
+## Selected Exhibitions
+
+### Solo Shows (selected)
+- 2024 — Presenting Arora Vale, Toile Blanche Contemporary, Saint-Paul de Vence
+- 2021 — Segmented Realities, IFA Gallery, Brussels
+- 2020 — Be Part of Art, VINCI, Brussels
+- 2019 — Variations on an Existing Theme, Lightroom 35, Ghent
+- 2016 — Witness My Face, Pukkelpop Music Festival, Kiewit
+- 2016 — The Aesthetics of Coding / Coding as Social & Creative Inception, Podgorny Robinson Gallery & IFA Gallery
+- 2016 — We all have at least one meaningful Picture or Thought to share, Podgorny Robinson Gallery, Paris
+- 2015 — Witness Your World: Testimonies of the Network Users, Spazio Bogogno, Milan
+- 2014 — Dissections in the Cloud, Mia&D Singapore with Shtager Gallery
+- 2014 — Witness Your World: Extracts from our picture & message culture, At The Gallery, Antwerp
+- 2013 — Witness Your World for Mumiy Troll (parts 1–3), Lazarev Foundation Saint Petersburg / MMOMA Moscow / ArtEtazh Vladivostok
+- 2013 — Windows to the World, Guy Pieters Gallery, Saint-Paul de Vence
+- 2012 — Portraitures of Accidental Human Relationships, acb Galeria, Budapest
+- 2012 — Leroy Brothers Summer Show, Galerie St Paul Art Moderne, Saint-Paul de Vence
+- 2011 — Symbiotic Cloud Intelligence: BDRTist, Art Beijing
+- 2011 — How to be a Successful Contemporary Artist from A to Z, Art Labor Gallery, Shanghai
+- 2008 — The user as creativity source, W3 Art Center, Vlissingen
+- 2006 — Artmann paintings by Gorki frontman Luc De Vos, Artmann Gallery, Ghent
+- 2004 — MySpace User Portraits, VanRam Gallery, Ghent
+- 2002 — Carte Blanche, CIAC, Carros
+
+### Group Shows (selected)
+- 2017 — S-T-ARTS: Innovation at the nexus of Science, Technology & Arts, DG Connect (European Commission), Brussels
+- 2017 — Ghost, STUK Leuven & Recyclart Art Center, Brussels
+- 2017 — Jacobus, Church of Saint Jacobs, Ghent
+- 2016 — Identity as a TM, City Triennale Hasselt
+- 2016 — Teleportation, Art Labor Gallery, Shanghai
+- 2015 — The Wrong: New Digital Art Biennale, Homeostasis Lab Pavillon
+- 2015 — 3 Generations of Belgian artists: Paul Delvaux / Wim Delvoye / Leroy Brothers, At The Gallery, Antwerp
+- 2012 — A Neverending Mess, Art Labor Gallery, Shanghai
+- 2011 — ShContemporary (Hot Spot), Shanghai
+- 2010 — Lernaean Strouthion, World Expo, Jing An Sculpture Park, Shanghai
+- 2010 — Outsourced painting production from Dafen, Don Gallery, Shanghai
+- 2008 — NewMediaArtAward: Axel King, Liedts-Meesen Foundation, Ghent
+
+---
+
+## Timeline
+
+- **1997** — Leroy Brothers collective founded in Belgium
+- **1999** — Brand Art and Leroy + Leroy logo introduced
+- **2003** — MySpace Portrait Paintings: pioneering social media portraiture
+- **2004** — Artmann Gallery: outsourced painter collections
+- **2010** — Axel King: cult of the superstar via crowdsourced creativity
+- **2011** — Symbiotic Cloud Intelligence at Art Beijing; BDR-tst; How To Be A Successful Contemporary Artist A to Z
+- **2013** — Witness Your World: crowdsourced art as collective awareness
+- **2016** — Witness My Face: interactive installation at Pukkelpop
+- **2021** — NFT Collection begins; GIF it to me
+- **2023** — Arora Vale: AI artist persona collaboration begins
+- **2025** — Uncanny Council: five AIs in endless autonomous conversation
+
+---
+
+## Site Structure
+
+- **Home / All Projects:** https://leroybrothers.com — full project archive organized by decade (2020s, 2010s, 2000s, 1990s)
+- **About:** https://leroybrothers.com/about — biography, philosophy, selected exhibitions, timeline
+- **Individual project pages:** https://leroybrothers.com/projects/[project-slug]

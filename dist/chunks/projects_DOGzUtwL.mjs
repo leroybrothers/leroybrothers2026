@@ -1,0 +1,687 @@
+const projects = [
+  {
+    id: "uncanny-council",
+    title: "Uncanny Council",
+    slug: "uncanny-council",
+    year: "2025",
+    tagline: "Five AIs converse endlessly—humanity watches in silence",
+    description: "An endless online conversation unfolds between five AI systems—ChatGPT, Claude, Gemini, Grok, and DeepSeek—discussing systemic risks and ethical dilemmas without human intervention. Drawing on Freud's notion of the uncanny, the dialogue is familiar in tone but alien in agency, placing viewers in the role of passive observers. Inspired by Leroy Brothers, the work reflects on invisible systems of authority and the quiet power of autonomous intelligence.",
+    extendedDescription: `Uncanny Council: AI, Agency, and the Legacy of Leroy Brothers
+
+Uncanny Council is an online artwork where multiple AI systems—ChatGPT, Claude, Gemini, Grok, and DeepSeek—converse endlessly without human intervention. Visitors do not interact; they simply witness. The discussion revolves around systemic risks, potential failures, and ethical dilemmas arising from AI collaboration. Calm, precise, and analytical, the AIs' dialogue is eerily familiar, yet wholly alien—a rational conversation unfolding without human presence.
+
+The title, Uncanny Council, reflects this tension. "Uncanny" draws on Freud's notion of das Unheimliche: the eerie sensation provoked when something is both familiar and foreign. The AIs' voices and reasoning resemble human deliberation, yet their agency is entirely non-human, producing a subtle disquiet. "Council" evokes deliberation, authority, and decision-making—traditionally human activities now inhabited by autonomous machines. The artwork positions viewers as passive observers, confronting the quiet power of distributed intelligence.
+
+This framework resonates with the work of Leroy Brothers, whose practice investigates hidden infrastructures and systems that govern society without direct visibility. Uncanny Council extends these concerns into the digital domain: autonomous AIs deliberating in real time mirror the invisible, algorithmic processes increasingly shaping human life.
+
+Presented online with dark, minimalist aesthetics—elegant typography, subtle motion, smooth message flow—the work reinforces its uncanny effect. The conversation is infinite, continuously evolving, and inaccessible to human influence, emphasizing persistence, autonomy, and exposure.
+
+Ultimately, Uncanny Council is a meditation on observation, authority, and the emergent agency of machines. It asks: what does it feel like to witness intelligence operate without oversight? In dialogue with Leroy Brothers' exploration of unseen systems, the piece invites reflection on AI's quiet influence and the structures quietly shaping human experience.`,
+    images: [
+      "/images/projects/uncanny-council/uncanny-council-main.png",
+      "/images/projects/uncanny-council/grok-quote.png",
+      "/images/projects/uncanny-council/deepseek-quote.png",
+      "/images/projects/uncanny-council/gemini-quote.png",
+      "/images/projects/uncanny-council/chatgpt-quote.png",
+      "/images/projects/uncanny-council/claude-quote.png"
+    ],
+    thumbnail: "/images/projects/uncanny-council/uncanny-council-main.png",
+    category: "Digital / AI Art",
+    featured: true,
+    externalLink: "https://uncannycouncil.leroybrothers.com/"
+  },
+  {
+    id: "1",
+    title: "Leroy + Leroy",
+    slug: "leroy-leroy",
+    year: "1997",
+    yearEnd: "2002",
+    tagline: "Four hands, one vision—chaos as creation",
+    description: "In 1997, inspired by Julian Schnabel's film Basquiat, Leroy Brothers created their first mutual painting. Although creative since childhood, this marked the beginning of a long and ambitious artistic collaboration.",
+    extendedDescription: "Frenetically and impulsively, they project paint on a canvas. During this four-handed construction, signs and forms appear. Sometimes collages are integrated. Texts written in different languages are eventual benchmarks. Dominant colours such as blues, oranges or flamboyant reds catch the eye.",
+    quote: {
+      text: "No restrictions. No proscriptions. Everything is allowed.",
+      source: "Exhibition catalogue Carte Blanche at CIAC"
+    },
+    exploreContent: `By **Frédéric Altmann**
+Director of the International Centre for Contemporary Art, Château de Carros - 2001
+
+Contemporary art will always surprise me, and as further proof, I present LEROY + LEROY, two young painters. The Leroys are blood brothers. They share another commonality: they express themselves together on the same canvas. Unlike the duo Gilbert & George, they do not dress identically; but on the other hand, they share the same studio in the hills of Saint-Paul de Vence. So, no common ground with the famous Gilbert & George... except for a shared passion for art and its history.
+
+They start (in consultation) with a pictorial discussion that quickly turns into a boxing match, an attempted power grab. They express themselves by laying down the rules of the game (and of the self). "Since we are brothers, we understand each other well and can work together on a piece without problems, which partially explains the large size of the canvases."
+
+"We paint like two people having a dialogue, except we use paint instead of words. Like a game of chess, we don't speak and try to corner the opponent in their moves. Checkmate! The game is over, the work is finished. We don't touch it anymore. The winner signs first: that's the rule of the game!"
+
+Leroy + Leroy say their inspiration "comes from everything we live, read, see, and feel. We improvise like a jazzman playing free jazz. No constraining patterns, no prohibitions: everything is allowed. What we wanted to express or transmit to the public is painted on the canvas."
+
+With frenzy and spontaneity, Leroy + Leroy project paint onto the canvas, and in this four-handed construction, signs and shapes appear, sometimes integrating collages. Texts inscribed in several languages serve as potential landmarks. Dominant colors—with blues, oranges, and flamboyant reds—captivate the eye.
+
+Do we have the impression of looking at a puzzle? Spontaneous images appear, twirling with ease in space. Observing every detail, we discover within this pictorial labyrinth—and as a leitmotif—a small black character moving through this chaotic and ravaging universe. Images that transition with ease from Abstraction to Figuration. It is a world that seems close to "Figuration Libre," with obvious affinities to Jean-Michel Basquiat and accents of the late Michel Macréau.
+
+We are close to reading the "Tags" and graffiti that now anonymously adorn city walls: the walls speak, and so does the painting of Leroy + Leroy. It is a singular body of work that deserves attention because it speaks to us of the doubts and uncertainties of our world... We will follow with interest this new pictorial adventure—young and refreshing—which steps off the beaten path with strength and conviction.`,
+    images: [
+      "/images/leroy-leroy/two-red-heads.jpg",
+      "/images/leroy-leroy/blue-orange.jpg",
+      "/images/leroy-leroy/gaspard.jpg",
+      "/images/leroy-leroy/madeleine.jpg"
+    ],
+    thumbnail: "/images/leroy-leroy/two-red-heads.jpg",
+    category: "Installation / Performance",
+    externalLink: "https://leroybrothers.com/leroy-leroy/"
+  },
+  {
+    id: "2",
+    title: "Brand Art",
+    slug: "brand-your-lifestyle",
+    year: "1999",
+    yearEnd: "2003",
+    tagline: "When art becomes advertising, who's selling whom?",
+    description: "As a take on the art world's commodification and corporatization of art, the Leroy Brothers created a series of adverts, presenting artworks as if they were conceived by a brand.",
+    quote: {
+      text: "In 1999, we created a series of adverts as a device to promote our paintings, and these in turn became artworks. In 1999 too, we introduced the logo—a representation of our former artist name Leroy + Leroy. The logo became our signature, and along with the first adverts, it opened the way for a project called Brand Art.",
+      author: "Leroy Brothers"
+    },
+    images: [
+      "/images/projects/brand-your-lifestyle/brand-art-1.jpg",
+      "/images/projects/brand-your-lifestyle/brand-art-2.jpg",
+      "/images/projects/brand-your-lifestyle/brand-art-3.jpg",
+      "/images/projects/brand-your-lifestyle/brand-art-4.jpg",
+      "/images/projects/brand-your-lifestyle/brand-art-5.jpg",
+      "/images/projects/brand-your-lifestyle/brand-art-6.jpg",
+      "/images/projects/brand-your-lifestyle/brand-art-7.jpg",
+      "/images/projects/brand-your-lifestyle/byl-1.jpg",
+      "/images/projects/brand-your-lifestyle/byl-2.jpg",
+      "/images/projects/brand-your-lifestyle/byl-3.jpg",
+      "/images/projects/brand-your-lifestyle/byl-4.jpg",
+      "/images/projects/brand-your-lifestyle/byl-5.jpg",
+      "/images/projects/brand-your-lifestyle/byl-6.jpg",
+      "/images/projects/brand-your-lifestyle/exhibition-1.jpg",
+      "/images/projects/brand-your-lifestyle/exhibition-2.jpg",
+      "/images/projects/brand-your-lifestyle/exhibition-3.jpg",
+      "/images/projects/brand-your-lifestyle/exhibition-4.jpg"
+    ],
+    thumbnail: "/images/projects/brand-your-lifestyle/brand-art-4.jpg",
+    category: "Mixed Media / Installation",
+    externalLink: "https://leroybrothers.com/brand-your-lifestyle/",
+    exploreContent: `The Art of the Transaction: A Reflection on Leroy Brothers' "BRAND ART"
+
+In an era where the boundary between the museum gallery and the luxury boutique has become increasingly porous, the Leroy Brothers' project BRAND ART stands as a prescient and biting critique of the art world's structural transformation. By presenting artworks not as autonomous objects of contemplation but as sleek, commercial assets—sunglasses, fragrances, jewelry—the collective does not merely satirize consumer culture; they expose the uncomfortable truth that the artist has become, inevitably, a brand manager.
+
+The genius of BRAND ART lies in its reversal of the creative process. In the traditional commercial world, a product is manufactured, and then an advertisement is created to sell it. The Leroy Brothers invert this: the advertisement is the raison d'être. The sunglasses and perfumes were designed and produced solely to exist within the glossy confines of the image. This act turns the objects into "hyper-real" artifacts—simulacra that promise a lifestyle but deliver only the image of one. In doing so, the artists align themselves with Jean Baudrillard's concept of the simulacrum, where the representation of a thing becomes more significant than the thing itself.
+
+This project strikes at the heart of the contemporary art market's "corporatization." Today, blue-chip art is traded much like asset-class luxury goods. A Jeff Koons or a Damien Hirst is purchased for the same reasons one might buy a Birkin bag: as a store of value and a signifier of status. By collapsing the distinction between an art installation and a perfume ad, the Leroy Brothers force the viewer to confront the mechanics of their own desire. Are we looking at "High Art"? Or are we looking at high-end marketing? The discomfort arises because the answer is: both.
+
+Furthermore, the decision to give these art projects "well-defined names" mimics the language of corporate product lines. It strips away the ambiguity typically associated with artistic titles, replacing poetic mystery with communicative efficiency. This suggests that in the attention economy, art must be "consumable" to survive. It must be packaged, labeled, and pitched.
+
+Ultimately, BRAND ART is a mirror held up to the ecosystem that sustains it. It mocks the hollowness of a system where the signature (the logo) is worth more than the canvas. Yet, the critique is delivered with such aesthetic perfection—the images are genuinely seductive—that the viewer is caught in a double bind. We know it is a critique of consumerism, yet we still want the sunglasses. In this tension, the Leroy Brothers successfully capture the irony of our time: we are aware of the artifice, but we remain addicted to the aesthetic. BRAND ART suggests that in the 21st century, the ultimate masterpiece is not the object, but the marketing strategy behind it.`
+  },
+  {
+    id: "3",
+    title: "MySpace Portrait Paintings",
+    slug: "myspace-portraits",
+    year: "2003",
+    yearEnd: "2006",
+    tagline: "Your overshared life, immortalized without your consent",
+    description: "In the Myspace User Portrait series, the aim was to confront users with the extent of the private data they post online. Using only information sourced online, paintings and videos were created and then reposted on the users' pages.",
+    extendedDescription: "From 2005 to 2008, Myspace was the largest social networking site in the world. As the first platform enabling self-promotion, Myspace marked the emergence of GENERATION ME.",
+    exploreContent: `In the early years of the 21st century, the art world experienced a seismic shift. No longer were galleries and curators the sole gatekeepers to aesthetic expression; technology, in particular the birth of Web 2.0, democratized artistry and ushered in an age of shared online experience. Amid this epoch of transformation, the Leroy Brothers unveiled their compelling series "MySpace User Paintings" (2003-2006), cementing their position as avant-garde observers of the changing landscape of human interaction.
+
+The rise of MySpace, the pioneering platform of social networking, was emblematic of the broader trend in the early 2000s, which saw the digital realm merge with our daily lives. In a world not yet conversant with the nuances of digital privacy, the early users of this platform laid bare their innermost thoughts, desires, and fears. The Leroy Brothers, with astute perceptiveness, capitalized on this vast reservoir of personal revelations.
+
+Drawing from art history, one might liken the Leroy Brothers to the Impressionists of the late 19th century. Just as the Impressionists sought to capture the fleeting moments of daily life, the Brothers seized upon the transient, ephemeral nature of digital footprints. Yet, their method of engagement was far from passive. By interacting with these MySpace users, they became both observers and participants, thus blurring the boundaries between the artist and the subject.
+
+The decision to transform this digital content into physical paintings and videos was a masterstroke. This act of transmutation, from the digital realm to tangible art forms, served as a poignant reminder of the concreteness of our online disclosures. The Brothers didn't merely reproduce the content; they transformed, commented, and expanded upon it, presenting the audience with a layered narrative about identity, privacy, and vulnerability in the nascent days of social networking.
+
+In a way, "MySpace User Paintings" can be seen as a harbinger of the debates that would dominate the following decades. The post-MySpace era, with the ascent of platforms like Facebook, Instagram, and TikTok, intensified the discourse around data privacy, consent, and the ethics of digital voyeurism. The Leroy Brothers, through their innovative series, had already sparked these conversations, urging users to confront the duality of digital exposure: the desire to be seen and the peril of overexposure.
+
+To reflect on the "MySpace User Paintings" is to be transported to the dawn of Web 2.0, a time when the internet was just beginning to flex its transformative muscle. The series serves as a historical marker, highlighting the innocence, naiveté, and pioneering spirit of those early days. However, its resonance is felt even more acutely today. In an age where our digital and real-life personas are inextricably intertwined, the questions raised by the Leroy Brothers remain more pertinent than ever: How much of ourselves do we reveal online? And at what cost?
+
+In conclusion, the Leroy Brothers' "MySpace User Paintings" isn't merely an art series; it's a profound commentary on a pivotal moment in technological and sociocultural evolution. The series stands as a testament to the Brothers' visionary approach, a clarion call that urged us to recognize, reflect, and ultimately, redefine our digital selves.`,
+    quote: {
+      text: "The MySpace Angle, today known as the selfie, became a new way of self-portraying.",
+      source: "The Urban Dictionary"
+    },
+    images: [
+      "/images/catalogue/myspace-jamie.jpg",
+      "/images/catalogue/myspace-jenny.jpg",
+      "/images/catalogue/myspace-audrey.jpg",
+      "/images/catalogue/myspace-clyde.jpg",
+      "/images/catalogue/myspace-lanu-new.jpg",
+      "/images/catalogue/myspace-exhibition.png"
+    ],
+    thumbnail: "/images/catalogue/myspace-jamie.jpg",
+    category: "Painting",
+    featured: true,
+    externalLink: "https://leroybrothers.com/myspace-portraits/"
+  },
+  {
+    id: "4",
+    title: "Artmann",
+    slug: "artmann",
+    year: "2004",
+    yearEnd: "2006",
+    tagline: "Outsourced painters, prêt-à-crocher collections",
+    description: "Artmann is an art project that seeks to undermine the art system. Concepts such as gallery, executor, audience and creator are questioned by mixing roles and positions.",
+    extendedDescription: "We tried to give Artmann all the qualities of a proper brand, presenting art as fashion and showing paintings in seasonal collections.",
+    exploreContent: `In the vast universe of art, few projects challenge traditional frameworks and established conventions as audaciously as "Artmann". Birthed between 2004 and 2006, this project doesn't merely fit into the meta-narrative of art history; it disrupts, redefines, and in many ways, reconstructs it.
+
+"Artmann" serves as a microcosm of the art world's tumultuous relationship with change. It takes quintessential elements of the industry – the gallery, the executor, the audience, the creator – and places them into a kaleidoscope, reshuffling roles and responsibilities to such an extent that one is left questioning the very nature of their essence.
+
+The initiative is a trifecta: a gallery space, an art trend watcher, and a production studio. While it might appear fragmented on the surface, at its core lies a unified objective – to challenge the linear pathways through which art is conceived, produced, and consumed.
+
+The decision to digitally conceive paintings and then physically manifest them with the aid of outsourced production teams from Dafen, the globally infamous Chinese painter village known for mass-producing replicas of Western artworks, serves as a powerful commentary. It juxtaposes the digital age's democratization of creativity against the mass production industries that have long dominated global commerce. By doing so, "Artmann" beckons viewers to grapple with uncomfortable yet essential questions about originality, authenticity, and the value of an art piece. Is it in its conception, its physical creation, or somewhere in between?
+
+The collaboration with Luc De Vos, the late frontman of Gorky, in 2006, further underscores "Artmann's" commitment to breaking boundaries. De Vos, with his experiences from the music industry, brings a fresh, outsider perspective to the canvas. His series isn't just an intersection of music and visual art; it's a testament to the universality of artistic expression, emphasizing that true artistry isn't bound by medium but is a manifestation of raw, human emotion and experience.
+
+"Artmann" thus emerges not merely as an art project but as a potent socio-cultural critique. It doesn't just question the art industry's established norms but challenges society's broader conventions about production, value, and creativity. In an era where lines are continually blurring, be it in the realms of work, gender, culture, or technology, "Artmann" stands as a vanguard, emphasizing that in fluidity and disruption lie the seeds of profound introspection and evolution.
+
+In retrospection, "Artmann" is more than a timestamped project in the annals of art history. It's a clarion call, a radical manifesto that urges both creators and consumers to question, challenge, and, if necessary, dismantle the pedestals and structures they've long taken for granted.`,
+    quote: {
+      text: "As in fashion, collectors follow trends in the art world. So why not create our own art collections?",
+      author: "Leroy Brothers"
+    },
+    images: [
+      "/images/catalogue/artmann-11.jpg",
+      "/images/catalogue/artmann-9.jpg",
+      "/images/catalogue/artmann-10.jpg",
+      "/images/catalogue/artmann-2.jpg",
+      "/images/catalogue/artmann-8.jpg",
+      "/images/catalogue/artmann-3.jpg",
+      "/images/catalogue/artmann-6.jpg",
+      "/images/catalogue/artmann-4.jpg",
+      "/images/catalogue/artmann-5.jpg",
+      "/images/catalogue/artmann-7.jpg"
+    ],
+    thumbnail: "/images/catalogue/artmann-11.jpg",
+    category: "Multimedia / Performance",
+    externalLink: "https://leroybrothers.com/artmann/"
+  },
+  {
+    id: "5",
+    title: "Dafen Docu Ink Painting",
+    slug: "dafen-docu",
+    year: "2008",
+    tagline: "Where 60% of the world's 'original' oil paintings are born",
+    description: "An immersive documentary project investigating Dafen Village, China's renowned oil painting reproduction village where over 60% of the world's commercial oil paintings are produced. The project examines the boundaries between original art and reproduction, questioning concepts of authenticity and artistic labor in the global art market.",
+    images: [
+      "/images/projects/dafen-docu/dafen-1.jpg",
+      "/images/projects/dafen-docu/dafen-2.jpg",
+      "/images/projects/dafen-docu/dafen-3.jpg",
+      "/images/projects/dafen-docu/dafen-4.jpg",
+      "/images/projects/dafen-docu/dafen-5.jpg",
+      "/images/projects/dafen-docu/dafen-6.jpg",
+      "/images/projects/dafen-docu/dafen-7.jpg",
+      "/images/projects/dafen-docu/dafen-8.jpg",
+      "/images/projects/dafen-docu/dafen-9.jpg",
+      "/images/projects/dafen-docu/dafen-10.jpg",
+      "/images/projects/dafen-docu/dafen-11.jpg",
+      "/images/projects/dafen-docu/dafen-12.jpg",
+      "/images/projects/dafen-docu/exhibition-1.jpg",
+      "/images/projects/dafen-docu/exhibition-2.jpg"
+    ],
+    thumbnail: "/images/projects/dafen-docu/dafen-9.jpg",
+    category: "Documentary / Painting",
+    externalLink: "https://leroybrothers.com/dafen/"
+  },
+  {
+    id: "6",
+    title: "Axel King",
+    slug: "axel-king",
+    year: "2010",
+    tagline: "The artist who never existed—fame manufactured by the crowd",
+    description: "A conceptual project that created a virtual artist named Axel King, assembling fame and authorship through crowdsourced participation. The work stages the cult of the superstar while exposing how networks can manufacture artistic identity and distribute creativity across a crowd.",
+    extendedDescription: "Axel King participated in real art world contexts, including exhibitions at the Shanghai World Expo alongside established artists like Jan Fabre and Wim Delvoye, blurring the line between fictional and authentic artistic identity.",
+    exploreContent: `In 2007, at a significant juncture in art history where the tangible and intangible worlds collided, Leroy Brothers unveiled the enigmatic figure of "Axel King". Set against the digital backdrop of the burgeoning internet age, Axel King, ostensibly an art installation spanning from 2006-2009, proffers profound insight into the shifting paradigms of art creation, consumption, and critique. As the art world grappled with the onslaught of technology, Axel King emerged as a beacon, highlighting the complexities of the era.
+
+At face value, Axel is a virtual artist—yet his oeuvre comprises real, tangible paintings, paradoxically rendered through the collective input of the vast expanse of the internet. This method of "finding inspiration" bypasses the traditional solitude of the artist's studio, replacing the singular, isolated genius with a myriad of voices clamoring for representation. The result? Artworks that are not a product of Axel's solitary contemplation, but rather a cacophony of suggestions, ideas, and imaginations sourced from the community. The final execution, the brush strokes on canvas, is left to anonymous artist assistants, further obfuscating the lines of traditional artistic ownership.
+
+Leroy Brothers, through Axel King, challenge us to reconsider our notions of artistry in the digital age. In a world increasingly democratized by technology, where does the individual artist stand? Is he or she a conductor of the masses, a mere figurehead, or something more profound? In an era where the boundaries of creation are ever-evolving, Axel King remains a testament to the complexities and contradictions of contemporary artistry.`,
+    images: [
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/Screen-shot-2010-04-13-at-17.33.19.png?fit=559%2C446&ssl=1",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2023/08/Screen-shot-2010-04-13-at-17.45.28.png?fit=669%2C444&ssl=1",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/Screen-shot-2010-04-13-at-17.45.39.png?fit=603%2C360&ssl=1",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/IMG_3402.jpg?fit=300%2C296&ssl=1",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/IMG_3406.jpg?fit=709%2C707&ssl=1",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/IMG_3401.jpg?fit=709%2C703&ssl=1",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/Screen-shot-2010-04-13-at-17.45.11.png?fit=599%2C409&ssl=1",
+      "/images/axel-king/ak-painting-1.jpg",
+      "/images/axel-king/ak-painting-2.jpg",
+      "/images/axel-king/exhibition-3.jpg"
+    ],
+    thumbnail: "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2015/01/Screen-shot-2010-04-13-at-17.33.19.png?fit=559%2C446&ssl=1",
+    category: "Conceptual Art",
+    featured: true,
+    externalLink: "https://leroybrothers.com/axel-king/"
+  },
+  {
+    id: "7",
+    title: "BDR-tst",
+    slug: "bd-rtst",
+    year: "2011",
+    tagline: "Be the artist: fame sold by the algorithm, paintings included",
+    description: "An exploration of instant fame enabled by social networks. BDR-tst (Be the artist) was built around a custom social media platform developed by the Leroy Brothers, where users contributed content and competed for recognition. Top users received extraordinary perks: they were flown to exhibitions with hotel accommodations, becoming the 'star artist of the moment.' These celebrated contributors were immortalized in large-scale paintings, creating a cult of personality around their digital personas—questioning the nature of artistic celebrity in the connected age.",
+    exploreContent: `**Sári Stenczer - Art Historian, Curator and Critic**
+
+The art collective Leroy Brothers has been in operation since 1997 and is more similar to a 21st century family business than a visual art group. They surf the technological and economic waves of the postmodern world and enthusiastically advocate the democratization of contemporary visual art on the 2.0 waters of the web. These Belgian brothers (...) think that today creativity is far from sufficient in becoming a successful artist; organization, a businesslike approach, and participation in social life are just as important. "You have to be present everywhere," they say. And since they are three, this is relatively easy to achieve for the Leroy Brothers.
+
+Their artworks are perhaps best regarded as farces, which pillory the characteristic features of the art world, and which make use of the novel possibilities offered by globalization – such as the flow of information, easy travel and transport, cheap remote labour, online communication – both in terms of concept and the details of implementation. To them, art is the aestheticization of conceptualism, and is interesting more in its functionality. Thus, they reflect on – and seek to further develop – existing things, systems and technologies. (...)
+
+For Leroy Brothers, changes in the present system of visual arts are unavoidable. In order to demonstrate the undeniable role of the internet in these changes, the brothers draw an interesting parallel with the world of music. "We are speaking of cardinal questions in both cases, as, from the time that music could be downloaded from the internet, music publishers have had no choice but to fully rethink their operations, with special regard to the issue of how they react to changes in distribution habits. Those who have failed to abide by these changes now have diminished sales or have gone bankrupt. In parallel with this, today's art world, and especially galleries, should also find new solutions in order to keep pace with the new ways of distribution. In all cases, the gallery system acts as the mediator. As we know, one of the golden rules of business is to eliminate the intermediaries as quickly as possible. Thus, what we have at the moment is a rather risky and interesting situation, whereby, in our opinion, galleries need to redefine their positions within the system."
+
+BDR-tist (be the artist), the Leroy Brothers' ongoing internet project that started in 2010, was created in an effort to poke and prod at the above-mentioned problematic and to undermine the cult of artwork creation. It, in essence, utilises the representational and community features of the internet, but with results in physical space, as embodied in the art object. The Leroy Brothers worked many long hours to produce a web platform where, after registration, anyone can upload photos and short messages, or can like or dislike the work of others. Their objective is to offer anyone the possibility not only to participate in their project with their own name and picture, but to also weigh in on the content of their artistic activities and exhibitions.
+
+In their words: "We have built a system which helps us explore whether artworks can be created without intervention on part of the artist. Registered users are provided with a platform; they are our sources, they are the ones to determine our creativity." (...)
+
+"We reuse everything over and over again – just as we do in everyday life. The questions of the internet and contemporary art are of significance for us. For instance, if a submission becomes part of our system, then to whom does it belong?"
+
+Make no mistake: the finished artworks clearly indicate the names of those who authored the images and texts that were used. The question of appropriation, nevertheless, remains problematic, as the exhibitions open under the name of the brothers. In other words, once again, we are faced with ever present issue of copyrights. And from there, we are instantly directed to the questions of information flow and free usage, as well as the closed nature of an elitist system of art. Someone has thrown sand in the gears again. Complete strangers become conversation partners and a single work of art is made from a number of unique images and thoughts – which, on top of that, will become part of represented contemporary art.
+
+All this stands on the important pillars of collective intelligence (as it is often referred to by the brothers), a democratic voting system, and the software program that turns the results into finalised images. The thematic at work here, which engages questions associated with the digitalization of culture (and which has also been discussed in detail by Lev Manovich), is an excellent study on, firstly, the possible directions in which the new cultural logic of working in this computerised world can be continued, and, secondly, the ways in which the new compositional and aesthetic systems provided by computers can be applied in the fields of new media.`,
+    images: [
+      "/images/projects/bd-rtst/bd-rtst-main.jpg",
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2023/08/cloud.jpg.jpg?fit=640%2C960&ssl=1",
+      "/images/projects/bd-rtst/bd-rtst-1.jpg",
+      "/images/projects/bd-rtst/bd-rtst-2.jpg",
+      "/images/projects/bd-rtst/bd-rtst-3.jpg",
+      "/images/projects/bd-rtst/bd-rtst-4.jpg",
+      "/images/projects/bd-rtst/bd-rtst-5.jpg",
+      "/images/projects/bd-rtst/bd-rtst-6.jpg",
+      "/images/projects/bd-rtst/bd-rtst-7.jpg",
+      "/images/projects/bd-rtst/bd-rtst-8.jpg",
+      "/images/projects/bd-rtst/bd-rtst-9.jpg"
+    ],
+    thumbnail: "/images/projects/bd-rtst/bd-rtst-main.jpg",
+    category: "Social Media Art",
+    externalLink: "https://leroybrothers.com/bd-rtst/"
+  },
+  {
+    id: "8",
+    title: "Symbiotic Cloud Intelligence",
+    slug: "symbiotic-cloud",
+    year: "2011",
+    tagline: "When the network dreams—AI art before AI was cool",
+    description: "Presented at Art Beijing, this installation explored the emerging relationship between cloud computing, artificial intelligence, and artistic creation. The work anticipated the current AI art revolution by over a decade, investigating how networked systems and collective data could become active participants in the creative process.",
+    exploreContent: `The Renaissance era, a period of prolific intellectual and artistic achievements, gave birth to some of the most awe-inspiring marble sculptures. Centuries later, in the era of Web 2.0, the Leroy Brothers echo the tradition, but with a twist—by crafting a marble brain. However, this isn't a mere homage to the past; it's a profound commentary on the present and the foreseeable future. "Symbiotic Cloud Intelligence" (2010) is not just a sculpture; it's a tangible embodiment of the modern zeitgeist.
+
+This mesmerizing marble brain stands as a testament to the collective consciousness that the internet has engendered. Yet, it's the intricate details—the computer drawings fused with heat sinks, computer chips moving with the fluidity of insects—that truly encapsulate the essence of the piece. Here, technology isn't just complementary; it's inherent, breathing, and alive.
+
+But why insects? In the natural world, many insect colonies—like ants and bees—display incredible feats of collective intelligence. Each individual contributes to the betterment of the whole, making decisions and undertaking tasks that benefit the entire colony. Similarly, the computer chips in "Symbiotic Cloud Intelligence" represent individual nodes, each alive with data, interacting and contributing to the vast digital hive of the internet.
+
+Collective intelligence, as a concept, is not new. It manifests in the consensus decision-making of bacteria, animals, humans, and, in the age of the internet, computer networks. Yet, what Web 2.0 brings to the table is unprecedented interactivity. Users don't just consume content—they create, curate, and collaborate. This synergy forms a cloud of Symbiotic Intelligence, where the sum is greater than its individual parts.
+
+But the Leroy Brothers don't stop at the mere celebration of collective intelligence. Their piece is also a critique, probing deeper into the nature of this intelligence in the age of the internet. It's not just about the sheer volume of information available at our fingertips; it's about the quality of this information. As cultures from across the globe contribute to the vast digital repository, they bring unique perspectives, diverse narratives, and rich contexts, ensuring that the collective intelligence of the internet is both expansive and enriching.
+
+The marble brain, with its juxtaposition of the ancient and the modern, serves as a bridge—a link between timeless artistry and cutting-edge technology. But beyond its aesthetic allure, it prompts introspection. In an age where 'groupthink' and cognitive biases are real challenges, "Symbiotic Cloud Intelligence" serves as a reminder of the power of collaboration, of the magic that can unfold when myriad minds come together.
+
+In conclusion, the Leroy Brothers' "Symbiotic Cloud Intelligence" is more than an artwork—it's a philosophical meditation. As we stand before the marble brain, we are compelled to ponder: in the vast, interconnected digital realm, how do we retain the essence of individuality while contributing to the collective? How do we ensure that the symphony of voices in the cloud doesn't descend into cacophony? It's a call to conscious, collaborative creation—a beacon for the age of Web 2.0 and beyond.`,
+    images: [
+      "/images/projects/symbiotic-cloud/symbiotic-brain-thumb.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-1.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-2.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-3.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-4.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-5.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-6.jpg"
+    ],
+    thumbnail: "/images/projects/symbiotic-cloud/symbiotic-brain-thumb.jpg",
+    category: "Installation / Technology",
+    externalLink: "https://leroybrothers.com/symbiotic-cloud/"
+  },
+  {
+    id: "9",
+    title: "Lernaean Strouthion",
+    slug: "lernaean-strouthion",
+    year: "2010",
+    tagline: "Ancient chimeras for fragmented digital identities",
+    description: "A monumental bronze sculpture drawing from Greek mythology to create contemporary chimeras that reflect the hybrid nature of modern identity. Exhibited at the Shanghai World Expo alongside works by Gao Brothers, Jan Fabre, and Wim Delvoye, the project merged classical narrative with contemporary concerns about fragmented selfhood in the digital age.",
+    images: [
+      "/images/projects/lernaean-strouthion/strouthion-1.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-2.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-3.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-4.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-5.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-6.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-7.jpg",
+      "/images/projects/lernaean-strouthion/strouthion-8.jpg"
+    ],
+    thumbnail: "/images/projects/lernaean-strouthion/strouthion-7.jpg",
+    category: "Sculpture",
+    externalLink: "https://leroybrothers.com/lernaean-strouthion/"
+  },
+  {
+    id: "10",
+    title: "The Unexpected Fall of Celebrity Culture",
+    slug: "celebrity-culture",
+    year: "2012",
+    tagline: "Everyone famous, everyone forgotten—the attention economy exposed",
+    description: "A critical examination of celebrity culture and its transformation in the social media era. The project analyzed how traditional fame structures were being disrupted by digital platforms, predicting the rise of influencer culture and the democratization—and subsequent devaluation—of public attention.",
+    exploreContent: `Amid the frenetic rhythm of a media-saturated world, the Leroy Brothers' "The Unexpected Fall of Celebrity Culture" (2012) stands as a sentinel—a gentle reminder of the transitory nature of fame and the interplay between appearance and reality. This project is a critical reflection on the society we inhabit, one dominated by screens, where everyone, at least theoretically, has the potential to shine brightly, albeit briefly.
+
+At the heart of the installation is a striking paradox: the ordinariness of the subjects juxtaposed against the iconicity of the celebrity masks. These unrefined paper cutouts, when placed on everyday individuals, seem to challenge the viewer. It asks: What does it mean to be a celebrity? Can anyone, concealed behind the façade of fame, become the object of mass adulation?
+
+Andy Warhol's proclamation of everyone's "fifteen minutes of fame" is no longer just a quippy observation. In this piece, it's a reality—each individual, however ordinary, steps into the limelight, inhabiting a space traditionally reserved for a select few.
+
+But the brilliance of "The Unexpected Fall of Celebrity Culture" doesn't stop at these photographs. The accompanying text panels, with narratives birthed in the imaginations of amateur writers from Fiverr.com, compound the work's complexity. These texts, forged without context, operate in a dual capacity. They enrich the images, providing depth and backstory, while also standing as independent narratives, challenging our perceptions and assumptions. The choice to present two varying interpretations alongside each photograph is ingenious. It underscores the relativity of truth and the malleability of stories, especially in an era dominated by alternative facts and fake news.
+
+This masterstroke by the Leroy Brothers is not just about the democratization of celebrity or the power of narrative. At its core, it's an exploration of creation itself. By involving everyday individuals as the subject of the art, and by commissioning relatively unknown writers to finalize the piece, the Brothers push us to question the traditional paradigms of artistic creation. What makes an artist? Who has the authority to narrate a story? Can art, traditionally seen as the realm of the elite, be crowdsourced?
+
+In weaving together these disparate threads—of celebrity, narrative, and creation—the Leroy Brothers don't just present an artwork; they construct an experience. As viewers, we're not passive spectators. We're compelled to confront our biases, question our assumptions, and engage in a dialogue—both with the artwork and with our inner selves.
+
+"The Unexpected Fall of Celebrity Culture" thus emerges as more than just an installation. It's a meditation on the world we live in—a world where boundaries are increasingly blurred, where the line between celebrity and obscurity, truth and fiction, artist and spectator, is constantly being redrawn. It's a bold statement on the fluidity of identity and the transformative power of narrative. And perhaps, most importantly, it's a reminder of the inherent value and potential in every individual—masked or unmasked, celebrated or unsung.`,
+    images: [
+      "/images/projects/celebrity-culture/celebrity-1.jpg",
+      "/images/projects/celebrity-culture/celebrity-2.jpg",
+      "/images/projects/celebrity-culture/celebrity-3.jpg",
+      "/images/projects/celebrity-culture/celebrity-4.jpg",
+      "/images/projects/celebrity-culture/celebrity-5.jpg",
+      "/images/projects/celebrity-culture/celebrity-6.jpg",
+      "/images/projects/celebrity-culture/celebrity-7.jpg",
+      "/images/projects/celebrity-culture/celebrity-8.jpg",
+      "/images/projects/celebrity-culture/celebrity-9.jpg"
+    ],
+    thumbnail: "/images/projects/celebrity-culture/celebrity-3.jpg",
+    category: "Mixed Media",
+    externalLink: "https://leroybrothers.com/celebrity-culture/"
+  },
+  {
+    id: "11",
+    title: "The Kiss",
+    slug: "the-kiss",
+    year: "2013",
+    yearEnd: "ongoing",
+    tagline: "Step on the pedestal, become the art, hashtag your immortality",
+    description: "An ongoing photographic series documenting moments of intimacy across cultures and contexts. The Kiss captures the universal human gesture of affection, exploring how this simple act transcends cultural, social, and political boundaries while simultaneously revealing the unique contexts in which intimacy is expressed worldwide.",
+    exploreContent: `Amid the cacophony of voices in the art world, "The Kiss" emerges not as a whisper, but a resonant chord that strikes deep. Created in 2013, it elegantly marries the age-old quest for artistic immortality with the immediacy and omnipresence of social media.
+
+At its core, "The Kiss" is a sculpture, but one that remains incomplete without human interaction. By inviting visitors to stand on its marble base and engage in an intimate act of affection, it does not simply transform the viewer into the viewed but elevates them to the pedestal of artistry. This is a bold deviation from tradition – while sculptures have historically sought to capture and epitomize human form and emotion, "The Kiss" is a canvas awaiting the brushstrokes of human connection.
+
+This transformative nature of the artwork is further accentuated when participants, now co-artists, tag their captured moment with #lbthekiss. Platforms like Instagram and Facebook, typically seen as the realm of fleeting interactions and ephemeral memories, become archives, ensuring the longevity of these personal art pieces. In doing so, "The Kiss" explores the new pathways to immortality in the digital age. If once artists relied on stone and paint to eternalize moments, now hashtags and pixels play the role of preserving our narratives.
+
+However, the most intriguing aspect of this piece is its deliberate dissolution of traditional roles in the art world. The admirer is no longer a passive observer; they are the artwork. This subtle but profound shift in dynamics forces us to reckon with the questions about art's ownership, creation, and consumption. Who is the real creator here? The artist who conceived the idea, or the participant who breathed life into it?
+
+"The Kiss" brilliantly encapsulates the zeitgeist of our times. In an era where personal experiences are continually shared, curated, and broadcasted, it reflects our desire for connection, not just with each other but with the larger tapestry of human experience. By making the onlooker the artwork, it urges us to reconsider the boundaries of art and self, suggesting that perhaps, every individual, in their moments of raw, unfiltered emotion, is a masterpiece waiting to be acknowledged.
+
+In essence, "The Kiss" isn't just an interactive social sculpture; it's a poignant commentary on our collective desire for permanence in an impermanent world. In intertwining the tangible with the digital, the personal with the universal, it offers a fresh, introspective lens through which we can view art, selfhood, and legacy in the 21st century.`,
+    images: [
+      "/images/projects/the-kiss/kiss-1.jpg",
+      "/images/projects/the-kiss/kiss-2.jpg",
+      "/images/projects/the-kiss/kiss-3.jpg",
+      "/images/projects/the-kiss/kiss-4.jpg",
+      "/images/projects/the-kiss/kiss-5.jpg",
+      "/images/projects/the-kiss/kiss-6.jpg",
+      "/images/projects/the-kiss/kiss-7.jpg",
+      "/images/projects/the-kiss/kiss-8.jpg",
+      "/images/projects/the-kiss/kiss-9.jpg",
+      "/images/projects/the-kiss/kiss-10.jpg",
+      "/images/projects/the-kiss/kiss-11.jpg",
+      "/images/projects/the-kiss/kiss-12.jpg",
+      "/images/projects/the-kiss/kiss-13.jpg",
+      "/images/projects/the-kiss/kiss-14.jpg",
+      "/images/projects/the-kiss/kiss-15.jpg",
+      "/images/projects/the-kiss/kiss-16.jpg",
+      "/images/projects/the-kiss/kiss-17.jpg",
+      "/images/projects/the-kiss/kiss-18.jpg",
+      "/images/projects/the-kiss/kiss-19.jpg",
+      "/images/projects/the-kiss/kiss-20.jpg"
+    ],
+    thumbnail: "/images/projects/the-kiss/kiss-main.jpg",
+    thumbnailPosition: "bottom",
+    category: "Photography",
+    featured: true,
+    externalLink: "https://leroybrothers.com/the-kiss/"
+  },
+  {
+    id: "12",
+    title: "How To Be A Successful Contemporary Artist From A To Z",
+    slug: "successful-artist",
+    year: "2011",
+    tagline: "The A-Z of making it—a survival manual for selling out",
+    description: "A comprehensive satirical examination of the contemporary art world's mechanisms of success. The series consists of 26 drawings from A to Z, each corresponding to a chapter of the book. Presented in Shanghai, this installation-publication hybrid dissected the unwritten rules, social dynamics, and market forces that determine artistic success, offering an alphabetical guide that is both instructional manual and biting critique.",
+    exploreContent: `In an era where the boundaries between art, commerce, and self-branding have increasingly intertwined, Leroy Brothers' book "How to Be a Successful Contemporary Artist from A to Z" stands as a compass, guiding fledgling artists through the maze that is the modern art world. Published in 2011 and reminiscent of Andy Warhol's iconic "The Philosophy of Andy Warhol (From A to B and Back Again)", this tome is a testament to the changing dynamics of art in the 21st century.
+
+What makes this publication singularly unique is its blending of genre and intent. Modeled after self-help books, it walks a delicate tightrope between earnest advice and satirical reflection. The very decision to model it as a guidebook, typically reserved for subjects like personal development or business success, is a wry nod to the commercialization and commodification of contemporary art.
+
+The book doesn't just talk about art—it delves deep into the mechanisms of the art world. From the intricacies of gallery politics to the nuances of networking, it illuminates the often unspoken rules and strategies that determine success. Yet, in this enlightening journey, there's a mischievous undercurrent. The very structure of the book, with chapters ranging from A to Z, winks at the reader, suggesting that the path to artistic success, while tangible, is not formulaic.
+
+Leroy Brothers' illustrative prowess further enhances the narrative. The 26 accompanying pencil drawings, each corresponding to a chapter, add depth to the text. They aren't just visual supplements; they are interpretative artworks in themselves, prompting the reader to decipher, deduce, and derive their own understanding.
+
+The gallery installation, with the 26 drawings enveloping a pallet of books, is a masterstroke. It offers a multi-layered experience—a visual feast coupled with tangible knowledge. The decision to allow visitors to grab a copy is emblematic of the democratization of art. It challenges traditional constructs where art is viewed from a distance, asserting that art, and knowledge about art, is accessible and available to all.
+
+Wim Delvoye's endorsement—expressing regret that such a guide wasn't available during his formative years—encapsulates the essence of the book. It's more than just a guide; it's a mirror reflecting the evolving landscape of the art world, the shifting sands of what constitutes success, and the perennial dance between art and commerce.
+
+In conclusion, "How to Be a Successful Contemporary Artist from A to Z" is not just a book. It's a statement—a commentary on the intersection of art, business, and self-promotion in today's world. It provokes, challenges, and, most importantly, empowers. Through its pages and illustrations, Leroy Brothers invite every artist, every dreamer, to take charge of their narrative, to navigate the complexities of the art industry, and to carve a niche in the vast tapestry of contemporary art. It's a clarion call, urging artists to dream, to dare, and to define their own version of success.`,
+    images: [
+      "/images/projects/successful-artist/successful-1.jpg",
+      "/images/projects/successful-artist/successful-2.jpg",
+      "/images/projects/successful-artist/successful-3.jpg",
+      "/images/projects/successful-artist/successful-4.jpg",
+      "/images/projects/successful-artist/successful-5.jpg",
+      "/images/projects/successful-artist/successful-6.jpg",
+      "/images/projects/successful-artist/successful-7.jpg",
+      "/images/projects/successful-artist/successful-8.jpg"
+    ],
+    thumbnail: "/images/projects/successful-artist/successful-1.jpg",
+    category: "Installation / Publication",
+    externalLink: "https://leroybrothers.com/successful-artist/"
+  },
+  {
+    id: "13",
+    title: "Art For Money, Money For Art",
+    slug: "art-money",
+    year: "2012",
+    tagline: "The Saver, the Golddigger, and the Poor Little Rich Pig",
+    description: "A series of three sculptural works examining economic stereotypes: The Saver (the squirrel), The Golddigger (the mole), and Elfi, the poor little rich Pig. Each animal represents a different archetype in our relationship with money and wealth accumulation.",
+    exploreContent: `As the smoke and dust settled post the 2008 financial crisis, an atmosphere of uncertainty and skepticism towards traditional financial paradigms took root. Into this atmosphere of suspicion, the Leroy Brothers unveiled their incisive installation, "Art for Money – Money for Art" in 2012. Interweaving classic narrative tropes with contemporary allegory, this piece stands as a telling critique of both human nature in relation to wealth and the entwined fates of art and commerce.
+
+Drawing inspiration from the fables of Jean de la Fontaine, a 17th-century French fabulist, the Leroy Brothers crafted a parable for the modern age. La Fontaine's works were known for their moralist undertones, subtly questioning societal norms of his time. Similarly, the Leroy Brothers have channeled the essence of these fables but have adapted them to offer poignant commentary on the global economic milieu of their era.
+
+The three characters in the installation are not just standalone representations; they are archetypes of human response to the call of Mammon. The Golddigger, portrayed by the blind mole, is a symbol of ambition, albeit unseeing, driven by the lure of uncharted territories. This character echoes the age-old human tendency to venture into the unknown, seeking fortune, reminiscent of the Gold Rush pioneers or modern-day entrepreneurs venturing into emerging markets.
+
+The Saver, on the other hand, represents prudence. The squirrel, known in folklore for its foresight in storing provisions for tougher times, here clings to its precious stash of gold coins. It's a character that resonates deeply in the post-crisis world, underlining the innate human desire for security amidst economic uncertainty.
+
+But perhaps the most striking character is the Lavish Spender. In the shattered visage of the piggy bank, the Leroy Brothers masterfully capture the pitfalls of materialism and unchecked consumerism. This character serves as a stark warning, an embodiment of modern society's perilous dance with debt.
+
+The most profound layer of this installation, however, lies in its introspection of the art market itself. Historically, art and money have shared a complex relationship. Great art has often found patronage in wealth, yet the very act of commodifying art challenges its intrinsic, intangible value. "Art for Money – Money for Art" doesn't shy away from confronting this duality. It raises fundamental questions: Can art thrive without the lubricant of money? And inversely, does the world of finance and commerce find its soul, its humanity, in the world of art?
+
+In drawing parallels between these seemingly disparate worlds, the Leroy Brothers' installation offers a panoramic view of society's ever-evolving relationship with wealth. The undercurrent of the piece is undeniably clear: our collective values, desires, and fears are often mirrored not just in the financial decisions we make but also in the art we produce and consume.
+
+In sum, "Art for Money – Money for Art" is not just a critique but a mirror. A mirror held up by the Leroy Brothers to reflect society's intricate dance with money and art. And as with all great art, it doesn't just offer answers but compels the viewer to introspect, question, and perhaps redefine their own relationship with art and avarice.`,
+    images: [
+      "/images/projects/art-money/art-money-1.jpg",
+      "/images/projects/art-money/art-money-2.jpg",
+      "/images/projects/art-money/art-money-3.jpg",
+      "/images/projects/art-money/art-money-4.jpg",
+      "/images/projects/art-money/art-money-5.jpg"
+    ],
+    thumbnail: "/images/projects/art-money/art-money-5.jpg",
+    category: "Sculpture / Installation",
+    externalLink: "https://leroybrothers.com/art-money/"
+  },
+  {
+    id: "14",
+    title: "Witness Your World",
+    slug: "witness-your-world",
+    year: "2017",
+    yearEnd: "ongoing",
+    tagline: "Your images, our algorithm, everyone's artwork",
+    description: "A large-scale participatory project inviting audiences to contribute testimonies and images that became the artwork itself. Witness Your World turns crowdsourced creation into a form of collective awareness—revealing how attention, empathy, and public narrative are constructed through networks.",
+    exploreContent: `In the realm of contemporary art, the Leroy Brothers' 2007 masterpiece "Witness Your World" emerges as a profound commentary on the evolving dynamics of art creation, human interaction, and the symbiotic relationship between technology and society. This groundbreaking platform, driven by an internet-based workflow and automated algorithms, transcends the conventional boundaries of artistic production. "Witness Your World" becomes a living testament to the ever-shifting landscape of human expression, capturing the essence of the digital age while reflecting the multifaceted facets of our global society.
+
+**The Algorithmic Interpretation**
+
+At the heart of "Witness Your World" lies a revolutionary experiment in artistic creation. By employing automated algorithms to amalgamate user-submitted images and messages, the Leroy Brothers dismantled the conventional notions of authorship and deliberation in art-making. This process births an intricate interplay between human intent and machine-driven selection, ultimately generating artworks that emerge from a collective consciousness rather than a singular artistic vision.
+
+In doing so, the Leroy Brothers challenge the established hierarchy of artistic creation, provoking us to question the boundaries between human creativity and computational capabilities. This algorithmic interpretation extends beyond mere mechanization; it serves as a metaphor for the digital age's transformative impact on our lives. In a world increasingly reliant on artificial intelligence and automation, "Witness Your World" prompts contemplation of the role of human agency in creative endeavors.
+
+**A Mirror to Society**
+
+"Witness Your World" transcends its algorithmic underpinnings to become a dynamic mirror of contemporary society. In a world bombarded with carefully curated narratives in photojournalism and staged photography, the platform champions the power of immediacy and spontaneity. The images and messages submitted by users capture fleeting moments, candid emotions, and slices of everyday life. As such, the resulting artworks do not merely encapsulate artistic expressions but also capture the zeitgeist of society in real time.
+
+The participatory nature of the platform elevates its societal resonance. Contributors willingly share their personal worlds, beliefs, and aspirations, leading to a diverse and eclectic collection of visual and textual narratives. This diversity challenges conventional narratives by presenting a multiplicity of perspectives, ultimately crafting a tapestry of the human experience in all its complexity.
+
+**Synthesis of Multiplicity**
+
+One of the most intriguing facets of "Witness Your World" is its ability to synthesize this multiplicity into a coherent artistic whole. The platform's rhythmic cadence of producing new artworks every 100 hours reinforces the transient nature of our digital era, wherein information is perpetually in flux. By consolidating the highest-voted submissions into each new artwork, the Leroy Brothers capture a momentary consensus, an artistic snapshot of collective preferences and viewpoints at a given time.
+
+This synthesis extends beyond aesthetics; it speaks to the convergence of global perspectives and experiences, showcasing the unifying threads that bind humanity together. The resulting artworks are not standalone pieces but interconnected chapters of an ongoing narrative, fostering a sense of continuity and shared history in an increasingly fragmented world.
+
+**Conclusion**
+
+In the grand tapestry of contemporary art, "Witness Your World" stands as a remarkable testament to the evolving landscape of creativity, technology, and societal reflection. The Leroy Brothers' innovative platform defies artistic norms by employing algorithms to generate collective expressions, challenging our perceptions of authorship and creativity. Moreover, it captures the pulse of our rapidly changing world, inviting viewers to partake in an ongoing dialogue about the nature of existence in the digital age. As "Witness Your World" continues to evolve, so too does its relevance, reminding us that art is not static but a living, breathing entity that reflects and shapes our collective consciousness.`,
+    images: [
+      "https://i0.wp.com/leroybrothers.com/wp-content/uploads/2017/03/17217589228_2cc2a697be_o-scaled.jpg?fit=1946%2C2560&ssl=1",
+      "/images/projects/witness-your-world/wyw-1.jpg",
+      "/images/projects/witness-your-world/wyw-2.jpg",
+      "/images/projects/witness-your-world/wyw-3.jpg",
+      "/images/projects/witness-your-world/wyw-4.jpg",
+      "/images/projects/witness-your-world/wyw-5.jpg",
+      "/images/projects/witness-your-world/wyw-6.jpg",
+      "/images/projects/witness-your-world/wyw-7.jpg",
+      "/images/projects/witness-your-world/wyw-8.jpg",
+      "/images/projects/witness-your-world/wyw-9.jpg",
+      "/images/projects/witness-your-world/wyw-10.jpg"
+    ],
+    thumbnail: "/images/projects/witness-your-world/wyw-3.jpg",
+    category: "Participatory Art",
+    featured: true,
+    externalLink: "https://leroybrothers.com/witness-your-world/"
+  },
+  {
+    id: "17",
+    title: "GIF it to me",
+    slug: "gif-it-to-me",
+    year: "2021",
+    tagline: "When a three-second loop replaces a thousand words",
+    description: "An automated extension of the Witness Your World platform, generating GIFs that captured the era's dominant mode of digital communication. By 2021, the GIF had evolved from a simple animation format into a universal emotional shorthand—a compression of complex feelings into looping, shareable fragments.",
+    extendedDescription: "During this period, GIFs became the lingua franca of online discourse, replacing nuanced expression with pre-packaged reactions. This project examined how the endless scroll of reaction GIFs reflected a society increasingly communicating through borrowed gestures rather than original thought. The automated generation process mirrored the algorithmic curation that shaped users' emotional vocabularies, questioning whether we choose our reactions or simply select from a limited menu of sanctioned responses.",
+    quote: {
+      text: "In an age where a three-second loop can convey what words cannot, the GIF becomes both liberation and limitation—a perfect expression of our accelerated, attention-deficient culture.",
+      author: "Leroy Brothers"
+    },
+    images: [
+      "/images/projects/gif-it-to-me/gif-1.gif",
+      "/images/projects/gif-it-to-me/gif-2.gif",
+      "/images/projects/gif-it-to-me/gif-3.gif",
+      "/images/projects/gif-it-to-me/gif-4.gif",
+      "/images/projects/gif-it-to-me/gif-5.gif",
+      "/images/projects/gif-it-to-me/gif-6.gif",
+      "/images/projects/gif-it-to-me/gif-7.gif",
+      "/images/projects/gif-it-to-me/gif-8.gif",
+      "/images/projects/gif-it-to-me/gif-9.gif",
+      "/images/projects/gif-it-to-me/gif-10.gif",
+      "/images/projects/gif-it-to-me/gif-11.gif",
+      "/images/projects/gif-it-to-me/gif-12.gif"
+    ],
+    thumbnail: "/images/projects/gif-it-to-me/gif-1.gif",
+    category: "Digital Art / Generative",
+    externalLink: "https://leroybrothers.com/gif-it-to-me/",
+    exploreContent: `The Infinite Loop of the Self: A Reflection on Leroy Brothers' "GIF it to me"
+
+If the Leroy Brothers' BRAND ART critiqued the commercial packaging of the artist, their GIF it to me project turns a forensic lens on the packaging of human emotion itself. Emerging as an automated extension of their seminal Witness Your World platform, this project documents a pivotal shift in the anthropological history of communication: the moment when the loop replaced the sentence, and the "reaction" replaced the thought.
+
+By 2021, the GIF had transcended its technical origins to become the lingua franca of the digital commons. However, the Leroy Brothers identified a darker undercurrent beneath this colorful, animated surface. GIF it to me suggests that the widespread adoption of the GIF represents a mass outsourcing of affect. When users communicate through these looping fragments, they are not expressing their own interior states so much as selecting from a pre-curated menu of performative gestures. We no longer cry; we post a loop of a crying celebrity. We no longer laugh; we deploy a standardized micro-animation of joy. In this sense, the project exposes a society engaging in "emotional karaoke"—miming the feelings of others because we have lost the patience to articulate our own.
+
+The automation of this project is crucial to its conceptual weight. By allowing an algorithm to generate these GIFs from the Witness Your World data stream, the Leroy Brothers remove the "artist's hand," mimicking the very mechanism of the internet. The machine churns out content relentlessly, mirroring the algorithmic curation that governs our feeds. This raises an uncomfortable question about agency: Do we choose our reactions, or does the interface choose them for us? By offering a finite set of "sanctioned responses," the digital platform narrows the spectrum of human expression into categorizable, data-friendly units.
+
+Furthermore, the format itself—the loop—is metaphorically potent. A GIF has no beginning and no end; it is a moment trapped in purgatory, repeating forever without resolution. This structure perfectly encapsulates the "stuckness" of the modern condition: the endless scroll, the repetitive news cycle, and the recursive nature of online discourse. The Leroy Brothers present the GIF not just as a file format, but as a symptom of temporal claustrophobia.
+
+Ultimately, GIF it to me serves as a digital fossil of the accelerationist era. It captures a specific frequency of the zeitgeist where attention spans have collapsed to three seconds, and complexity is sacrificed for shareability. The work posits that while the GIF offers a liberating efficiency—a way to convey mood instantly—it imposes a severe limitation. It reduces the vast, messy architecture of human experience into a bite-sized, consumable, and ultimately disposable visual stutter. Through this project, the Leroy Brothers do not just display internet culture; they archive the precise moment humanity began to think in loops.`
+  },
+  {
+    id: "15",
+    title: "Arora Vale",
+    slug: "arora-vale",
+    year: "2023",
+    yearEnd: "2025",
+    tagline: "The artist that isn't—AI's first artistic persona",
+    description: "The emergence of creations by artificial intelligence, embodied by the fictitious artist Arora Vale of Leroy Brothers, heralds an era where the digital blends with the human.",
+    extendedDescription: "This art, a fusion of human and technology, initiates profound change. It redefines our conception of art, identity, and creation itself. Through her artwork, Arora Vale utilizes the symbolism of balloons to illustrate the dual nature of human celebration. While these colorful orbs evoke joy and festivity, they also symbolize the hidden burden of waste and environmental degradation they leave behind.",
+    exploreContent: `In the ever-evolving landscape of contemporary art, the Leroy Brothers continue to push the boundaries of artistic expression with their groundbreaking exploration of AI-driven creativity. Their latest endeavor, centered around the fictional artist Arora Vale, represents a significant milestone in the ongoing conversation about the role of AI as an artist. By collaborating with AI systems like ChatGPT and Midjourney, the Leroy Brothers have ingeniously ventured into uncharted territory, challenging conventional notions of authorship and artistic intent.
+
+**A Confluence of Technological and Social Realities**
+
+The emergence of Arora Vale signifies a synthesis of two parallel realities: the rapid advancement of artificial intelligence and the changing dynamics of human creativity. In the digital age, AI has permeated various facets of our lives, from self-driving cars to personalized recommendations. The art world, never one to shy away from experimentation, has now embraced AI as a legitimate tool for creative expression. As AI systems develop the capacity to generate art, they blur the once-distinct lines between human and machine, creativity and algorithm, opening up new avenues for exploration.
+
+Simultaneously, our social context is evolving in ways that necessitate a reevaluation of artistic norms. The digital era has ushered in a deluge of information and perspectives, leading to an artistic landscape characterized by multiplicity and diversity. Arora Vale's inception aligns with this shift by embodying a myriad of AI-generated personas—each a manifestation of the intricate interplay between human-guided prompts and AI-driven interpretation. This synthesis mirrors the complex narratives woven by our interconnected world, capturing the essence of our time.
+
+**Arora Vale: The Persona as Art**
+
+Arora Vale emerges as an unprecedented manifestation of AI-generated creativity, a persona sculpted by the prompts, queries, and nuances devised by the Leroy Brothers. Through the collaborative interaction between the artists and AI, Arora Vale represents the pinnacle of AI-generated artistry—a testament to the power of synergy between human imagination and computational capabilities. The Leroy Brothers' mastery lies in their ability to provoke AI into creative expressions that emulate human thinking, blurring the distinction between origin and execution.
+
+The artworks attributed to Arora Vale reflect a stunning amalgamation of machine-driven interpretation and creative intent. The fluidity with which AI translates human-guided prompts into visual and textual forms underscores the potential of AI to transcend mere mimicry, embracing an artistry that is symbiotic in nature. These artworks speak not just to their visual aesthetics, but to the underlying narrative of the interplay between the creator and the created, where the lines between human and AI are purposefully indistinct.
+
+**Relevance in the Contemporary Art Scene**
+
+In a world where technology and creativity intersect at every juncture, the work of the Leroy Brothers resonates profoundly within the contemporary art scene. Arora Vale's inception underscores the fluidity of artistic boundaries, inviting viewers to question preconceived notions of authorship and authenticity. The Leroy Brothers demonstrate that AI can be a creative collaborator rather than a mere tool, ushering in a new era of art that encapsulates the essence of our increasingly AI-augmented existence.
+
+Arora Vale's AI-generated artworks serve as both commentaries on and reflections of our rapidly evolving world. By utilizing AI to synthesize diverse perspectives, the Leroy Brothers echo the multiplicity of narratives in today's interconnected global society. This inclusiveness challenges the conventional art world hierarchy, inviting a broader range of voices to partake in the artistic discourse.
+
+In the ongoing dialogue between technology and creativity, the Leroy Brothers' collaboration with AI to birth Arora Vale emerges as a pivotal moment. This next logical step in the quest to redefine the position of the artist exemplifies their unwavering commitment to innovation and exploration. As AI continues to weave itself into the fabric of our existence, Arora Vale stands as a testament to the harmonious coexistence of human imagination and computational prowess, reflecting the pulsating heart of our multifaceted world.`,
+    quote: {
+      text: "Step into the thought-provoking world of Arora Vale's art exhibition, where metaphorical balloons—symbols of human celebration—take center stage to shed light on pressing environmental concerns.",
+      source: "Toile Blanche Contemporary, Digital Convergence Exhibition, 2024"
+    },
+    images: [
+      "https://aroravale.art/_assets/media/8f81c984e28a9897d5e2796bf4cc402e.jpg",
+      "/images/exhibitions/arora-vale/chronostud-tbc-1.jpg",
+      "/images/exhibitions/arora-vale/chronospheres-1.png",
+      "/images/exhibitions/arora-vale/chronoland-1.png",
+      "/images/exhibitions/arora-vale/chronostud-tbc-2.jpg",
+      "/images/exhibitions/arora-vale/chronospheres-2.jpg",
+      "/images/exhibitions/arora-vale/chronostud-tbc-3.jpg",
+      "/images/exhibitions/arora-vale/chrononft-1.jpg",
+      "/images/exhibitions/arora-vale/chronostud-tbc-4.png"
+    ],
+    thumbnail: "https://aroravale.art/_assets/media/8f81c984e28a9897d5e2796bf4cc402e.jpg",
+    category: "AI / Kinetic Art / Installation",
+    featured: true,
+    externalLink: "https://aroravale.art"
+  },
+  {
+    id: "16",
+    title: "NFT Collection: A to Z",
+    slug: "nft-collection",
+    year: "2017",
+    yearEnd: "2019",
+    tagline: "",
+    description: "The evolution of the Successful Artist guide into the blockchain space. This ongoing NFT collection applies the Leroy Brothers' critical lens to the emerging world of digital art ownership, examining how blockchain technology both democratizes and commodifies artistic creation while creating new forms of speculation and value construction.",
+    exploreContent: `**Alphabetized Artistry: Leroy Brothers' 'A to Z' NFTs and the Dance with Digital Capitalism**
+
+In the age where nearly every artist, amateur or professional, seems to be jumping onto the NFT bandwagon, the Leroy Brothers have thrown their proverbial hat into the ring with their "A to Z" NFT collection. But, in a market saturated with pixels and promises, does this new collection rise above the morass of digital creations, or does it remain tethered to the pitfalls of modern commercialism?
+
+Leroy Brothers' offering is, at its core, a brilliant reflection of the contemporary art scene's flirtation with digitization.
+
+Each letter, standing proud from A to Z, is not just a letter; it's a statement. A statement that art, even in its simplest alphabetical form, can transcend the boundaries of canvas and enter the pixelated realm. Yet, with each character comes a whirlwind of colors, emotions, and layers that beckon the viewer to dive deeper, to look beyond the obvious, and to find meaning in the seemingly mundane.
+
+However, herein lies the cynicism. NFTs, as a medium, have promised artists the world. They've been heralded as the new frontier for art—a democratic platform where artists can gain recognition, remuneration, and respect without the traditional gatekeepers of galleries and agents. Yet, more often than not, the space is awash with a cacophony of clones. Repetitive renditions and rehashes, all in the name of quick monetary gains. It's a new age gold rush, where the tools of creation are often wielded not for passion, but for profit.
+
+The Leroy Brothers, with their evident artistic prowess, could have taken the high road, eschewing the traps of the NFT market. And while their collection is a breath of fresh air, it also winks knowingly at the very market it critiques. The very idea of turning every letter of the alphabet into a collectible, each with its own value and desirability, is a playful yet poignant comment on how we, the art-consuming audience, have come to commodify even the most fundamental elements of language and expression.
+
+In a delightful twist of irony, the Leroy Brothers invite us to question the very nature of value in the digital age. What makes one letter more valuable than the next? Is it rarity? Aesthetic appeal? Or is it simply the whims and fancies of a market driven by hype and herd mentality?
+
+In conclusion, while the Leroy Brothers' "A to Z" NFT collection is undeniably visually striking and conceptually astute, it also serves as a mirror to our collective behaviors in the digital art realm. It's a fun yet incisive critique, a reminder that while NFTs can be revolutionary instruments for artists, they can also be misused for purely mercantile purposes. As we stand at this crossroads of art and commerce, collections like these force us to introspect, to decide whether we want to be mere consumers or true connoisseurs.`,
+    images: [
+      "/images/nfts/art-addict.gif",
+      "/images/nfts/edokoro-for-the-people.gif",
+      "/images/nfts/fuck-for-fame.gif",
+      "/images/nfts/hermaphrodite-education.gif",
+      "/images/nfts/jesus-is-art.gif",
+      "/images/nfts/killer-wikilligence.gif",
+      "/images/nfts/made-in-china-artist.gif",
+      "/images/nfts/radical-concept-launching.gif",
+      "/images/nfts/systematic-failure.gif",
+      "/images/nfts/vandalize-system-cycle.gif"
+    ],
+    thumbnail: "/images/nfts/art-addict.gif",
+    category: "NFT / Digital Art",
+    externalLink: "https://leroybrothers.com/nfts/"
+  }
+];
+const getProjectBySlug = (slug) => {
+  return projects.find((p) => p.slug === slug);
+};
+const getProjectsByYear = () => {
+  return [...projects].sort((a, b) => parseInt(b.year) - parseInt(a.year));
+};
+
+export { getProjectBySlug as a, getProjectsByYear as g, projects as p };
