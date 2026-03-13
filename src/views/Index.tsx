@@ -38,9 +38,11 @@ const Index = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
             className="flex items-center gap-4 mb-8"
           >
-            <img 
-              src="/images/logo-leroy-brothers.png" 
-              alt="Leroy Brothers" 
+            <img
+              src="/images/logo-leroy-brothers-128.png"
+              alt="Leroy Brothers"
+              width={48}
+              height={48}
               className="block w-10 h-10 md:w-12 md:h-12 object-contain"
             />
             <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground text-left leading-none">

@@ -4,8 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "npm run build:landing-css && astro dev",
+    "build": "npm run build:landing-css && astro build",
+    "build:landing-css": "tailwindcss -i src/styles/landing.css -o src/styles/landing.generated.css -c tailwind.landing.config.ts",
     "preview": "astro preview",
     "lint": "eslint ."
   },

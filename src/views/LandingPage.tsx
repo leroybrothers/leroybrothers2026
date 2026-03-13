@@ -35,7 +35,13 @@ const LandingPage = () => {
         }} transition={{
           duration: 0.8
         }} className="mb-12 md:mb-16">
-            <img src="/images/logo-leroy-brothers.png" alt="Leroy Brothers" className="w-12 h-12 md:w-16 md:h-16 object-contain" />
+            <img
+              src="/images/logo-leroy-brothers-128.png"
+              alt="Leroy Brothers"
+              width={64}
+              height={64}
+              className="w-12 h-12 md:w-16 md:h-16 object-contain"
+            />
           </motion.div>
 
           {/* Destinations Grid */}
@@ -77,24 +83,15 @@ const LandingPage = () => {
               </motion.div>)}
           </motion.div>
 
-          {/* Intro Text */}
-          <motion.div initial={{
-          opacity: 0,
-          y: 40
-        }} animate={{
-          opacity: 1,
-          y: 0
-        }} transition={{
-          delay: 0.5,
-          duration: 0.8
-        }}>
+          {/* Intro Text - LCP element: visible in initial HTML for fast render */}
+          <div>
             <h1 className="font-display text-3xl lg:text-6xl leading-tight tracking-tight mb-8 max-w-5xl md:text-lg font-thin">
               Toile Blanche is the intersection of creativity and soulful hospitality, created by Leroy Brothers.
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-4xl leading-relaxed font-serif">
               More than a destination, it is a living artistic concept where guests and art lovers engage in an immersive dialogue with contemporary art. Set within a legendary Mediterranean retreat, every encounter is designed to inspire, blending the avant-garde spirit of the artists with the timeless ease of Saint-Paul-de-Vence.
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
