@@ -5,6 +5,11 @@ import type { Database } from './types';
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || 'https://placeholder.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY || 'placeholder';
 
+/** True when real credentials are configured; skip API calls when false (e.g. build without .env) */
+export const supabaseConfigured = Boolean(
+  import.meta.env.VITE_SUPABASE_URL && import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY
+);
+
 const isBrowser = typeof window !== 'undefined';
 const storage = isBrowser ? window.localStorage : {
   getItem: () => null,

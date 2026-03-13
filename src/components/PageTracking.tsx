@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase, supabaseConfigured } from "@/integrations/supabase/client";
 
 function getVisitorId(): string {
   const key = "lb_visitor_id";
@@ -13,6 +13,8 @@ function getVisitorId(): string {
 
 export default function PageTracking() {
   useEffect(() => {
+    if (!supabaseConfigured) return;
+
     const trackPageView = async () => {
       try {
         await supabase.from("page_views").insert({
