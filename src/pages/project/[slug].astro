@@ -16,6 +16,7 @@ const { project } = Astro.props;
 <Layout
   title={`${project.title} | Leroy Brothers`}
   description={project.tagline}
+  ogImage={project.thumbnail}
 >
   <ProjectDetail slug={project.slug} client:load />
 </Layout>

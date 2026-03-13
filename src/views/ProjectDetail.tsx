@@ -81,6 +81,7 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
             <img
               src={project.thumbnail}
               alt={project.title}
+              fetchPriority="high"
               className="w-full h-auto max-h-[75vh] object-contain transition-all duration-700"
             />
             <div className="noise-overlay" />

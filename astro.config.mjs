@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
+import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -13,6 +14,7 @@ export default defineConfig({
   },
   integrations: [
     react(),
+    sitemap(),
     tailwind({
       applyBaseStyles: false,
     }),
@@ -26,6 +28,16 @@ export default defineConfig({
     },
     ssr: {
       noExternal: ['@radix-ui/*'],
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'react-vendor': ['react', 'react-dom'],
+            'framer-motion': ['framer-motion'],
+          },
+        },
+      },
     },
   },
 });

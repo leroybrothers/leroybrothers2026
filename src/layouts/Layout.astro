@@ -3,14 +3,21 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
 import PageTracking from "@/components/PageTracking.astro";
+import JsonLd from "@/components/JsonLd.astro";
+import Analytics from "@/components/Analytics.astro";
 
 interface Props {
   title?: string;
   description?: string;
+  ogImage?: string;
 }
 
-const { title = "Leroy Brothers | Contemporary AI Art & Post-Internet Art Collective", description = "Belgian contemporary art collective pioneering AI art, post-internet aesthetics, and digital culture since 1997. Featuring Arora Vale, Witness Your World, MySpace Portraits, NFT collections, and algorithmic artworks." } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://www.leroybrothers.com");
+const { title = "Leroy Brothers | Contemporary AI Art & Post-Internet Art Collective", description = "Belgian contemporary art collective pioneering AI art, post-internet aesthetics, and digital culture since 1997. Featuring Arora Vale, Witness Your World, MySpace Portraits, NFT collections, and algorithmic artworks.", ogImage } = Astro.props;
+const site = Astro.site ?? "https://www.leroybrothers.com";
+const canonicalURL = new URL(Astro.url.pathname, site);
+const imageUrl = ogImage
+  ? ogImage.startsWith("http") ? ogImage : new URL(ogImage, site).href
+  : "https://www.leroybrothers.com/images/projects/witness-your-world/wyw-3.jpg";
 ---
 
 <!doctype html>
@@ -28,12 +35,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://www.lero
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.leroybrothers.com/images/projects/witness-your-world/wyw-3.jpg" />
+    <meta property="og:image" content={imageUrl} />
     <meta property="og:url" content={canonicalURL} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="https://www.leroybrothers.com/images/projects/witness-your-world/wyw-3.jpg" />
+    <meta name="twitter:image" content={imageUrl} />
     <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
@@ -57,11 +64,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://www.lero
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
       />
     </noscript>
+    <JsonLd />
+    <Analytics />
   </head>
   <body>
+    <a href="#main-content" class="sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-background focus:text-foreground focus:ring-2 focus:ring-foreground focus:outline-none focus:w-auto focus:h-auto focus:m-0 focus:overflow-visible focus:[clip:auto]">
+      Skip to main content
+    </a>
     <div class="min-h-screen flex flex-col">
       <Header currentPath={Astro.url.pathname} client:load />
-      <main class="flex-1 pt-16 md:pt-20">
+      <main id="main-content" class="flex-1 pt-16 md:pt-20">
         <slot />
       </main>
       <Footer client:load />

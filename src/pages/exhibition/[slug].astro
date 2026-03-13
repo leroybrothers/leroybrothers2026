@@ -16,6 +16,7 @@ const { exhibition } = Astro.props;
 <Layout
   title={`${exhibition.title} | Leroy Brothers`}
   description={exhibition.location ? `${exhibition.title} — ${exhibition.location}` : exhibition.title}
+  ogImage={exhibition.coverImage}
 >
   <ExhibitionGallery slug={exhibition.slug} client:load />
 </Layout>

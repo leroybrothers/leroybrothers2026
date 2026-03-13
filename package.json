@@ -8,10 +8,12 @@
     "build": "npm run build:landing-css && astro build",
     "build:landing-css": "tailwindcss -i src/styles/landing.css -o src/styles/landing.generated.css -c tailwind.landing.config.ts",
     "preview": "astro preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "audit": "npm audit"
   },
   "dependencies": {
     "@astrojs/react": "^4.0.0",
+    "@astrojs/sitemap": "^3.7.1",
     "@astrojs/tailwind": "^5.0.0",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",

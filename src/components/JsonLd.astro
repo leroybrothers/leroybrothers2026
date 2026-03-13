@@ -1,0 +1,25 @@
+---
+const site = Astro.site ?? "https://www.leroybrothers.com";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${site}/#organization`,
+      name: "Leroy Brothers",
+      url: site,
+      logo: `${site}/images/logo-leroy-brothers-128.png`,
+      description: "Belgian contemporary art collective pioneering AI art, post-internet aesthetics, and digital culture since 1997.",
+    },
+    {
+      "@type": "WebSite",
+      name: "Leroy Brothers",
+      url: site,
+      publisher: { "@id": `${site}/#organization` },
+    },
+  ],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

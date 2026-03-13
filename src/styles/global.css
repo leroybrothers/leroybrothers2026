@@ -206,6 +206,12 @@
   .stagger-children > *:nth-child(5) { animation-delay: 0.65s; }
   .stagger-children > *:nth-child(6) { animation-delay: 0.8s; }
 
+  /* Vertical text (scroll indicator) */
+  .writing-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
   /* Horizontal Scroll */
   .horizontal-scroll {
     @apply flex gap-8 overflow-x-auto pb-4 snap-x snap-mandatory;
@@ -341,4 +347,14 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
 }

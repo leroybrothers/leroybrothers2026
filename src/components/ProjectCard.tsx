@@ -33,6 +33,7 @@ const ProjectCard = ({ project, index, variant = "default" }: ProjectCardProps) 
                 alt={project.title}
                 className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${project.thumbnailPosition === "bottom" ? "object-bottom" : project.thumbnailPosition === "top" ? "object-top" : "object-center"}`}
                 loading={index < 2 ? "eager" : "lazy"}
+                fetchPriority={index === 0 ? "high" : undefined}
               />
             </div>
             <div className="noise-overlay" />
@@ -105,6 +106,7 @@ const ProjectCard = ({ project, index, variant = "default" }: ProjectCardProps) 
               src={project.thumbnail}
               alt={project.title}
               loading={index < 4 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : undefined}
               className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${project.thumbnailPosition === "bottom" ? "object-bottom" : project.thumbnailPosition === "top" ? "object-top" : "object-center"}`}
             />
           </div>

@@ -1,0 +1,45 @@
+---
+import type { Project } from "@/data/projects";
+
+interface Props {
+  project: Project;
+  index: number;
+}
+
+const { project, index } = Astro.props;
+const yearDisplay = project.yearEnd ? `${project.year}–${project.yearEnd}` : project.year;
+const objPos = project.thumbnailPosition === "bottom" ? "object-bottom" : project.thumbnailPosition === "top" ? "object-top" : "object-center";
+---
+
+<article class="animate-fade-in-up" style={`animation-delay: ${Math.min(index * 100, 300)}ms`}>
+  <a href={`/project/${project.slug}`} class="group block">
+    <div class="relative overflow-hidden mb-6 glitch-hover scanlines">
+      <div class="aspect-[4/3] bg-muted">
+        <img
+          src={project.thumbnail}
+          alt={project.title}
+          loading={index < 4 ? "eager" : "lazy"}
+          fetchpriority={index === 0 ? "high" : undefined}
+          class={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${objPos}`}
+        />
+      </div>
+      <div class="noise-overlay" />
+      <div class="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-all duration-500 flex items-center justify-center">
+        <span class="font-mono text-xs uppercase tracking-[0.3em] text-background opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-foreground/80 px-4 py-2">
+          View Project
+        </span>
+      </div>
+    </div>
+    <div class="space-y-3">
+      <span class="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">
+        {yearDisplay}
+      </span>
+      <h3 class="font-display text-xl md:text-2xl font-semibold tracking-tight group-hover:text-muted-foreground transition-colors duration-500">
+        {project.title}
+      </h3>
+      <p class="text-sm text-muted-foreground leading-relaxed line-clamp-2">
+        {project.tagline}
+      </p>
+    </div>
+  </a>
+</article>
