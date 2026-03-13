@@ -1,12 +1,13 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
-import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Sitemap: Temporarily disabled - @astrojs/sitemap has a bug with _routes in build.
+// A manual sitemap is generated at build time via the postbuild script.
 export default defineConfig({
   site: "https://www.leroybrothers.com",
   build: {
@@ -14,7 +15,6 @@ export default defineConfig({
   },
   integrations: [
     react(),
-    sitemap(),
     tailwind({
       applyBaseStyles: false,
     }),

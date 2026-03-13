@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run build:landing-css && astro dev",
-    "build": "npm run build:landing-css && astro build",
+    "build": "npm run build:landing-css && astro build && node scripts/generate-sitemap.js",
     "build:landing-css": "tailwindcss -i src/styles/landing.css -o src/styles/landing.generated.css -c tailwind.landing.config.ts",
     "preview": "astro preview",
     "lint": "eslint .",
