@@ -8,6 +8,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   site: "https://www.leroybrothers.com",
+  build: {
+    inlineStylesheets: "always",
+  },
   integrations: [
     react(),
     tailwind({

@@ -5,7 +5,7 @@ export default {
   darkMode: ["class"],
   content: [
     "./src/layouts/LandingLayout.astro",
-    "./src/views/LandingPage.tsx",
+    "./src/views/LandingPage.astro",
     "./src/pages/index.astro",
   ],
   prefix: "",

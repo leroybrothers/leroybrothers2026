@@ -39,7 +39,9 @@ const Index = () => {
             className="flex items-center gap-4 mb-8"
           >
             <img
-              src="/images/logo-leroy-brothers-128.png"
+              src="/images/logo-leroy-brothers-48.png"
+              srcSet="/images/logo-leroy-brothers-40.png 40w, /images/logo-leroy-brothers-48.png 48w"
+              sizes="(min-width: 768px) 48px, 40px"
               alt="Leroy Brothers"
               width={48}
               height={48}
