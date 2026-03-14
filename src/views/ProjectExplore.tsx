@@ -15,7 +15,7 @@ const ProjectExplore = ({ slug: slugProp }: ProjectExploreProps) => {
       <section className="px-6 md:px-12 pt-32 pb-16">
         <div className="max-w-content mx-auto">
           <h1>Project not found</h1>
-          <a href="/art" className="text-muted-foreground hover:text-foreground">
+          <a href="/" className="text-muted-foreground hover:text-foreground">
             ← Back to Archive
           </a>
         </div>
@@ -23,9 +23,8 @@ const ProjectExplore = ({ slug: slugProp }: ProjectExploreProps) => {
     );
   }
 
-  const yearDisplay = project.yearEnd 
-    ? `${project.year}–${project.yearEnd}` 
-    : project.year;
+  const yearDisplay = project.yearLabel 
+    ?? (project.yearEnd ? `${project.year}–${project.yearEnd}` : project.year);
 
   return (
     <>

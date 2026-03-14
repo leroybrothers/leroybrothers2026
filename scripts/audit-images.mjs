@@ -36,11 +36,9 @@ const srcFiles = [
   "src/data/exhibitions.ts",
   "src/views/IndexArchive.astro",
   "src/views/Index.tsx",
-  "src/views/LandingPage.astro",
   "src/views/About.tsx",
   "src/components/JsonLd.astro",
   "src/layouts/Layout.astro",
-  "src/layouts/LandingLayout.astro",
 ];
 
 const allLocal = new Set();

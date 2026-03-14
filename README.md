@@ -62,7 +62,7 @@ src/
 ├── components/     # Astro & React components (UI, Header, Footer, etc.)
 ├── data/           # Content data (projects, artworks, exhibitions)
 ├── integrations/   # Supabase client & types
-├── layouts/        # Astro layouts (Layout, LandingLayout)
+├── layouts/        # Astro layouts (Layout)
 ├── pages/          # Astro pages & routes
 ├── styles/         # CSS and Tailwind
 └── views/          # Page-level React views

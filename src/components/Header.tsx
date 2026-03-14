@@ -40,7 +40,7 @@ const Header = ({ currentPath = "/" }: HeaderProps) => {
   }, [isMenuOpen]);
 
   const navLinks = [
-    { href: "/art", label: "The Archive", description: "All Projects" },
+    { href: "/", label: "The Archive", description: "All Projects" },
     { href: "/artworks", label: "The Machine", description: "Artworks & Algorithms" },
     { href: "/exhibitions", label: "The Ledger", description: "Exhibitions & NFTs" },
     { href: "/about", label: "The Practice", description: "" },

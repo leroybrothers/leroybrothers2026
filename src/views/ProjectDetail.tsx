@@ -20,7 +20,7 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
       <section className="px-6 md:px-12 pt-32 pb-16">
         <div className="max-w-content mx-auto">
           <h1>Project not found</h1>
-          <a href="/art" className="text-muted-foreground hover:text-foreground">
+          <a href="/" className="text-muted-foreground hover:text-foreground">
             ← Back to Archive
           </a>
         </div>
@@ -28,9 +28,8 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
     );
   }
 
-  const yearDisplay = project.yearEnd 
-    ? `${project.year}–${project.yearEnd}` 
-    : project.year;
+  const yearDisplay = project.yearLabel 
+    ?? (project.yearEnd ? `${project.year}–${project.yearEnd}` : project.year);
 
 
   const openLightbox = (index: number) => {
@@ -57,7 +56,7 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
       >
         <div className="max-w-content mx-auto">
           <a 
-            href="/art" 
+            href="/" 
             className="inline-flex items-center gap-3 font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground hover:text-foreground transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
@@ -125,9 +124,17 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
               </p>
               
               <div className="space-y-6 border-t border-border pt-12">
-                <p className="text-foreground/80 leading-relaxed text-lg">
-                  {project.description}
-                </p>
+                {project.projectPageContent ? (
+                  <div 
+                    className="text-foreground/80 leading-relaxed text-lg whitespace-pre-line prose prose-lg max-w-none"
+                  >
+                    {project.projectPageContent}
+                  </div>
+                ) : (
+                  <p className="text-foreground/80 leading-relaxed text-lg">
+                    {project.description}
+                  </p>
+                )}
               </div>
 
               {/* Quote Block */}
@@ -164,8 +171,30 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
 
-                {/* External Link */}
-                {project.externalLink && (
+                {/* External Links */}
+                {slug === "toile-blanche" && (
+                  <>
+                    <a 
+                      href="https://www.toileblanche.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="btn-museum w-full justify-center"
+                    >
+                      <span>Visit Toile Blanche</span>
+                      <ArrowUpRight className="w-4 h-4" />
+                    </a>
+                    <a 
+                      href="https://www.toileblanchecontemporary.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="btn-museum w-full justify-center"
+                    >
+                      <span>TB Contemporary — Exhibition Programme</span>
+                      <ArrowUpRight className="w-4 h-4" />
+                    </a>
+                  </>
+                )}
+                {project.externalLink && slug !== "toile-blanche" && (
                   <a 
                     href={project.externalLink} 
                     target="_blank" 

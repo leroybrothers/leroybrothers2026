@@ -4,9 +4,13 @@ export interface Project {
   slug: string;
   year: string;
   yearEnd?: string;
+  /** Override for year display (e.g. "15 April 2026 — ongoing") */
+  yearLabel?: string;
   tagline: string;
   description: string;
   extendedDescription?: string;
+  /** Full content for project page: operational description + works inventory */
+  projectPageContent?: string;
   exploreContent?: string;
   /** Short operational description for explore page when accompanied by critical writing */
   operationalDescription?: string;
@@ -31,6 +35,214 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    id: "toile-blanche",
+    title: "Toile Blanche",
+    slug: "toile-blanche",
+    year: "2026",
+    yearEnd: "ongoing",
+    yearLabel: "15 April 2026 — ongoing",
+    tagline: "A functioning hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: 15 April 2026.",
+    description: "A four-star hotel in Saint-Paul-de-Vence designated as a durational artwork on 15 April 2026 by the installation of a bronze plaque on the exterior facade. The hotel has operated since 2004.",
+    projectPageContent: `An Institution as Readymade
+
+A four-star hotel in Saint-Paul-de-Vence. Eleven suites. One restaurant. One pool. A full operational staff. Active debt instruments. A Michelin Key designation earned through standard inspection criteria. The hotel has been in continuous operation since 2004.
+
+On 15 April 2026, a bronze plaque was installed on the exterior facade. The plaque reads:
+
+Concrete, organic matter, algorithms, labor, capital, and Mediterranean sunlight.
+43.7011° N, 7.1211° E
+
+This is the wall label for the entire building. Everything inside the threshold — staff, guests, inventory, tax returns, maintenance cycles, debt instruments, biological residue — is classified from this date as sculptural material.
+
+The hotel's status as an artwork does not exempt it from zoning law, labor contracts, health regulations, insurance requirements, or debt instruments. Revenue is generated. Salaries are paid. Materials degrade. Contracts expire. Obligations renew. The work does not propose an alternative to these conditions. It documents their persistence.
+
+Authorship is limited to the establishment of initial parameters. Subsequent outcomes are determined by contractual dependencies, maintenance cycles, market conditions, and the behavior of guests who do not know they are raw material.
+
+THE SYSTEM — SIX LOGS
+
+The body of work is organised as an operational audit across six areas of the hotel's infrastructure. Each log extracts works from the running system without modification. Works are listed with current production status.
+
+LOG 01 — ENTRANCE
+
+The Plaque (The Signature)
+Cast bronze, patinated. Exterior facade.
+Produced. 15 April 2026.
+
+Access (Protocol 2024)
+Red Michelin Key Plaque, rammed earth from the construction site, steel internal mount.
+The Michelin designation embedded in the geological material of the building it governs.
+In production.
+
+Total Access (Sealed)
+Active RFID Master Key (13.56 MHz), bulletproof polycarbonate, steel frame, server protocol.
+The master key to every room in the hotel, sealed. To use it is to destroy it.
+Produced.
+
+Suite X (The Gap)
+Original Non-Disclosure Agreement, ink on vellum, heavily redacted, wax seal, wall safe.
+The one room removed from the data system. Total algorithmic silence.
+Produced.
+
+LOG 02 — FISCAL ARCHITECTURE
+
+Lobby Flowers (Service Agreement)
+Legal contract, glass vessel, fresh flowers, pedestal.
+A sculpture defined by law. The collector maintains the floral inventory in perpetuity.
+Produced.
+
+Fiscal Landscape (The Ledger)
+Hand-embroidered silk thread — 24k gold and charcoal — on king-size hotel linen. 200 × 380 cm.
+400 hours of manual embroidery transcribing the 2025 P&L statement. Revenue in gold. Expenses in grey.
+In production.
+
+The Institutional Archive (Vacuum Sealed)
+20 years of fire permits, tax audits, land deeds. Vacuum-sealed in industrial polyamide. Morgue table. 6000K clinical lighting.
+In production.
+
+LOG 03 — CONSUMPTION PROFILE
+
+Live Feed (Consumption)
+Networked thermal receipt printer, endless paper roll, live API connection to hotel POS system.
+Every restaurant transaction prints in real time in the gallery. The paper accumulates uncut.
+Forthcoming — requires installation context.
+
+Occupancy (The Grid)
+Honed Thassos marble, 100 × 100 cm, IoT micro-controllers, custom LED array.
+Real-time occupancy data from the hotel's RFID server transmitted through the grain of the stone.
+Forthcoming — requires installation context.
+
+Metabolism (50Hz)
+Vertical 4K screen, custom data visualisation software, live smart meter API.
+Real-time electricity and water consumption of the hotel visualised as a continuous EKG line.
+Forthcoming — requires installation context.
+
+Table 0 (Ghost Service)
+4K single-channel video, no audio. Duration: 90 minutes. Active daily 12:00–14:30.
+A complete Michelin lunch service performed to an empty table. Real inventory. Real labor. No guest.
+In production.
+
+LOG 04 — MAINTENANCE WASTE
+
+Shadow Inventory (Solar Burns)
+Cyanotypes on archival paper. Variable dimensions.
+The hotel's operational skeleton — cleavers, chains, master keys — exposed directly to Mediterranean sunlight.
+In production.
+
+The Filter (Aggregate)
+High-capacity polypropylene filtration unit, museum-grade vitrine.
+The hotel's pool filter extracted after a 90-day cycle. Skin cells, hair, sunscreen, dissolved pharmaceuticals. The guest population rendered as biological residue.
+In production.
+
+Solar Erosion (Room 13)
+UV radiation on cotton velvet drapery. Duration: ongoing.
+The sun drawing on the curtains of Room 13. The work accumulates without intervention.
+Ongoing — durational.
+
+Necropolis (Deadhead)
+12,000 severed rose heads, resin, custom vitrine.
+One fiscal year of floral waste. The hotel's decorative economy fossilised.
+In production.
+
+LOG 05 — TRANSACTIONAL RESIDUALS
+
+The Sleeper (Impression)
+Translucent alabaster. Variable dimensions.
+A hotel pillow carved in stone, holding the precise impression of a human head. The architecture of absence.
+Forthcoming.
+
+Resolution (The Escape)
+Time-fade photography. Variable dimensions.
+Guest portraits taken at check-in and check-out. Identity degrades in proportion to length of stay.
+In production.
+
+Witness Your Guest (Redacted)
+India ink and graphite on hotel letterpress stationery. 21 × 30 cm each. Ongoing series.
+Original guest registration cards. Every identifying coordinate — name, passport number, signature — obliterated with black ink. The document becomes a minimalist composition. The guest becomes a rectangle.
+Produced — ongoing.
+
+Artifacts of Departure (Lost & Found)
+Polished bronze, lost-wax cast. Installation of 24 unique casts.
+Objects left behind by guests — charging cables, single socks, pharmaceutical containers, children's toys — cast in solid bronze. Disposable objects granted geological permanence.
+Forthcoming.
+
+LOG 06 — CLOSING AUDIT
+
+Room Tone (Suite c1)
+180g opaque white vinyl, custom pressing.
+The silence of Suite c1 during genuine vacancy recorded and pressed onto vinyl. The sound of a very expensive room waiting.
+In production.
+
+Room Tone (Concrete Archive)
+Architectural concrete, audio recording, sealed installation.
+The same silence entombed in the building's own material.
+Forthcoming.
+
+Sediment (The Residual)
+Dried Grand Cru wine sediment, 0.3mm graphite on hot-pressed archival board. Grid of 12 works, each 50 × 70 cm. Ongoing series.
+The dregs of high-value inventory — Château Pétrus, Romanée-Conti — preserved and mapped in graphite. Each work labelled with inventory source, fiscal cost, and Time of Death.
+Produced — ongoing.
+
+LEGAL INSTRUMENTS
+
+The Encumbrance (99 Years)
+Notarized construction lease deed, architectural specifications, vacuum-sealed in industrial polyamide. Morgue table.
+A binding legal instrument compelling any acquiring party to erect and maintain a cultural foundation on the Toile Blanche land for 99 years. The artwork is not the building. It is the obligation to build.
+In preparation. Binding until 2125 upon execution.
+
+The Exit Strategy (100% Equity)
+Complete transfer of the Toile Blanche system: land, architecture, operational protocols, labor contracts, active liabilities, institutional accreditations, and all registered encumbrances.
+Upon transfer, the artists cease all authority. The work continues under new ownership.
+Valuation: €45,000,000. Available.
+
+Bronze, rammed earth from the construction site, legal instruments, hotel infrastructure, labor, capital, Mediterranean sunlight.
+Saint-Paul-de-Vence, France. 15 April 2026 — ongoing.
+Michelin Key, 2024.`,
+    exploreContent: `Toile Blanche — An Institution as Readymade
+15 April 2026 — ongoing
+
+The hotel has operated since 2004. On 15 April 2026, a bronze plaque was installed on its exterior facade. The plaque names the material components of the building — concrete, labor, capital, Mediterranean sunlight — and states its coordinates. It is the wall label for the entire institution. Everything inside the threshold was reclassified at that moment as sculptural material.
+
+This is the founding gesture. It does what Duchamp's signature did to the urinal in 1917 — it designates. But where Duchamp removed an object from its functional context to place it in an art context, this work designates a functioning institution without removing it from anything. The hotel continues to operate as a hotel. The guests continue to arrive, sleep, eat, and depart. The staff continue to maintain the infrastructure against continuous decay. The designation does not interrupt the function. It reframes what the function produces.
+
+Contemporary institutional critique has largely operated through simulation. The mock office. The staged bureaucracy. The replica administrative system. These works retain a structural protection: they can always retreat, after the fact, into intention. If challenged on their claims, they were only ever representing institutions, never actually being them. Toile Blanche removes that protection entirely. The debts are real. The labor contracts are real. The Michelin designation was earned through actual service standards assessed by an actual inspection body. The bank guarantees are active documents with real financial exposure. The work cannot claim to be a representation of hospitality because it is subject to the industrial realities of hospitality without exemption or retreat.
+
+The consequence is that the work produces genuine metabolic residue. The financial data being embroidered into The Ledger is extracted from an actual P&L statement — not invented, not approximated. The biological sludge in The Filter vitrine is the accumulated cellular residue of guests who paid market rates to sleep in actual beds. The wine dregs in the Sediment series are the physical remains of bottles whose fiscal value is documented to the euro and the minute. The redacted registration cards in Witness Your Guest are legal documents completed by real people whose privacy is simultaneously destroyed and restored by the same act of obliteration. The work does not represent the economics of luxury hospitality. It runs them and intercepts their waste.
+
+The body of work is organised across six operational logs — Entrance, Fiscal Architecture, Consumption Profile, Maintenance Waste, Transactional Residuals, Closing Audit — each corresponding to a distinct system within the hotel's infrastructure. The logs do not impose an artistic framework on the hotel's operation. They extract material from processes already in motion without modification. A 90-day pool filtration cycle produces a vitrine. A fiscal year produces an embroidered linen. A guest's departure produces a bronze cast of what they left behind. The artist's role ends with the establishment of parameters. The hotel produces the work.
+
+Two legal instruments extend this logic forward in time.
+
+The Encumbrance is a notarized 99-year construction lease that compels any future owner of the Toile Blanche land to erect and maintain a cultural foundation dedicated to the work's archive. This obligation transfers with the property through every subsequent transaction — sale, inheritance, institutional restructuring — without exception. The foundation does not yet exist. The obligation to build it is already binding. The artwork is not the building that will be constructed. It is the legal compulsion to construct it. Leroy Brothers have designed their own archival infrastructure and attached it permanently to the site. The Encumbrance transfers with the Exit Strategy and cannot be separated from it.
+
+The Exit Strategy prices the complete transfer of the system — land, architecture, operational protocols, all active liabilities, all institutional accreditations, and all registered encumbrances — at €45,000,000. This figure is not a provocation. It is the assessed market value of a functioning hospitality asset with Michelin recognition, real estate in one of France's most valuable communes, twenty-two years of operational history, and a 99-year legal instrument that constitutes the most structurally ambitious contractual artwork produced since the institutional critique generation of the 1970s. Upon transfer the artists cease all operational, administrative, and decision-making authority. The work continues under new ownership. All subsequent actions — maintenance, modification, expansion, neglect, or dissolution — are the responsibility of the acquiring party.
+
+The hotel opened in 2004 as a hospitality asset. It was designated as an artwork on 15 April 2026. The twenty-two years between those two dates are not prologue. They are the operational history of a readymade that did not yet know it had been selected. The Institutional Archive contains documents from the entire period — tax audits, fire permits, land deeds — going back to the founding year. The metabolic residue the work produces includes two decades of accumulated operation. The designation did not create the institution. It found it already running, already encumbered, already generating the material the work required, and named it.
+
+The question the work poses is not whether a hotel can be an artwork.
+
+It is what it means to own one that is.
+
+Bronze, rammed earth from the construction site, legal instruments, hotel infrastructure, labor, capital, Mediterranean sunlight. 3,500 m².
+Saint-Paul-de-Vence, France.
+Hotel in continuous operation since 2004.
+Artistic designation: 15 April 2026.
+Michelin Key, 2024.
+System status: Active.`,
+    images: [
+      "/images/projects/toile-blanche/plaque.jpg",
+      "/images/projects/toile-blanche/hotel1.png",
+      "/images/projects/toile-blanche/hotel2.png",
+      "/images/projects/toile-blanche/hotel3.png",
+      "/images/projects/toile-blanche/hotel4.png",
+      "/images/projects/toile-blanche/hotel5.png",
+      "/images/projects/toile-blanche/hotel6.png"
+    ],
+    thumbnail: "/images/projects/toile-blanche/plaque.jpg",
+    category: "Institutional Readymade / Durational",
+    featured: true,
+    externalLink: "https://www.toileblanche.com"
+  },
   {
     id: "uncanny-council",
     title: "Uncanny Council",

@@ -4,9 +4,8 @@
   "version": "0.0.2",
   "type": "module",
   "scripts": {
-    "dev": "npm run build:landing-css && astro dev",
-    "build": "npm run build:landing-css && astro build && node scripts/generate-sitemap.js",
-    "build:landing-css": "tailwindcss -i src/styles/landing.css -o src/styles/landing.generated.css -c tailwind.landing.config.ts",
+    "dev": "astro dev",
+    "build": "astro build && node scripts/generate-sitemap.js",
     "preview": "astro preview",
     "lint": "eslint .",
     "audit": "npm audit",

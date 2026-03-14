@@ -8,9 +8,8 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project, index, variant = "default" }: ProjectCardProps) => {
-  const yearDisplay = project.yearEnd 
-    ? `${project.year}–${project.yearEnd}` 
-    : project.year;
+  const yearDisplay = project.yearLabel 
+    ?? (project.yearEnd ? `${project.year}–${project.yearEnd}` : project.year);
 
   if (variant === "featured") {
     return (

@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { project, index } = Astro.props;
-const yearDisplay = project.yearEnd ? `${project.year}–${project.yearEnd}` : project.year;
+const yearDisplay = project.yearLabel ?? (project.yearEnd ? `${project.year}–${project.yearEnd}` : project.year);
 const objPos = project.thumbnailPosition === "bottom" ? "object-bottom" : project.thumbnailPosition === "top" ? "object-top" : "object-center";
 ---
 
