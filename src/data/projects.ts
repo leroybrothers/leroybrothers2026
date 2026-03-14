@@ -525,7 +525,7 @@ In sum, "Art for Money – Money for Art" is not just a critique but a mirror. A
     title: "Witness Your World",
     slug: "witness-your-world",
     year: "2017",
-    yearEnd: "ongoing",
+    yearEnd: "2019",
     tagline: "Your images, our algorithm, everyone's artwork",
     description: "A large-scale participatory project inviting audiences to contribute testimonies and images that became the artwork itself. Witness Your World turns crowdsourced creation into a form of collective awareness—revealing how attention, empathy, and public narrative are constructed through networks.",
     exploreContent: `In the realm of contemporary art, the Leroy Brothers' 2007 masterpiece "Witness Your World" emerges as a profound commentary on the evolving dynamics of art creation, human interaction, and the symbiotic relationship between technology and society. This groundbreaking platform, driven by an internet-based workflow and automated algorithms, transcends the conventional boundaries of artistic production. "Witness Your World" becomes a living testament to the ever-shifting landscape of human expression, capturing the essence of the digital age while reflecting the multifaceted facets of our global society.
@@ -615,7 +615,6 @@ Ultimately, GIF it to me serves as a digital fossil of the accelerationist era. 
     title: "Arora Vale",
     slug: "arora-vale",
     year: "2023",
-    yearEnd: "2025",
     tagline: "The artist that isn't—AI's first artistic persona",
     description: "The emergence of creations by artificial intelligence, embodied by the fictitious artist Arora Vale of Leroy Brothers, heralds an era where the digital blends with the human.",
     extendedDescription: "This art, a fusion of human and technology, initiates profound change. It redefines our conception of art, identity, and creation itself. Through her artwork, Arora Vale utilizes the symbolism of balloons to illustrate the dual nature of human celebration. While these colorful orbs evoke joy and festivity, they also symbolize the hidden burden of waste and environmental degradation they leave behind.",
@@ -664,10 +663,9 @@ In the ongoing dialogue between technology and creativity, the Leroy Brothers' c
     id: "16",
     title: "NFT Collection: A to Z",
     slug: "nft-collection",
-    year: "2017",
-    yearEnd: "2019",
+    year: "2023",
     tagline: "",
-    description: "The evolution of the Successful Artist guide into the blockchain space. This ongoing NFT collection applies the Leroy Brothers' critical lens to the emerging world of digital art ownership, examining how blockchain technology both democratizes and commodifies artistic creation while creating new forms of speculation and value construction.",
+    description: "The evolution of the Successful Artist guide into the blockchain space. This NFT collection applies the Leroy Brothers' critical lens to the emerging world of digital art ownership, examining how blockchain technology both democratizes and commodifies artistic creation while creating new forms of speculation and value construction.",
     exploreContent: `**Alphabetized Artistry: Leroy Brothers' 'A to Z' NFTs and the Dance with Digital Capitalism**
 
 In the age where nearly every artist, amateur or professional, seems to be jumping onto the NFT bandwagon, the Leroy Brothers have thrown their proverbial hat into the ring with their "A to Z" NFT collection. But, in a market saturated with pixels and promises, does this new collection rise above the morass of digital creations, or does it remain tethered to the pitfalls of modern commercialism?

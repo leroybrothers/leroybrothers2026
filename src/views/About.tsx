@@ -10,9 +10,9 @@ const About = () => {
     { year: "2003", title: "MySpace Era", description: "Pioneering social media portraiture" },
     { year: "2006", title: "Artmann Gallery", description: "Outsourced painters, prêt-à-crocher collections" },
     { year: "2010", title: "Axel King", description: "Cult of the superstar — art created with crowdsourced creativity" },
-    { year: "2013", title: "Witness Your World", description: "Crowdsourced art creation as collective awareness" },
+    { year: "2017–2019", title: "Witness Your World", description: "Crowdsourced art creation as collective awareness" },
     { year: "2016", title: "Witness My Face", description: "Interactive installation at Pukkelpop — short-lived celebrity as participation" },
-    { year: "2021", title: "NFT Collection", description: "Entering blockchain art space" },
+    { year: "2023", title: "NFT Collection: A to Z", description: "Entering blockchain art space" },
     { year: "2023", title: "Arora Vale", description: "AI artist collaboration begins" },
     { year: "2025", title: "Present", description: "Mechanisms of art in an AI-driven society" },
   ];
@@ -172,7 +172,7 @@ const About = () => {
                 </p>
                 <p>
                   Notable projects include the MySpace Portrait Paintings (2003-2006), which documented 
-                  the birth of social media self-presentation; Witness Your World (2013-2015), a series 
+                  the birth of social media self-presentation; Witness Your World (2017–2019), a series 
                   of interactive installations transforming social media into collaborative artworks; 
                   and Axel King (2010), a fictional artist persona that operated within real art world contexts.
                 </p>
