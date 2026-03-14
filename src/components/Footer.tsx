@@ -182,12 +182,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-20 pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <div className="mt-20 pt-8 border-t border-background/10">
           <p className="font-mono text-xs text-background/40">
             © {new Date().getFullYear()} Leroy Brothers. All rights reserved.
-          </p>
-          <p className="font-mono text-xs text-background/40">
-            Brutalist aesthetics, post-internet ethics
           </p>
         </div>
       </div>
