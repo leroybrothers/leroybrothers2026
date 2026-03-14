@@ -9,7 +9,9 @@
     "build:landing-css": "tailwindcss -i src/styles/landing.css -o src/styles/landing.generated.css -c tailwind.landing.config.ts",
     "preview": "astro preview",
     "lint": "eslint .",
-    "audit": "npm audit"
+    "audit": "npm audit",
+    "audit:images": "node scripts/audit-images.mjs",
+    "download:external-images": "node scripts/download-external-images.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.0.0",

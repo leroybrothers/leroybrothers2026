@@ -174,19 +174,15 @@ const Index = () => {
             <span className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-8">
               Collaboration
             </span>
-            <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8">
-              Let's create something together
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mb-12">
-              Interested in exhibitions, commissions, or collaborative projects? 
-              We're always exploring new territories.
+            <p className="text-lg text-muted-foreground max-w-2xl">
+              For exhibition proposals, institutional inquiries, and acquisition:{" "}
+              <a 
+                href="mailto:nicolas@leroybrothers.com" 
+                className="underline hover:no-underline transition-colors"
+              >
+                contact
+              </a>
             </p>
-            <a 
-              href="mailto:nicolas@leroybrothers.com" 
-              className="btn-museum"
-            >
-              Get in Touch
-            </a>
           </motion.div>
         </div>
       </section>

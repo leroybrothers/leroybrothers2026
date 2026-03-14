@@ -59,7 +59,7 @@ const Footer = () => {
                 Subscribe to Updates
               </h3>
               <p className="text-background/60 text-sm max-w-md">
-                Receive rare transmissions about new works, exhibitions, and the evolution of our practice.
+                Updates on new work and exhibitions.
               </p>
             </div>
             
@@ -135,7 +135,7 @@ const Footer = () => {
                 href="/about" 
                 className="text-sm text-background/70 hover:text-background transition-colors"
               >
-                The Collective
+                The Practice
               </a>
             </nav>
           </div>

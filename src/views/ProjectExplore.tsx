@@ -78,7 +78,39 @@ const ProjectExplore = ({ slug: slugProp }: ProjectExploreProps) => {
 
           {/* Main Content */}
           <div className="prose prose-lg prose-invert max-w-none">
-            {project.exploreContent ? (
+            {project.operationalDescription && project.criticalWriting ? (
+              <>
+                <div className="text-foreground/90 leading-relaxed text-lg whitespace-pre-line mb-16">
+                  {project.operationalDescription}
+                </div>
+                <div className="border-t border-border pt-16">
+                  <h2 className="font-display text-xl font-semibold uppercase tracking-[0.15em] text-muted-foreground mb-6">
+                    Critical Writing
+                  </h2>
+                  <p className="text-foreground/70 text-sm mb-6 leading-relaxed">
+                    {project.criticalWriting.attribution}
+                    {project.criticalWriting.authorAffiliation && (
+                      <span className="block mt-2 text-muted-foreground">
+                        {project.criticalWriting.authorAffiliation}
+                      </span>
+                    )}
+                  </p>
+                  {project.criticalWriting.note && (
+                    <p className="text-muted-foreground text-xs italic mb-8">
+                      {project.criticalWriting.note}
+                    </p>
+                  )}
+                  <div 
+                    className="text-foreground/90 leading-relaxed text-lg whitespace-pre-line [&>strong]:font-bold"
+                    dangerouslySetInnerHTML={{
+                      __html: project.criticalWriting.text
+                        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/\n/g, '<br />')
+                    }}
+                  />
+                </div>
+              </>
+            ) : project.exploreContent ? (
               <div 
                 className="text-foreground/90 leading-relaxed text-lg whitespace-pre-line [&>strong]:font-bold"
                 dangerouslySetInnerHTML={{

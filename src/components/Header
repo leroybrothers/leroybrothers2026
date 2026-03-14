@@ -43,7 +43,7 @@ const Header = ({ currentPath = "/" }: HeaderProps) => {
     { href: "/art", label: "The Archive", description: "All Projects" },
     { href: "/artworks", label: "The Machine", description: "Artworks & Algorithms" },
     { href: "/exhibitions", label: "The Ledger", description: "Exhibitions & NFTs" },
-    { href: "/about", label: "The Collective", description: "About Us" },
+    { href: "/about", label: "The Practice", description: "" },
   ];
 
   const isActive = (path: string) => pathname === path;
@@ -137,9 +137,11 @@ const Header = ({ currentPath = "/" }: HeaderProps) => {
                           }`}>
                             {link.label}
                           </span>
-                          <span className="font-mono text-xs text-muted-foreground mt-2 block font-semibold">
-                            {link.description}
-                          </span>
+                          {link.description && (
+                            <span className="font-mono text-xs text-muted-foreground mt-2 block font-semibold">
+                              {link.description}
+                            </span>
+                          )}
                         </a>
                       </motion.div>
                     ))}

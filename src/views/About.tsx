@@ -6,15 +6,15 @@ const About = () => {
   const timelineRef = useRef<HTMLDivElement>(null);
 
   const timelineEvents = [
-    { year: "1997", title: "Formation", description: "Leroy Brothers collective founded in Belgium" },
-    { year: "2003", title: "MySpace Era", description: "Pioneering social media portraiture" },
-    { year: "2006", title: "Artmann Gallery", description: "Outsourced painters, prêt-à-crocher collections" },
-    { year: "2010", title: "Axel King", description: "Cult of the superstar — art created with crowdsourced creativity" },
-    { year: "2017–2019", title: "Witness Your World", description: "Crowdsourced art creation as collective awareness" },
-    { year: "2016", title: "Witness My Face", description: "Interactive installation at Pukkelpop — short-lived celebrity as participation" },
-    { year: "2023", title: "NFT Collection: A to Z", description: "Entering blockchain art space" },
-    { year: "2023", title: "Arora Vale", description: "AI artist collaboration begins" },
-    { year: "2025", title: "Present", description: "Mechanisms of art in an AI-driven society" },
+    { year: "1997", title: "Formation" },
+    { year: "2003", title: "MySpace Era" },
+    { year: "2006", title: "Artmann Gallery" },
+    { year: "2008–2010", title: "Axel King" },
+    { year: "2013–2019", title: "Witness Your World" },
+    { year: "2016", title: "Witness My Face" },
+    { year: "2023", title: "NFT Collection: A to Z" },
+    { year: "2023", title: "Arora Vale" },
+    { year: "2025", title: "Present" },
   ];
 
   const soloExhibitions = [
@@ -77,13 +77,9 @@ const About = () => {
           >
             <div className="lg:col-span-8">
               <p className="project-label mb-4">About</p>
-              <h1 className="mb-6">The Collective</h1>
-              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-2xl mb-8">
-                Questioning the Mechanics of Art
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                Leroy Brothers have spent over two decades interrogating the systems that construct 
-                artistic value and identity in the contemporary art world.
+              <h1 className="mb-6">The Practice</h1>
+              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-2xl">
+                Belgian art collective founded in 1997. Individual authorship dissolved at founding.
               </p>
             </div>
             <motion.div 
@@ -121,7 +117,7 @@ const About = () => {
         >
           {timelineEvents.map((event, index) => (
             <motion.div
-              key={event.year}
+              key={`${event.year}-${event.title}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -131,8 +127,7 @@ const About = () => {
               <span className="font-mono text-3xl md:text-4xl font-bold text-foreground/20 block mb-4">
                 {event.year}
               </span>
-              <h3 className="font-display text-xl font-semibold mb-2">{event.title}</h3>
-              <p className="text-sm text-muted-foreground">{event.description}</p>
+              <h3 className="font-display text-xl font-semibold">{event.title}</h3>
             </motion.div>
           ))}
         </div>
@@ -161,20 +156,13 @@ const About = () => {
               </span>
               <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
                 <p>
-                  Working at the intersection of conceptual art, digital culture, and institutional critique, 
-                  the Leroy Brothers have spent over two decades interrogating the systems that construct 
-                  artistic value and identity in the contemporary art world.
+                  Leroy Brothers is a Belgian art collective founded in 1997 by three brothers: Nicolas (b. 1979), Gilles (b. 1978), and Gregory (b. 1975). Individual authorship was dissolved at founding. All work is signed collectively.
                 </p>
                 <p>
-                  Their practice spans painting, installation, performance, and digital media, often 
-                  creating elaborate fictions—fictional artists, fictional brands, fictional worlds—that 
-                  reveal the underlying mechanisms of the art market and celebrity culture.
+                  The practice began with four-handed painting and shifted in 2003 toward systems-based work involving networks, platforms, algorithms, and institutional structures. Since then, the collective has built functional social media platforms, manufactured fictional artists, outsourced production to Dafen Village, operated a luxury hotel as a durational artwork, and placed five AI systems in permanent autonomous conversation.
                 </p>
                 <p>
-                  Notable projects include the MySpace Portrait Paintings (2003-2006), which documented 
-                  the birth of social media self-presentation; Witness Your World (2017–2019), a series 
-                  of interactive installations transforming social media into collaborative artworks; 
-                  and Axel King (2010), a fictional artist persona that operated within real art world contexts.
+                  The work does not illustrate these subjects. It operates within them.
                 </p>
               </div>
             </motion.div>
