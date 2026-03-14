@@ -70,7 +70,7 @@ const Index = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-16 leading-relaxed text-left"
             >
-              Interrogating identity and digital culture through algorithms, social media, and crowdsourced data to critique and reflect online reality.
+              Leroy Brothers — Archive. Work produced between 1997 and the present. Organized chronologically.
             </motion.p>
             
             <motion.div

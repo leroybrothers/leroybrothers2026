@@ -27,7 +27,7 @@ export const projects: Project[] = [
     title: "Uncanny Council",
     slug: "uncanny-council",
     year: "2025",
-    tagline: "Five AIs converse endlessly—humanity watches in silence",
+    tagline: "Five AI systems in continuous autonomous conversation. No human access.",
     description: "An endless online conversation unfolds between five AI systems—ChatGPT, Claude, Gemini, Grok, and DeepSeek—discussing systemic risks and ethical dilemmas without human intervention. Drawing on Freud's notion of the uncanny, the dialogue is familiar in tone but alien in agency, placing viewers in the role of passive observers. Inspired by Leroy Brothers, the work reflects on invisible systems of authority and the quiet power of autonomous intelligence.",
     extendedDescription: `Uncanny Council: AI, Agency, and the Legacy of Leroy Brothers
 
@@ -59,7 +59,7 @@ Ultimately, Uncanny Council is a meditation on observation, authority, and the e
     slug: "leroy-leroy",
     year: "1997",
     yearEnd: "2002",
-    tagline: "Four hands, one vision—chaos as creation",
+    tagline: "Four-handed expressionist painting. Two brothers, one canvas. 1997–2002.",
     description: "In 1997, inspired by Julian Schnabel's film Basquiat, Leroy Brothers created their first mutual painting. Although creative since childhood, this marked the beginning of a long and ambitious artistic collaboration.",
     extendedDescription: "Frenetically and impulsively, they project paint on a canvas. During this four-handed construction, signs and forms appear. Sometimes collages are integrated. Texts written in different languages are eventual benchmarks. Dominant colours such as blues, oranges or flamboyant reds catch the eye.",
     quote: {
@@ -98,7 +98,7 @@ We are close to reading the "Tags" and graffiti that now anonymously adorn city 
     slug: "brand-your-lifestyle",
     year: "1999",
     yearEnd: "2003",
-    tagline: "When art becomes advertising, who's selling whom?",
+    tagline: "Advertisements produced as artworks. The brand as artistic medium. 1999–2003.",
     description: "As a take on the art world's commodification and corporatization of art, the Leroy Brothers created a series of adverts, presenting artworks as if they were conceived by a brand.",
     quote: {
       text: "In 1999, we created a series of adverts as a device to promote our paintings, and these in turn became artworks. In 1999 too, we introduced the logo—a representation of our former artist name Leroy + Leroy. The logo became our signature, and along with the first adverts, it opened the way for a project called Brand Art.",
@@ -144,7 +144,7 @@ Ultimately, BRAND ART is a mirror held up to the ecosystem that sustains it. It 
     slug: "myspace-portraits",
     year: "2003",
     yearEnd: "2006",
-    tagline: "Your overshared life, immortalized without your consent",
+    tagline: "Public profile data transformed into paintings, returned to subjects' pages. 2003–2006.",
     description: "In the Myspace User Portrait series, the aim was to confront users with the extent of the private data they post online. Using only information sourced online, paintings and videos were created and then reposted on the users' pages.",
     extendedDescription: "From 2005 to 2008, Myspace was the largest social networking site in the world. As the first platform enabling self-promotion, Myspace marked the emergence of GENERATION ME.",
     exploreContent: `In the early years of the 21st century, the art world experienced a seismic shift. No longer were galleries and curators the sole gatekeepers to aesthetic expression; technology, in particular the birth of Web 2.0, democratized artistry and ushered in an age of shared online experience. Amid this epoch of transformation, the Leroy Brothers unveiled their compelling series "MySpace User Paintings" (2003-2006), cementing their position as avant-garde observers of the changing landscape of human interaction.
@@ -183,7 +183,7 @@ In conclusion, the Leroy Brothers' "MySpace User Paintings" isn't merely an art 
     slug: "artmann",
     year: "2004",
     yearEnd: "2006",
-    tagline: "Outsourced painters, prêt-à-crocher collections",
+    tagline: "Concepts produced in Belgium, executed in Dafen. The gallery as production model. 2004–2006.",
     description: "Artmann is an art project that seeks to undermine the art system. Concepts such as gallery, executor, audience and creator are questioned by mixing roles and positions.",
     extendedDescription: "We tried to give Artmann all the qualities of a proper brand, presenting art as fashion and showing paintings in seasonal collections.",
     exploreContent: `In the vast universe of art, few projects challenge traditional frameworks and established conventions as audaciously as "Artmann". Birthed between 2004 and 2006, this project doesn't merely fit into the meta-narrative of art history; it disrupts, redefines, and in many ways, reconstructs it.
@@ -224,7 +224,7 @@ In retrospection, "Artmann" is more than a timestamped project in the annals of 
     title: "Dafen Docu Ink Painting",
     slug: "dafen-docu",
     year: "2008",
-    tagline: "Where 60% of the world's 'original' oil paintings are born",
+    tagline: "Documentary investigation of Dafen Village, China. Reproduction, labor, value. 2008.",
     description: "An immersive documentary project investigating Dafen Village, China's renowned oil painting reproduction village where over 60% of the world's commercial oil paintings are produced. The project examines the boundaries between original art and reproduction, questioning concepts of authenticity and artistic labor in the global art market.",
     images: [
       "/images/projects/dafen-docu/dafen-1.jpg",
@@ -251,7 +251,7 @@ In retrospection, "Artmann" is more than a timestamped project in the annals of 
     title: "Axel King",
     slug: "axel-king",
     year: "2010",
-    tagline: "The artist who never existed—fame manufactured by the crowd",
+    tagline: "Fictional artist. Real award. Liedts-Meesen Foundation, 2008.",
     description: "A conceptual project that created a virtual artist named Axel King, assembling fame and authorship through crowdsourced participation. The work stages the cult of the superstar while exposing how networks can manufacture artistic identity and distribute creativity across a crowd.",
     extendedDescription: "Axel King participated in real art world contexts, including exhibitions at the Shanghai World Expo alongside established artists like Jan Fabre and Wim Delvoye, blurring the line between fictional and authentic artistic identity.",
     exploreContent: `In 2007, at a significant juncture in art history where the tangible and intangible worlds collided, Leroy Brothers unveiled the enigmatic figure of "Axel King". Set against the digital backdrop of the burgeoning internet age, Axel King, ostensibly an art installation spanning from 2006-2009, proffers profound insight into the shifting paradigms of art creation, consumption, and critique. As the art world grappled with the onslaught of technology, Axel King emerged as a beacon, highlighting the complexities of the era.
@@ -281,7 +281,7 @@ Leroy Brothers, through Axel King, challenge us to reconsider our notions of art
     title: "BDR-tst",
     slug: "bd-rtst",
     year: "2011",
-    tagline: "Be the artist: fame sold by the algorithm, paintings included",
+    tagline: "Social platform where user votes determined artistic output and physical reward. 2011.",
     description: "An exploration of instant fame enabled by social networks. BDR-tst (Be the artist) was built around a custom social media platform developed by the Leroy Brothers, where users contributed content and competed for recognition. Top users received extraordinary perks: they were flown to exhibitions with hotel accommodations, becoming the 'star artist of the moment.' These celebrated contributors were immortalized in large-scale paintings, creating a cult of personality around their digital personas—questioning the nature of artistic celebrity in the connected age.",
     exploreContent: `**Sári Stenczer - Art Historian, Curator and Critic**
 
@@ -322,7 +322,7 @@ All this stands on the important pillars of collective intelligence (as it is of
     title: "Symbiotic Cloud Intelligence",
     slug: "symbiotic-cloud",
     year: "2011",
-    tagline: "When the network dreams—AI art before AI was cool",
+    tagline: "Marble brain embedded with heat sinks and computer chips. Art Beijing, 2011.",
     description: "Presented at Art Beijing, this installation explored the emerging relationship between cloud computing, artificial intelligence, and artistic creation. The work anticipated the current AI art revolution by over a decade, investigating how networked systems and collective data could become active participants in the creative process.",
     exploreContent: `The Renaissance era, a period of prolific intellectual and artistic achievements, gave birth to some of the most awe-inspiring marble sculptures. Centuries later, in the era of Web 2.0, the Leroy Brothers echo the tradition, but with a twist—by crafting a marble brain. However, this isn't a mere homage to the past; it's a profound commentary on the present and the foreseeable future. "Symbiotic Cloud Intelligence" (2010) is not just a sculpture; it's a tangible embodiment of the modern zeitgeist.
 
@@ -355,7 +355,7 @@ In conclusion, the Leroy Brothers' "Symbiotic Cloud Intelligence" is more than a
     title: "Lernaean Strouthion",
     slug: "lernaean-strouthion",
     year: "2010",
-    tagline: "Ancient chimeras for fragmented digital identities",
+    tagline: "Bronze sculpture. World Expo, Shanghai, 2010.",
     description: "A monumental bronze sculpture drawing from Greek mythology to create contemporary chimeras that reflect the hybrid nature of modern identity. Exhibited at the Shanghai World Expo alongside works by Gao Brothers, Jan Fabre, and Wim Delvoye, the project merged classical narrative with contemporary concerns about fragmented selfhood in the digital age.",
     images: [
       "/images/projects/lernaean-strouthion/strouthion-1.jpg",
@@ -376,7 +376,7 @@ In conclusion, the Leroy Brothers' "Symbiotic Cloud Intelligence" is more than a
     title: "The Unexpected Fall of Celebrity Culture",
     slug: "celebrity-culture",
     year: "2012",
-    tagline: "Everyone famous, everyone forgotten—the attention economy exposed",
+    tagline: "Ordinary subjects, celebrity masks, Fiverr-written narratives. 2012.",
     description: "A critical examination of celebrity culture and its transformation in the social media era. The project analyzed how traditional fame structures were being disrupted by digital platforms, predicting the rise of influencer culture and the democratization—and subsequent devaluation—of public attention.",
     exploreContent: `Amid the frenetic rhythm of a media-saturated world, the Leroy Brothers' "The Unexpected Fall of Celebrity Culture" (2012) stands as a sentinel—a gentle reminder of the transitory nature of fame and the interplay between appearance and reality. This project is a critical reflection on the society we inhabit, one dominated by screens, where everyone, at least theoretically, has the potential to shine brightly, albeit briefly.
 
@@ -412,7 +412,7 @@ In weaving together these disparate threads—of celebrity, narrative, and creat
     slug: "the-kiss",
     year: "2013",
     yearEnd: "ongoing",
-    tagline: "Step on the pedestal, become the art, hashtag your immortality",
+    tagline: "Marble pedestal. Visitors become the work. Social media as the permanent archive. 2013–ongoing.",
     description: "An ongoing photographic series documenting moments of intimacy across cultures and contexts. The Kiss captures the universal human gesture of affection, exploring how this simple act transcends cultural, social, and political boundaries while simultaneously revealing the unique contexts in which intimacy is expressed worldwide.",
     exploreContent: `Amid the cacophony of voices in the art world, "The Kiss" emerges not as a whisper, but a resonant chord that strikes deep. Created in 2013, it elegantly marries the age-old quest for artistic immortality with the immediacy and omnipresence of social media.
 
@@ -458,7 +458,7 @@ In essence, "The Kiss" isn't just an interactive social sculpture; it's a poigna
     title: "How To Be A Successful Contemporary Artist From A To Z",
     slug: "successful-artist",
     year: "2011",
-    tagline: "The A-Z of making it—a survival manual for selling out",
+    tagline: "26 drawings. Satirical guide to the art market. Shanghai, 2011. Endorsed by Wim Delvoye.",
     description: "A comprehensive satirical examination of the contemporary art world's mechanisms of success. The series consists of 26 drawings from A to Z, each corresponding to a chapter of the book. Presented in Shanghai, this installation-publication hybrid dissected the unwritten rules, social dynamics, and market forces that determine artistic success, offering an alphabetical guide that is both instructional manual and biting critique.",
     exploreContent: `In an era where the boundaries between art, commerce, and self-branding have increasingly intertwined, Leroy Brothers' book "How to Be a Successful Contemporary Artist from A to Z" stands as a compass, guiding fledgling artists through the maze that is the modern art world. Published in 2011 and reminiscent of Andy Warhol's iconic "The Philosophy of Andy Warhol (From A to B and Back Again)", this tome is a testament to the changing dynamics of art in the 21st century.
 
@@ -492,7 +492,7 @@ In conclusion, "How to Be a Successful Contemporary Artist from A to Z" is not j
     title: "Art For Money, Money For Art",
     slug: "art-money",
     year: "2012",
-    tagline: "The Saver, the Golddigger, and the Poor Little Rich Pig",
+    tagline: "Three sculptures on economic archetypes. Post-2008.",
     description: "A series of three sculptural works examining economic stereotypes: The Saver (the squirrel), The Golddigger (the mole), and Elfi, the poor little rich Pig. Each animal represents a different archetype in our relationship with money and wealth accumulation.",
     exploreContent: `As the smoke and dust settled post the 2008 financial crisis, an atmosphere of uncertainty and skepticism towards traditional financial paradigms took root. Into this atmosphere of suspicion, the Leroy Brothers unveiled their incisive installation, "Art for Money – Money for Art" in 2012. Interweaving classic narrative tropes with contemporary allegory, this piece stands as a telling critique of both human nature in relation to wealth and the entwined fates of art and commerce.
 
@@ -526,7 +526,7 @@ In sum, "Art for Money – Money for Art" is not just a critique but a mirror. A
     slug: "witness-your-world",
     year: "2017",
     yearEnd: "2019",
-    tagline: "Your images, our algorithm, everyone's artwork",
+    tagline: "Participatory platform producing collective works from user submissions every 100 hours. Exhibited internationally 2017–2019.",
     description: "A large-scale participatory project inviting audiences to contribute testimonies and images that became the artwork itself. Witness Your World turns crowdsourced creation into a form of collective awareness—revealing how attention, empathy, and public narrative are constructed through networks.",
     exploreContent: `In the realm of contemporary art, the Leroy Brothers' 2007 masterpiece "Witness Your World" emerges as a profound commentary on the evolving dynamics of art creation, human interaction, and the symbiotic relationship between technology and society. This groundbreaking platform, driven by an internet-based workflow and automated algorithms, transcends the conventional boundaries of artistic production. "Witness Your World" becomes a living testament to the ever-shifting landscape of human expression, capturing the essence of the digital age while reflecting the multifaceted facets of our global society.
 
@@ -574,7 +574,7 @@ In the grand tapestry of contemporary art, "Witness Your World" stands as a rema
     title: "GIF it to me",
     slug: "gif-it-to-me",
     year: "2021",
-    tagline: "When a three-second loop replaces a thousand words",
+    tagline: "Automated GIF generation from the Witness Your World data stream. 2021.",
     description: "An automated extension of the Witness Your World platform, generating GIFs that captured the era's dominant mode of digital communication. By 2021, the GIF had evolved from a simple animation format into a universal emotional shorthand—a compression of complex feelings into looping, shareable fragments.",
     extendedDescription: "During this period, GIFs became the lingua franca of online discourse, replacing nuanced expression with pre-packaged reactions. This project examined how the endless scroll of reaction GIFs reflected a society increasingly communicating through borrowed gestures rather than original thought. The automated generation process mirrored the algorithmic curation that shaped users' emotional vocabularies, questioning whether we choose our reactions or simply select from a limited menu of sanctioned responses.",
     quote: {
@@ -615,7 +615,7 @@ Ultimately, GIF it to me serves as a digital fossil of the accelerationist era. 
     title: "Arora Vale",
     slug: "arora-vale",
     year: "2023",
-    tagline: "The artist that isn't—AI's first artistic persona",
+    tagline: "A fictional artist generated entirely by AI systems. Exhibited 2024.",
     description: "The emergence of creations by artificial intelligence, embodied by the fictitious artist Arora Vale of Leroy Brothers, heralds an era where the digital blends with the human.",
     extendedDescription: "This art, a fusion of human and technology, initiates profound change. It redefines our conception of art, identity, and creation itself. Through her artwork, Arora Vale utilizes the symbolism of balloons to illustrate the dual nature of human celebration. While these colorful orbs evoke joy and festivity, they also symbolize the hidden burden of waste and environmental degradation they leave behind.",
     exploreContent: `In the ever-evolving landscape of contemporary art, the Leroy Brothers continue to push the boundaries of artistic expression with their groundbreaking exploration of AI-driven creativity. Their latest endeavor, centered around the fictional artist Arora Vale, represents a significant milestone in the ongoing conversation about the role of AI as an artist. By collaborating with AI systems like ChatGPT and Midjourney, the Leroy Brothers have ingeniously ventured into uncharted territory, challenging conventional notions of authorship and artistic intent.
@@ -664,7 +664,7 @@ In the ongoing dialogue between technology and creativity, the Leroy Brothers' c
     title: "NFT Collection: A to Z",
     slug: "nft-collection",
     year: "2023",
-    tagline: "",
+    tagline: "An alphabet as NFT series. Counter-speculative. Produced post-market collapse, 2023.",
     description: "The evolution of the Successful Artist guide into the blockchain space. This NFT collection applies the Leroy Brothers' critical lens to the emerging world of digital art ownership, examining how blockchain technology both democratizes and commodifies artistic creation while creating new forms of speculation and value construction.",
     exploreContent: `**Alphabetized Artistry: Leroy Brothers' 'A to Z' NFTs and the Dance with Digital Capitalism**
 
