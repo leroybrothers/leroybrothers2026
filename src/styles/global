@@ -1,0 +1,360 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brutalist Palette - Carbon Black vs Clinical White */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 4%;
+
+    --primary: 0 0% 4%;
+    --primary-foreground: 0 0% 96%;
+
+    /* Brand mark */
+    --brand: 326 78% 51%;
+
+    --secondary: 0 0% 92%;
+    --secondary-foreground: 0 0% 4%;
+
+    --muted: 0 0% 88%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 96%;
+
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 0 0% 4%;
+
+    --radius: 0px;
+
+    /* Typography - Helvetica Neue feel */
+    --font-display: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+    --font-mono: 'Space Mono', 'Courier New', monospace;
+    
+    /* Spacing - Generous whitespace */
+    --section-padding: 12rem;
+    --content-max-width: 1400px;
+    
+    /* Transitions */
+    --transition-smooth: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-fast: all 0.3s ease-out;
+    
+    /* Shadows - Stark */
+    --shadow-subtle: none;
+    --shadow-card: 0 0 0 1px hsl(var(--border));
+    --shadow-elevated: 0 20px 60px rgba(0, 0, 0, 0.15);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 0 0% 4%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 95%;
+    --sidebar-accent-foreground: 0 0% 4%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 0 0% 4%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 0 0% 96%;
+    --primary-foreground: 0 0% 4%;
+
+    /* Brand mark */
+    --brand: 326 78% 51%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 96%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 96%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 96%;
+
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 0 0% 96%;
+    
+    --sidebar-background: 0 0% 4%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 0 0% 96%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 0 0% 14%;
+    --sidebar-ring: 0 0% 96%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    font-feature-settings: 'ss01' on, 'ss02' on;
+  }
+
+  /* Brutalist Editorial Typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  h1 {
+    @apply text-5xl md:text-7xl lg:text-[8rem] font-black leading-[0.85] uppercase;
+    letter-spacing: -0.06em;
+  }
+
+  h2 {
+    @apply text-3xl md:text-5xl lg:text-6xl font-bold leading-[0.9];
+    letter-spacing: -0.04em;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl font-medium;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  /* Brutalist Card */
+  .museum-card {
+    @apply relative overflow-hidden bg-card transition-all duration-700;
+  }
+
+  .museum-card:hover {
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  }
+
+  .museum-card:hover .museum-card-image {
+    transform: scale(1.03);
+    filter: contrast(1.1);
+  }
+
+  .museum-card-image {
+    @apply w-full h-full object-cover transition-all duration-1000 ease-out;
+  }
+
+  /* Timeline Line */
+  .timeline-line {
+    @apply absolute left-0 top-0 w-px h-full bg-foreground/10;
+  }
+
+  /* Metadata Label - Monospace */
+  .project-label {
+    @apply font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    @apply min-h-[90vh] flex items-end pb-24 md:pb-32;
+  }
+
+  /* Gallery Grid */
+  .gallery-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-1;
+  }
+
+  /* Fade In Animation */
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 0;
+  }
+
+  /* Stagger children */
+  .stagger-children > * {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .stagger-children > *:nth-child(1) { animation-delay: 0.1s; }
+  .stagger-children > *:nth-child(2) { animation-delay: 0.2s; }
+  .stagger-children > *:nth-child(3) { animation-delay: 0.35s; }
+  .stagger-children > *:nth-child(4) { animation-delay: 0.5s; }
+  .stagger-children > *:nth-child(5) { animation-delay: 0.65s; }
+  .stagger-children > *:nth-child(6) { animation-delay: 0.8s; }
+
+  /* Vertical text (scroll indicator) */
+  .writing-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  /* Horizontal Scroll */
+  .horizontal-scroll {
+    @apply flex gap-8 overflow-x-auto pb-4 snap-x snap-mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Nav Link - Brutalist */
+  .nav-link {
+    @apply relative font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground 
+           hover:text-foreground transition-colors duration-500;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 w-0 h-px bg-foreground transition-all duration-500;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  /* Button - Brutalist */
+  .btn-museum {
+    @apply inline-flex items-center gap-3 font-mono text-xs uppercase tracking-[0.25em] 
+           border border-foreground px-8 py-4 
+           hover:bg-foreground hover:text-background transition-all duration-500;
+  }
+
+  .btn-museum-outline {
+    @apply inline-flex items-center gap-3 font-mono text-xs uppercase tracking-[0.25em] 
+           border border-muted-foreground px-8 py-4 text-muted-foreground
+           hover:border-foreground hover:text-foreground transition-all duration-500;
+  }
+
+  /* Simple Image Hover Effect */
+  .glitch-hover {
+    @apply relative overflow-hidden;
+  }
+
+  .glitch-hover img {
+    @apply transition-transform duration-700;
+  }
+
+  .glitch-hover:hover img {
+    @apply scale-105;
+  }
+}
+
+@layer utilities {
+  /* Text Balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Custom Letter Spacing */
+  .tracking-brutal {
+    letter-spacing: 0.3em;
+  }
+
+  .tracking-tight-brutal {
+    letter-spacing: -0.04em;
+  }
+
+  /* Aspect Ratios */
+  .aspect-museum {
+    aspect-ratio: 4 / 3;
+  }
+
+  .aspect-portrait {
+    aspect-ratio: 3 / 4;
+  }
+
+  .aspect-wide {
+    aspect-ratio: 16 / 9;
+  }
+
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+
+  /* Scroll Snap */
+  .snap-start {
+    scroll-snap-align: start;
+  }
+
+  /* Image Effects */
+  .img-grayscale {
+    @apply grayscale transition-all duration-700;
+  }
+
+  .img-grayscale:hover {
+    @apply grayscale-0;
+  }
+
+  /* Brutalist Selection */
+  ::selection {
+    @apply bg-foreground text-background;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}

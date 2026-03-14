@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 4%;
+    --border: 0 0% 85%;
+    --muted-foreground: 0 0% 40%;
+    --font-display: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+    --font-mono: 'Space Mono', 'Courier New', monospace;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    font-family: var(--font-body);
+    color: hsl(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .btn-museum {
+    @apply inline-flex items-center gap-3 font-mono text-xs uppercase tracking-[0.25em]
+           border border-foreground px-8 py-4
+           hover:bg-foreground hover:text-background transition-all duration-500;
+  }
+}
+
+::selection {
+  background-color: hsl(var(--foreground));
+  color: hsl(var(--background));
+}

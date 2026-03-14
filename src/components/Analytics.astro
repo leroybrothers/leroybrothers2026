@@ -1,0 +1,14 @@
+---
+// Optional: Plausible Analytics for privacy-friendly, lightweight analytics.
+// Set PUBLIC_PLAUSIBLE_DOMAIN=leroybrothers.com in Vercel to enable.
+const domain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN;
+const enabled = Boolean(domain);
+---
+
+{enabled && (
+  <script
+    defer
+    data-domain={domain}
+    src="https://plausible.io/js/script.js"
+  />
+)}
