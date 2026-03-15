@@ -43,10 +43,10 @@ export const projects: Project[] = [
     yearEnd: "ongoing",
     yearLabel: "15 April 2026 — ongoing",
     tagline: "A functioning hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: 15 April 2026.",
-    description: "A four-star hotel in Saint-Paul-de-Vence designated as a durational artwork on 15 April 2026 by the installation of a bronze plaque on the exterior facade. The hotel has operated since 2004.",
+    description: "A boutique hotel in Saint-Paul-de-Vence designated as a durational artwork on 15 April 2026 by the installation of a bronze plaque on the exterior facade. The hotel has operated since 2004.",
     projectPageContent: `An Institution as Readymade
 
-A four-star hotel in Saint-Paul-de-Vence. Eleven suites. One restaurant. One pool. A full operational staff. Active debt instruments. A Michelin Key designation earned through standard inspection criteria. The hotel has been in continuous operation since 2004.
+A boutique hotel in Saint-Paul-de-Vence. 22 suites. Two restaurants. 7 pools. A full operational staff. Active debt instruments. A Michelin Key designation earned through standard inspection criteria. The hotel has been in continuous operation since 2004.
 
 On 15 April 2026, a bronze plaque was installed on the exterior facade. The plaque reads:
 
