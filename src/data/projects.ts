@@ -14,13 +14,13 @@ export interface Project {
   exploreContent?: string;
   /** Short operational description for explore page when accompanied by critical writing */
   operationalDescription?: string;
-  /** External critical text with attribution — presented as third-party assessment */
-  criticalWriting?: {
+  /** External critical text(s) with attribution — presented as third-party assessment. Multiple entries render in order. */
+  criticalWriting?: Array<{
     attribution: string;
     text: string;
     authorAffiliation?: string;
     note?: string;
-  };
+  }>;
   quote?: {
     text: string;
     author?: string;
@@ -283,7 +283,7 @@ Presented online. Continuous. 2025–ongoing.`,
     operationalDescription: `The founding body of work. Two brothers painting simultaneously on the same large-format canvas. The process described as a dialogue conducted in paint rather than words — part game, part argument, neither author in full control of the outcome.
 
 Active 1997–2002. Exhibited at Carte Blanche, International Centre for Contemporary Art, Château de Carros, 2002.`,
-    criticalWriting: {
+    criticalWriting: [{
       attribution: "Written by Frédéric Altmann, Director of the International Centre for Contemporary Art, Château de Carros, 2001.",
       text: `Contemporary art will always surprise me, and as further proof, I present LEROY + LEROY, two young painters. The Leroys are blood brothers. They share another commonality: they express themselves together on the same canvas. Unlike the duo Gilbert & George, they do not dress identically; but on the other hand, they share the same studio in the hills of Saint-Paul de Vence. So, no common ground with the famous Gilbert & George... except for a shared passion for art and its history.
 
@@ -298,7 +298,7 @@ With frenzy and spontaneity, Leroy + Leroy project paint onto the canvas, and in
 Do we have the impression of looking at a puzzle? Spontaneous images appear, twirling with ease in space. Observing every detail, we discover within this pictorial labyrinth—and as a leitmotif—a small black character moving through this chaotic and ravaging universe. Images that transition with ease from Abstraction to Figuration. It is a world that seems close to "Figuration Libre," with obvious affinities to Jean-Michel Basquiat and accents of the late Michel Macréau.
 
 We are close to reading the "Tags" and graffiti that now anonymously adorn city walls: the walls speak, and so does the painting of Leroy + Leroy. It is a singular body of work that deserves attention because it speaks to us of the doubts and uncertainties of our world... We will follow with interest this new pictorial adventure—young and refreshing—which steps off the beaten path with strength and conviction.`
-    },
+    }],
     quote: {
       text: "No restrictions. No proscriptions. Everything is allowed.",
       source: "Exhibition catalogue, Carte Blanche, CIAC, 2002."
@@ -467,6 +467,45 @@ Ink on paper. Dafen Village, Shenzhen, China. 2008.`,
     yearEnd: "2010",
     tagline: "Fictional artist. Real award. Liedts-Meesen Foundation NewMediaArtAward, Ghent, 2008.",
     description: "Axel King had a name, a biography, a body of work, and an institutional profile. He did not exist. Works were produced through crowdsourcing and anonymous execution. In 2008, Axel King received the NewMediaArtAward from the Liedts-Meesen Foundation, Ghent. The award was accepted.",
+    operationalDescription: `Axel King had a name, a biography, a body of work, and an institutional profile. He did not exist. The works attributed to him were produced through open crowdsourcing — internet users submitted images, texts, and ideas that were processed into compositions, then physically executed by anonymous assistants. In 2008, Axel King received the NewMediaArtAward from the Liedts-Meesen Foundation, Ghent. The award was accepted.
+
+Project active 2008–2010.`,
+    criticalWriting: [{
+      attribution: "The following text was written by Tom De Mette, philosopher at the Faculty of Psychology and Education Sciences, Vrije Universiteit Brussel, and published in the Leroy Brothers catalogue, 2008.",
+      text: `UBIQUITOUS KINGDOM
+Tom De Mette
+MUSINGS ON AXEL KING, THE CONTEMPORARY ARTIST AS A VIRTUAL NETWORK
+
+Meet Axel. Axel King. Catchy name, 'cause he can in fact be considered a king. His kingdom is a virtual network. His brain is ruled by creators. His addiction is art. And his future is now. Face it: King is nearly God.
+
+Some drafts on Axel
+
+When exactly Axel was born, no one knows. He took some time conceiving, as do all offspring of his age... that's the digital age. In a way his evolution will probably never stop. As long as he gets input, he'll be sure to keep on being created and still be himself creative. In a way he's the quintessence of the contemporary artist in postmodern times. He's got a face, a nice one too, and a body but his existence is virtual. Perhaps not in the strictest of sense, but when it comes to them bones and blood and all, he's hardly alive. He's also quite human... for an avatar, mind you. Speaking of mind: how do we talk about the mind of Axel King? Is it singular or not? Well, I guess we could talk about Axel as a singular entity, just to keep it simple. But the mind is never simple. Or singular, for that matter. Looking at the human mind, we can argue that thoughts are our own and that we can take sole responsibility for the way things get processed by our mind. Being created with the capacity of the mind, makes us in turn a creator of the mind, of what the mind does. We're all brainiacs.
+
+We can visualize his mind by drawing a diagram. Being an artist, the mind of Axel King is a creative one. It's a system of processes, of information going back and forth, data being collected from creators and manipulated through a range of computations that finally result in a physical work of art. Naturally, coming up with a similar diagram of the human mind being creative in the process of making a work of art is a whole other ball game. It would take a pretty impressive computer system to unravel the creativity of an artist that is in fact a human being. Things like the phenomenal consciousness would have to be envisioned, for example. To put it plainly, rather than being a technological problem, it's more likely to be a philosophical issue: the Mind-Body problem. In the case of Axel King, we need not go far beyond the realms of experimental philosophy. The mechanics of his brain can easily be imagined. Axel King is social software, his mind is a computer program and his reality is shaped in the same way as that of a network existing virtually. His artistry is a whole community. His creative existence, the core of his imagination as an artist, is a cultural interface.
+
+Finally, sketching drafts on Axel King should include the statement that he's not a real person. He's made by real artists, programmed by real computer scientists and reflected on by real philosophers. But most of all, he's a wild bunch of creative wearing glasses, a hearing aid or a pacemaker can all be considered cyborgs.
+
+In our digital age, the age of information and communication technology, we might suggest yet another stage in cybernetics, called third-order cybernetics. We can hardly deny that there's wear and tear on the hermeneutics of the cyborg. The notion of cyborg is suffering from a burn-out. It's time to give the cyborg a face-lift and to upgrade its etymology. We propose to change a few letters in the hybrid term 'cyborg' and would rather talk about iborgs (information borgs) and ciborgs (communicative information borgs).
+
+The implementation of internet and the domestication of digital media in informatics, robotics and domotics implicate a rapid and powerful popularization and commercialization of these new technologies in our everyday lives. While the first version of the World Wide Web was pretty much an example of the philosophy behind first-order cybernetics, Web 2.0 and Web 3.0 can be seen as digital technology systems becoming more humanized and therefore good practices of the idea behind second-order and third-order cybernetics. We can still speak of cybernetics when talking about the internet, because the internet remains a control system that is capable of generating processes and regulating itself through feedback mechanisms. But instead of putting the stress on control and regulation, the current and upcoming versions of the internet are much more about interaction and social relations. The philosophy behind new digital technologies is that they are in fact media, means to inform and communicate. Producing information and communicating it, is kind of the core business of human beings, is it not? Man is taking back what rightfully belongs to him: we don't really need to control and dominate through technology; at least not as much as we are eager to make technology as human as is humanly possible. After all, that's our ticket to godliness.
+
+And what about Axel King in all this? Well, I think that's pretty obvious. Axel King is online, he's part of the internet that takes people seriously. He even needs people pretty badly in order to stay alive. Axel King is an art project that aims to realize the philosophy behind Web 2.0 and 3.0 and third-order cybernetics. Social relations, interaction of creative processes are the main input for a system like Axel King. They're his blood and bones. Hence, it's existentialism that is now starting to overrule strict instrumentalism. Man seems to be in search of capturing the human side of computers and digital media. Technology is considered non-human but not necessarily without thinking the possibility of co-existence. Not only do we become friends with the 'Alien' or the 'Other' that is technology, we also make a lot of new friends along the way among each other. We become networks, communities.
+
+Axel King is such a network or community. He might well be one of the most social, amicable artists around. He's no longer the image of the artist-genius locked inside his workshop and living out his creative fantasies solitarily before sharing it with the rest of the world by exhibiting his art work. Axel King is out there! We simply surf his website, register ourselves and instantly become part of his creative mind. His brain is a sort of hive-mind where pretty much anyone with half a decent brain (the right side of the human brain, that is) can become a creator of art work made by Axel King. Axel King is a feast of friends, a nexus of human creativity and social technology.
+
+So much for the 'practical' side of Axel King. The theorems behind Axel King consist predominantly of the Actor Network Theory and the idea of Ubiquitous Computing. In brief, the Actor Network Theory as developed by Callon and Latour focuses on the probability of negotiations between human and non-human elements functioning as 'actants' in a network and mediated through social relations and processes. Ubiquitous Computing should be understood as an ideal of making use of technology in such a way that we don't even notice the technology being there. It's in the woodwork. By designing digital devices that are so well-integrated in our human existence and social practices, man is attempting to make technology invisible, ubiquitous. Why? Well, if we would be unaware of technology being there, there's no threshold between us and the 'Alien' or the 'Other'. We would silently have become one, without ontologically being one and the same all together. At least, not for a while, I guess.
+
+An interface with a face
+
+Personally, I think Axel King might be one of the first to be crowned a king in this new territory. If his network of creativity, both online and in real life, succeeds in making people work out their artistic aspirations through a community of creators that co-produce works of art that can be seen all around the world, wherever, whenever and however... a new Kingdom is sure to arise. This artist network or creative community would have one avatar by the name of Axel King and a world of people being part of his creative genius and enjoying the social profit of his common royalty.
+
+What these people all share is in fact a new language, the language of new media. They not only share content but also values. Axel King is what Manovich calls a cultural interface. Being part of Axel's Kingdom means for people to become artists themselves, which among other things means to understand the medium of art, its language or semiotics whilst also getting in touch with their own creativity, being able to opening up their artistic vain and finally, wanting to share, interact and mix this 'blood' with that of others. We should bear in mind that we humans share a fundamental quality with digital technology, namely: hybridity. Just like digital media, human beings are hybrids too.
+
+The website of Axel King is therefore a womb, a uterus, procreating naturally born hybrids, by using and integrating all kinds of non-human actants from our culture. Axel King is available for all of us who want to explore their own creative subjectivity, while also researching the objective core of Axel King which could come down to the metaphysical level of knowing what it is to be an artist or what the first principle behind human creativity could be.
+
+This almost makes technology in its initial notion disappear. Seeing that it is natural to man to paradoxically set borders and defy boundaries, to subjectively think further from that which can be known objectively, we can unveil the irrefutable parallel between nature, culture and technology. When we discussed objectivity and subjectivity in the Mind-Body problem earlier on, we opened up the possibility of erasing the threshold between human and non-human. In this perspective, Manovich's notion of the cultural interface has about the same effect as the zombie-argument had in the debate on phenomenal consciousness. It's not because we cannot produce definitive objective proof, let alone physical evidence of the existence of phenomenal consciousness that it is therefore impossible. We can think it, so it must be fundamentally and naturally human. In a similar way, we don't even need to know whether Axel King is actually a real, living and breeding human being or an avatar scaled and modeled from a human blueprint. We can think Axel King as a new artist on the scene. His artwork ultimately is proof of life.`
+    }],
     exploreContent: `Axel King was an artist. He had a name, a biography, a body of work, and an institutional profile. He did not exist.
 
 The works attributed to Axel King were produced through open crowdsourcing — internet users submitted images, texts, and ideas that were processed into compositions, then physically executed by anonymous assistants. Axel King directed none of this. He had no hands. The artists who built the system did not touch the work either. The production chain ran from public submission through algorithm through anonymous labor to finished painting, with no authorial hand at any point.
@@ -498,7 +537,7 @@ Liedts-Meesen Foundation NewMediaArtAward, Ghent, 2008. Project active 2008–20
 The platform ran the question the collective had been building toward since the MySpace portraits: can an artwork be produced without the intervention of the artist? BDR-tst was not a rhetorical question. It was a functioning test.
 
 Exhibited: Art Beijing, 2011.`,
-    criticalWriting: {
+    criticalWriting: [{
       attribution: "The following text was written by Sári Stenczer, art historian, curator, and critic, on the occasion of the BDR-tst exhibition.",
       note: "The platform launched in 2010; the Art Beijing exhibition took place in 2011.",
       text: `The art collective Leroy Brothers has been in operation since 1997 and is more similar to a 21st century family business than a visual art group. They surf the technological and economic waves of the postmodern world and enthusiastically advocate the democratization of contemporary visual art on the 2.0 waters of the web. These Belgian brothers (...) think that today creativity is far from sufficient in becoming a successful artist; organization, a businesslike approach, and participation in social life are just as important. "You have to be present everywhere," they say. And since they are three, this is relatively easy to achieve for the Leroy Brothers.
@@ -516,7 +555,7 @@ In their words: "We have built a system which helps us explore whether artworks 
 Make no mistake: the finished artworks clearly indicate the names of those who authored the images and texts that were used. The question of appropriation, nevertheless, remains problematic, as the exhibitions open under the name of the brothers. In other words, once again, we are faced with ever present issue of copyrights. And from there, we are instantly directed to the questions of information flow and free usage, as well as the closed nature of an elitist system of art. Someone has thrown sand in the gears again. Complete strangers become conversation partners and a single work of art is made from a number of unique images and thoughts – which, on top of that, will become part of represented contemporary art.
 
 All this stands on the important pillars of collective intelligence (as it is often referred to by the brothers), a democratic voting system, and the software program that turns the results into finalised images. The thematic at work here, which engages questions associated with the digitalization of culture (and which has also been discussed in detail by Lev Manovich), is an excellent study on, firstly, the possible directions in which the new cultural logic of working in this computerised world can be continued, and, secondly, the ways in which the new compositional and aesthetic systems provided by computers can be applied in the fields of new media.`,
-    },
+    }],
     images: [
       "/images/projects/bd-rtst/bd-rtst-main.jpg",
       "/images/projects/bd-rtst/bd-rtst-1.jpg",
@@ -734,6 +773,37 @@ Three sculptures. 2012.`,
     yearEnd: "2019",
     tagline: "Participatory platform producing collective works from user submissions every 100 hours. Exhibited internationally 2013–2019.",
     description: "A participatory platform producing new collective artworks every 100 hours from user-submitted images and texts. The algorithm determined composition; the crowd determined content; the artists determined the parameters. Exhibited Saint Petersburg, Vladivostok, Moscow, Milan, Antwerp, Brussels. Active 2013–2019.",
+    operationalDescription: `A participatory platform producing new collective artworks every 100 hours from user-submitted images and texts. Users submitted images and short texts; an algorithm processed submissions and consolidated the highest-voted contributions into a single collective artwork. Every 100 hours the artwork was replaced by a new one. The artists set the parameters and withdrew.
+
+Exhibited internationally 2013–2019: Saint Petersburg, Vladivostok, Moscow, Milan, Antwerp, Brussels. The platform is closed. The archive remains.`,
+    criticalWriting: [
+      {
+        attribution: "The following text was written by Pieter Jan Valgaeren, research professor at Erasmus University Rotterdam and artistic director of Stadstriennale Hasselt-Genk, and published in the Leroy Brothers catalogue, 2013.",
+        text: `ART FOR THE PEOPLE
+Pieter Jan Valgaeren
+
+Many ideas that should today speak for themselves seem unduly remote for many artists, museums and galleries. Far from white cubes and studios, art belongs to the people. As a curator, I try to approach the audience more proactively. Given the abundance of imagery that the digitally driven individual must take in, art and reflection — which by their nature demand time and space — can seem overtaken by the data storm.
+We must attend endless events, and FOMO becomes ever bigger — a fear amplified by the omnipresence and popularity of social media. Beyond algorithms, society itself is altered by these networks as attention mechanisms craving for images that offer overly glamorous, one-sided and censored views of the reality we live in.
+According to empirical studies, the combination of this fear of missing out and the social urge to maintain a constant online presence result in unprecedented pressure that leads to depression and burnout. Only a few artists and institutions are taking active steps to lead this social debate.
+Leroy Brothers have been active advocates since 2012; Witness Your World offers an artistic counterweight to the ever present social networks. Since the turn of the century, it has become difficult to imagine the experiences of the connected individual without online networks. Not only in the Western world, life without social media has become unthinkable.
+Although the intent of these networks is inherently social, the capitalist business model seems the main driver of expansion and intrusion.
+
+Pieter Jan Valgaeren is a curator, researcher and lecturer. From his background in art history and law he specialized in new media, hybrid art forms, technology and intellectual property. He published on different topics such as IP rights in the digital age, social media, media philosophy and art in the public domain. In the past years he worked as a consultant for the EU in Art and Technology and for the Flemish Ministry of Culture. As a lecturer he taught at Universities in Berlin, Valletta, Tilburg and Madrid and Thomas More Mechelen, PXL and UCLL. Currently he is research professor at Erasmus University Rotterdam. Since 2014, he is the artistic director of Stadstriennale Hasselt-Genk.`
+      },
+      {
+        attribution: "The following text was written by Marco Bazzini, art historian, critic for Artribune, and president of ISIA Firenze (2016–2019), and published in the Leroy Brothers catalogue, 2015.",
+        text: `TESTIMONIES OF THE NETWORK USERS
+Marco Bazzini
+
+For the Leroy Brothers — one of the most interesting collectives on the current international scene — openness has always been central to their way of interacting with the art world. Active mainly on the web, but also working with installations and exhibitions in public and private spaces, the Leroy Brothers have contributed to expanding both aesthetic boundaries and the concept of authorship by delegating art projects to their audience as direct participants. The three brothers confine their own input to setting the stage and directing situations — physical or online — which people then fill with their own content.
+Since 2006, Leroy Brothers have been developing social networks, and Witness Your World aims to mirror contemporary society as a witness to our times. They believe that artists know best how to capture and represent their time.
+The social web platform produces artworks elaborated by algorithms, departing from the contributions of those who choose to participate.
+In contrast to other codified forms of storytelling that we encounter on a daily basis, the images and messages that appear on Witness Your World function as a free reflection on society. Anyone who wants to be involved in recording the period in which we live can upload their content to the website, contributing to the formation of a collective work. The result is a multiplicity of points of view, realised by a diverse and vast group of individuals.
+Through social networking, crowdsourcing and sharing, Witness Your World creates a new identity for our world. Could it leave the infinite space of web 2.0 and 3.0 to return to the confines of a more traditional art space? Could this way of generating new possibilities be transported from virtual space to a tangible physical exhibition? Could the creation of an artwork testifying to our time involve many different people? For the Leroy Brothers collective, the challenge is to answer these questions.
+
+Marco Bazzini is art historian and critic for Artribune. He has been appointed president of ISIA Firenze for the period 2016–2019.`
+      }
+    ],
     exploreContent: `The platform worked as follows. Users submitted images and short texts through a public interface. An algorithm processed all submissions and consolidated the highest-voted contributions into a single collective artwork. Every 100 hours, the artwork was replaced by a new one generated from the next cycle of submissions. No editorial judgment was applied between user vote and final output. The artists set the parameters and withdrew.
 
 The 100-hour interval was structural, not arbitrary. Social media platforms refresh continuously — the feed has no natural unit of time, no moment of completion, no artwork that can be said to be finished. The 100-hour cycle imposed a frame: this is the work that existed between these two points. It will not be revised. The next work will be different and will also end.

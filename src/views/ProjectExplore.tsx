@@ -77,7 +77,7 @@ const ProjectExplore = ({ slug: slugProp }: ProjectExploreProps) => {
 
           {/* Main Content */}
           <div className="prose prose-lg prose-invert max-w-none">
-            {project.operationalDescription && project.criticalWriting ? (
+            {project.operationalDescription && project.criticalWriting?.length ? (
               <>
                 <div className="text-foreground/90 leading-relaxed text-lg whitespace-pre-line mb-16">
                   {project.operationalDescription}
@@ -86,27 +86,31 @@ const ProjectExplore = ({ slug: slugProp }: ProjectExploreProps) => {
                   <h2 className="font-display text-xl font-semibold uppercase tracking-[0.15em] text-muted-foreground mb-6">
                     Critical Writing
                   </h2>
-                  <p className="text-foreground/70 text-sm mb-6 leading-relaxed">
-                    {project.criticalWriting.attribution}
-                    {project.criticalWriting.authorAffiliation && (
-                      <span className="block mt-2 text-muted-foreground">
-                        {project.criticalWriting.authorAffiliation}
-                      </span>
-                    )}
-                  </p>
-                  {project.criticalWriting.note && (
-                    <p className="text-muted-foreground text-xs italic mb-8">
-                      {project.criticalWriting.note}
-                    </p>
-                  )}
-                  <div 
-                    className="text-foreground/90 leading-relaxed text-lg whitespace-pre-line [&>strong]:font-bold"
-                    dangerouslySetInnerHTML={{
-                      __html: project.criticalWriting.text
-                        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-                        .replace(/\n/g, '<br />')
-                    }}
-                  />
+                  {project.criticalWriting.map((entry, index) => (
+                    <div key={index} className={index > 0 ? "mt-16 pt-16 border-t border-border" : ""}>
+                      <p className="text-foreground/70 text-sm mb-6 leading-relaxed">
+                        {entry.attribution}
+                        {entry.authorAffiliation && (
+                          <span className="block mt-2 text-muted-foreground">
+                            {entry.authorAffiliation}
+                          </span>
+                        )}
+                      </p>
+                      {entry.note && (
+                        <p className="text-muted-foreground text-xs italic mb-8">
+                          {entry.note}
+                        </p>
+                      )}
+                      <div 
+                        className="text-foreground/90 leading-relaxed text-lg whitespace-pre-line [&>strong]:font-bold"
+                        dangerouslySetInnerHTML={{
+                          __html: entry.text
+                            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                            .replace(/\n/g, '<br />')
+                        }}
+                      />
+                    </div>
+                  ))}
                 </div>
               </>
             ) : project.exploreContent ? (
