@@ -7,14 +7,19 @@ const About = () => {
 
   const timelineEvents = [
     { year: "1997", title: "Formation" },
-    { year: "2003", title: "MySpace Era" },
-    { year: "2006", title: "Artmann Gallery" },
+    { year: "1997–2002", title: "Leroy + Leroy" },
+    { year: "1999–2003", title: "Brand Art" },
+    { year: "2003–2006", title: "MySpace Portrait Paintings" },
+    { year: "2004–2006", title: "Artmann" },
     { year: "2008–2010", title: "Axel King" },
+    { year: "2011", title: "BDR-tst" },
+    { year: "2012", title: "Art For Money, Money For Art" },
     { year: "2013–2019", title: "Witness Your World" },
-    { year: "2016", title: "Witness My Face" },
-    { year: "2023", title: "NFT Collection: A to Z" },
-    { year: "2023", title: "Arora Vale" },
-    { year: "2025", title: "Present" },
+    { year: "2013", title: "The Kiss" },
+    { year: "2021", title: "GIF it to me" },
+    { year: "2023", title: "Arora Vale & NFT Collection: A to Z" },
+    { year: "2025", title: "Uncanny Council" },
+    { year: "2026", title: "Toile Blanche" },
   ];
 
   const soloExhibitions = [
@@ -159,7 +164,7 @@ const About = () => {
                   Leroy Brothers is a Belgian art collective founded in 1997 by three brothers: Nicolas (b. 1979), Gilles (b. 1978), and Gregory (b. 1975). Individual authorship was dissolved at founding. All work is signed collectively.
                 </p>
                 <p>
-                  The practice began with four-handed painting and shifted in 2003 toward systems-based work involving networks, platforms, algorithms, and institutional structures. Since then, the collective has built functional social media platforms, manufactured fictional artists, outsourced production to Dafen Village, operated a luxury hotel as a durational artwork, and placed five AI systems in permanent autonomous conversation.
+                  The practice began with four-handed painting and shifted in 2003 toward systems-based work involving networks, platforms, algorithms, and institutional structures. Since then, the collective has built functional social media platforms, manufactured fictional artists, outsourced production to Dafen Village, operated a boutique hotel as a durational artwork, and placed five AI systems in permanent autonomous conversation.
                 </p>
                 <p>
                   The work does not illustrate these subjects. It operates within them.
