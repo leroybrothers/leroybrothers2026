@@ -81,6 +81,8 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
               src={project.thumbnail}
               alt={project.title}
               fetchPriority="high"
+              loading="eager"
+              decoding="async"
               className="w-full h-auto max-h-[75vh] object-contain transition-all duration-700"
             />
             <div className="noise-overlay" />
@@ -257,6 +259,7 @@ const ProjectDetail = ({ slug: slugProp }: ProjectDetailProps) => {
                       alt={`${project.title} - Image ${index + 1}`}
                       className="w-full h-full object-cover transition-all duration-500 hover:scale-105"
                       loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div className="noise-overlay" />

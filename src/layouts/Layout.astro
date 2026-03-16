@@ -10,9 +10,11 @@ interface Props {
   title?: string;
   description?: string;
   ogImage?: string;
+  /** Preload this image as LCP (e.g. project hero). Use same path as ogImage when the hero is the main visual. */
+  preloadImage?: string;
 }
 
-const { title = "Leroy Brothers | Contemporary AI Art & Post-Internet Art Collective", description = "Belgian contemporary art collective pioneering AI art, post-internet aesthetics, and digital culture since 1997. Featuring Arora Vale, Witness Your World, MySpace Portraits, NFT collections, and algorithmic artworks.", ogImage } = Astro.props;
+const { title = "Leroy Brothers | Contemporary AI Art & Post-Internet Art Collective", description = "Belgian contemporary art collective pioneering AI art, post-internet aesthetics, and digital culture since 1997. Featuring Arora Vale, Witness Your World, MySpace Portraits, NFT collections, and algorithmic artworks.", ogImage, preloadImage } = Astro.props;
 const site = Astro.site ?? "https://www.leroybrothers.com";
 const canonicalURL = new URL(Astro.url.pathname, site);
 const imageUrl = ogImage
@@ -42,6 +44,9 @@ const imageUrl = ogImage
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={imageUrl} />
     <link rel="canonical" href={canonicalURL} />
+    {preloadImage && (
+      <link rel="preload" as="image" href={preloadImage.startsWith("http") ? preloadImage : new URL(preloadImage, site).href} />
+    )}
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

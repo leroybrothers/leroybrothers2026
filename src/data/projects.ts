@@ -598,7 +598,9 @@ Marble, heat sinks, computer chips, circuit drawings. Produced 2010. Exhibited A
       "/images/projects/symbiotic-cloud/symbiotic-3.jpg",
       "/images/projects/symbiotic-cloud/symbiotic-4.jpg",
       "/images/projects/symbiotic-cloud/symbiotic-5.jpg",
-      "/images/projects/symbiotic-cloud/symbiotic-6.jpg"
+      "/images/projects/symbiotic-cloud/symbiotic-6.jpg",
+      "/images/projects/symbiotic-cloud/symbiotic-7.png",
+      "/images/projects/symbiotic-cloud/symbiotic-8.png"
     ],
     thumbnail: "/images/projects/symbiotic-cloud/symbiotic-brain-thumb.jpg",
     category: "Installation / Technology",

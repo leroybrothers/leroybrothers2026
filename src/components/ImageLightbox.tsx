@@ -100,6 +100,7 @@ const ImageLightbox = ({
             src={images[currentIndex]}
             alt={title ? `${title} - Image ${currentIndex + 1}` : `Image ${currentIndex + 1}`}
             className="max-w-full max-h-full object-contain animate-fade-in"
+            decoding="async"
             onHardError={() => setHidden(true)}
           />
         )}

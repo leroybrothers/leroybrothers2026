@@ -20,6 +20,7 @@ const objPos = project.thumbnailPosition === "bottom" ? "object-bottom" : projec
           alt={project.title}
           loading={index < 4 ? "eager" : "lazy"}
           fetchpriority={index === 0 ? "high" : undefined}
+          decoding="async"
           class={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${objPos}`}
         />
       </div>

@@ -98,6 +98,8 @@ const About = () => {
                   src="/images/leroy-brothers-portrait.jpg" 
                   alt="Leroy Brothers" 
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="noise-overlay" />
               </div>

@@ -87,6 +87,7 @@ const Artworks = () => {
                         alt={`${activeCategory.title} ${index + 1}`}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
+                        decoding="async"
                       />
                     </div>
                   ))}
@@ -105,12 +106,13 @@ const Artworks = () => {
                       className="overflow-hidden cursor-pointer group"
                       onClick={() => openLightbox(activeCategory.exhibitionViews, index)}
                     >
-                      <img
-                        src={image}
-                        alt={`${activeCategory.title} Exhibition View ${index + 1}`}
-                        className="w-full block group-hover:scale-105 transition-transform duration-500"
-                        loading="lazy"
-                      />
+                    <img
+                      src={image}
+                      alt={`${activeCategory.title} Exhibition View ${index + 1}`}
+                      className="w-full block group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                      decoding="async"
+                    />
                     </div>
                   ))}
                 </div>
@@ -130,6 +132,7 @@ const Artworks = () => {
                       alt={category.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1">{category.title}</h3>

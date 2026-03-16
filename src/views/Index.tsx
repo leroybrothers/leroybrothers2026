@@ -46,6 +46,7 @@ const Index = () => {
               width={48}
               height={48}
               fetchPriority="high"
+              decoding="async"
               className="block w-10 h-10 md:w-12 md:h-12 object-contain"
             />
             <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground text-left leading-none">
