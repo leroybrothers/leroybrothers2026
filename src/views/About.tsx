@@ -95,7 +95,7 @@ const About = () => {
             >
               <div className="aspect-[3/4] overflow-hidden glitch-hover">
                 <img 
-                  src="/images/leroy-brothers-portrait.jpg" 
+                  src="/images/leroy-brothers-portrait.png" 
                   alt="Leroy Brothers" 
                   className="w-full h-full object-cover"
                   loading="lazy"
