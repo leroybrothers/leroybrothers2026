@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const distDir = join(__dirname, '..', 'dist');
+const distDir = join(__dirname, '..', '.vercel', 'output', 'static');
 const site = 'https://www.leroybrothers.com';
 
 function findUrls(dir, base = '') {

@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
+import vercel from '@astrojs/vercel/static';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -13,6 +14,11 @@ export default defineConfig({
   build: {
     inlineStylesheets: "always",
   },
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
   integrations: [
     react(),
     tailwind({
