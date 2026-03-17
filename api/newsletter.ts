@@ -56,12 +56,19 @@ export default async function handler(
       body: JSON.stringify(payload),
     });
 
-    const data = await response.json().catch(() => ({}));
+    const raw = await response.text();
+    let data: Record<string, unknown> = {};
+    try {
+      if (raw) data = JSON.parse(raw) as Record<string, unknown>;
+    } catch {
+      // non-JSON response
+    }
 
     if (!response.ok) {
       const message =
-        (data as { message?: string })?.message ||
-        (response.status === 422 ? "This email is already subscribed." : "Could not subscribe.");
+        (data?.message as string) ||
+        (data?.error as string) ||
+        (response.status === 422 ? "This email is already subscribed." : "Could not subscribe. Please try again later.");
       res.status(response.status).json({ error: message });
       return;
     }
@@ -69,6 +76,7 @@ export default async function handler(
     res.status(200).json({ ok: true });
   } catch (err) {
     console.error("Flodesk subscribe error:", err);
-    res.status(500).json({ error: "Something went wrong. Please try again." });
+    const message = err instanceof Error ? err.message : "Something went wrong. Please try again.";
+    res.status(500).json({ error: message });
   }
 }

@@ -8,12 +8,14 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
 
+    setError(null);
     setIsLoading(true);
     try {
       const res = await fetch("/api/newsletter", {
@@ -25,24 +27,28 @@ const Footer = () => {
         }),
       });
       const data = await res.json().catch(() => ({}));
+      const message = (data as { error?: string })?.error;
 
       if (res.ok) {
         setSubscribed(true);
         setFirstName("");
         setEmail("");
       } else {
-        const message = (data as { error?: string })?.error ?? "Something went wrong. Please try again.";
+        const displayMessage = message ?? "Something went wrong. Please try again.";
+        setError(displayMessage);
         toast({
           title: res.status === 422 || res.status === 400 ? "Already subscribed" : "Error",
-          description: message,
+          description: displayMessage,
           variant: res.status >= 500 ? "destructive" : "default",
         });
       }
-    } catch (error) {
-      console.error("Subscription error:", error);
+    } catch (err) {
+      console.error("Subscription error:", err);
+      const displayMessage = "Network error. Please check your connection and try again.";
+      setError(displayMessage);
       toast({
         title: "Error",
-        description: "Something went wrong. Please try again.",
+        description: displayMessage,
         variant: "destructive",
       });
     } finally {
@@ -71,10 +77,16 @@ const Footer = () => {
             <div>
               {subscribed ? (
                 <div className="font-mono text-sm text-background/80">
-                  ✓ You're now part of the network
+                  ✓ You're subscribed. We'll send updates on new work and exhibitions.
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                <>
+                  {error && (
+                    <p className="text-sm text-red-300 mb-4 font-mono" role="alert">
+                      {error}
+                    </p>
+                  )}
+                  <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                   <div className="flex flex-col sm:flex-row gap-4">
                     <input
                       type="text"
@@ -105,6 +117,7 @@ const Footer = () => {
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </form>
+                </>
               )}
             </div>
           </div>
