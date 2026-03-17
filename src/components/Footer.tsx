@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { ArrowRight, Instagram, ShoppingCart } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import ContactDialog from "./ContactDialog";
 
 const Footer = () => {
+  const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -16,22 +16,27 @@ const Footer = () => {
 
     setIsLoading(true);
     try {
-      const { error } = await supabase
-        .from("newsletter_subscribers")
-        .insert({ email });
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: email.trim(),
+          first_name: firstName.trim() || undefined,
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
 
-      if (error) {
-        if (error.code === "23505") {
-          toast({
-            title: "Already subscribed",
-            description: "This email is already on our list.",
-          });
-        } else {
-          throw error;
-        }
-      } else {
+      if (res.ok) {
         setSubscribed(true);
+        setFirstName("");
         setEmail("");
+      } else {
+        const message = (data as { error?: string })?.error ?? "Something went wrong. Please try again.";
+        toast({
+          title: res.status === 422 || res.status === 400 ? "Already subscribed" : "Error",
+          description: message,
+          variant: res.status >= 500 ? "destructive" : "default",
+        });
       }
     } catch (error) {
       console.error("Subscription error:", error);
@@ -69,16 +74,29 @@ const Footer = () => {
                   ✓ You're now part of the network
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4">
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter your email"
-                    className="flex-1 bg-transparent border border-background/30 px-6 py-4 font-mono text-sm text-background placeholder:text-background/40 focus:outline-none focus:border-background transition-colors"
-                    required
-                  />
-                <button
+                <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <input
+                      type="text"
+                      name="firstName"
+                      autoComplete="given-name"
+                      value={firstName}
+                      onChange={(e) => setFirstName(e.target.value)}
+                      placeholder="First name"
+                      className="flex-1 min-w-0 bg-transparent border border-background/30 px-6 py-4 font-mono text-sm text-background placeholder:text-background/40 focus:outline-none focus:border-background transition-colors"
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      autoComplete="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Email"
+                      className="flex-1 min-w-0 bg-transparent border border-background/30 px-6 py-4 font-mono text-sm text-background placeholder:text-background/40 focus:outline-none focus:border-background transition-colors"
+                      required
+                    />
+                  </div>
+                  <button
                     type="submit"
                     disabled={isLoading}
                     className="inline-flex items-center justify-center gap-3 font-mono text-xs uppercase tracking-[0.25em] border border-background px-8 py-4 hover:bg-background hover:text-foreground transition-all duration-500 disabled:opacity-50"
@@ -102,8 +120,7 @@ const Footer = () => {
               Leroy Brothers
             </a>
             <p className="text-sm text-background/60 leading-relaxed max-w-sm">
-              Contemporary art collective interrogating identity, technology, and 
-              the mechanisms of the art world since 1997.
+              Identity, technology, and the mechanisms of the art world since 1997.
             </p>
           </div>
 

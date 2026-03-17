@@ -166,7 +166,7 @@ const About = () => {
                   Leroy Brothers is a Belgian art collective founded in 1997 by three brothers: Nicolas (b. 1979), Gilles (b. 1978), and Gregory (b. 1975). Individual authorship was dissolved at founding. All work is signed collectively.
                 </p>
                 <p>
-                  The practice began with four-handed painting and shifted in 2003 toward systems-based work involving networks, platforms, algorithms, and institutional structures. Since then, the collective has built functional social media platforms, manufactured fictional artists, outsourced production to Dafen Village, operated a boutique hotel as a durational artwork, and placed five AI systems in permanent autonomous conversation.
+                  The practice began with four-handed painting and shifted in 2003 toward systems-based work involving networks, platforms, algorithms, and institutional structures. Since then, the collective has built functional social media platforms, manufactured fictional artists, outsourced production to Dafen Village, operated a hotel as a durational artwork, and placed five AI systems in permanent autonomous conversation.
                 </p>
                 <p>
                   The work does not illustrate these subjects. It operates within them.
