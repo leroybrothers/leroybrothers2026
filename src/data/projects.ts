@@ -41,14 +41,14 @@ export const projects: Project[] = [
     slug: "toile-blanche",
     year: "2026",
     yearEnd: "ongoing",
-    yearLabel: "15 April 2026 — ongoing",
-    tagline: "A functioning hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: 15 April 2026.",
-    description: "A boutique hotel in Saint-Paul-de-Vence designated as a durational artwork on 15 April 2026 by the installation of a bronze plaque on the exterior facade. The hotel has operated since 2004.",
+    yearLabel: "Scheduled 9 April 2026 (TBC) — ongoing",
+    tagline: "A functioning hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: scheduled April 9th 2026 (TBC).",
+    description: "A boutique hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: scheduled April 9th 2026 (TBC). The hotel has operated since 2004.",
     projectPageContent: `An Institution as Readymade
 
 A boutique hotel in Saint-Paul-de-Vence. 22 suites. Two restaurants. 7 pools. A full operational staff. Active debt instruments. A Michelin Key designation earned through standard inspection criteria. The hotel has been in continuous operation since 2004.
 
-On 15 April 2026, a bronze plaque was installed on the exterior facade. The plaque reads:
+A bronze plaque will be installed on the exterior facade (scheduled April 9th 2026, TBC). The plaque reads:
 
 Concrete, organic matter, algorithms, labor, capital, and Mediterranean sunlight.
 43.7011° N, 7.1211° E
@@ -67,7 +67,7 @@ LOG 01 — ENTRANCE
 
 The Plaque (The Signature)
 Cast bronze, patinated. Exterior facade.
-Produced. 15 April 2026.
+Artistic designation: scheduled April 9th 2026 (TBC).
 
 Access (Protocol 2024)
 Red Michelin Key Plaque, rammed earth from the construction site, steel internal mount.
@@ -196,12 +196,12 @@ Upon transfer, the artists cease all authority. The work continues under new own
 Valuation: €45,000,000. Available.
 
 Bronze, rammed earth from the construction site, legal instruments, hotel infrastructure, labor, capital, Mediterranean sunlight.
-Saint-Paul-de-Vence, France. 15 April 2026 — ongoing.
+Saint-Paul-de-Vence, France. Artistic designation: scheduled April 9th 2026 (TBC).
 Michelin Key, 2024.`,
     exploreContent: `Toile Blanche — An Institution as Readymade
-15 April 2026 — ongoing
+Artistic designation: scheduled April 9th 2026 (TBC).
 
-The hotel has operated since 2004. On 15 April 2026, a bronze plaque was installed on its exterior facade. The plaque names the material components of the building — concrete, labor, capital, Mediterranean sunlight — and states its coordinates. It is the wall label for the entire institution. Everything inside the threshold was reclassified at that moment as sculptural material.
+The hotel has operated since 2004. A bronze plaque will be installed on its exterior facade (scheduled April 9th 2026, TBC). The plaque names the material components of the building — concrete, labor, capital, Mediterranean sunlight — and states its coordinates. It is the wall label for the entire institution. Everything inside the threshold was reclassified at that moment as sculptural material.
 
 This is the founding gesture. It does what Duchamp's signature did to the urinal in 1917 — it designates. But where Duchamp removed an object from its functional context to place it in an art context, this work designates a functioning institution without removing it from anything. The hotel continues to operate as a hotel. The guests continue to arrive, sleep, eat, and depart. The staff continue to maintain the infrastructure against continuous decay. The designation does not interrupt the function. It reframes what the function produces.
 
@@ -217,7 +217,7 @@ The Encumbrance is a notarized 99-year construction lease that compels any futur
 
 The Exit Strategy prices the complete transfer of the system — land, architecture, operational protocols, all active liabilities, all institutional accreditations, and all registered encumbrances — at €45,000,000. This figure is not a provocation. It is the assessed market value of a functioning hospitality asset with Michelin recognition, real estate in one of France's most valuable communes, twenty-two years of operational history, and a 99-year legal instrument that constitutes the most structurally ambitious contractual artwork produced since the institutional critique generation of the 1970s. Upon transfer the artists cease all operational, administrative, and decision-making authority. The work continues under new ownership. All subsequent actions — maintenance, modification, expansion, neglect, or dissolution — are the responsibility of the acquiring party.
 
-The hotel opened in 2004 as a hospitality asset. It was designated as an artwork on 15 April 2026. The twenty-two years between those two dates are not prologue. They are the operational history of a readymade that did not yet know it had been selected. The Institutional Archive contains documents from the entire period — tax audits, fire permits, land deeds — going back to the founding year. The metabolic residue the work produces includes two decades of accumulated operation. The designation did not create the institution. It found it already running, already encumbered, already generating the material the work required, and named it.
+The hotel opened in 2004 as a hospitality asset. Artistic designation is scheduled for April 9th 2026 (TBC). The twenty-two years between those two dates are not prologue. They are the operational history of a readymade that did not yet know it had been selected. The Institutional Archive contains documents from the entire period — tax audits, fire permits, land deeds — going back to the founding year. The metabolic residue the work produces includes two decades of accumulated operation. The designation did not create the institution. It found it already running, already encumbered, already generating the material the work required, and named it.
 
 The question the work poses is not whether a hotel can be an artwork.
 
@@ -226,11 +226,11 @@ It is what it means to own one that is.
 Bronze, rammed earth from the construction site, legal instruments, hotel infrastructure, labor, capital, Mediterranean sunlight. 3,500 m².
 Saint-Paul-de-Vence, France.
 Hotel in continuous operation since 2004.
-Artistic designation: 15 April 2026.
+Artistic designation: scheduled April 9th 2026 (TBC).
 Michelin Key, 2024.
 System status: Active.`,
     images: [
-      "/images/projects/toile-blanche/plaque.jpg",
+      "/images/projects/toile-blanche/plaque.png",
       "/images/projects/toile-blanche/hotel1.png",
       "/images/projects/toile-blanche/hotel2.png",
       "/images/projects/toile-blanche/hotel3.png",
@@ -238,7 +238,7 @@ System status: Active.`,
       "/images/projects/toile-blanche/hotel5.png",
       "/images/projects/toile-blanche/hotel6.png"
     ],
-    thumbnail: "/images/projects/toile-blanche/plaque.jpg",
+    thumbnail: "/images/projects/toile-blanche/plaque.png",
     category: "Institutional Readymade / Durational",
     featured: true,
     externalLink: "https://www.toileblanche.com"
