@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
+import vercel from '@astrojs/vercel/static';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -20,6 +21,11 @@ export default defineConfig({
     }),
   ],
   output: 'static',
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
   vite: {
     resolve: {
       alias: {
