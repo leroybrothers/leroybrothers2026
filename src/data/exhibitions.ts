@@ -4,7 +4,6 @@ export interface Exhibition {
   slug: string;
   year: string;
   location?: string;
-  flickrAlbumUrl: string;
   photoCount: number;
   coverImage: string;
   images: string[];
@@ -17,7 +16,6 @@ export const exhibitions: Exhibition[] = [
     slug: "arora-vale-digital-convergence",
     year: "2024",
     location: "Toile Blanche Contemporary",
-    flickrAlbumUrl: "https://www.toileblanchecontemporary.com/viewing-room/3-arora-vale-digital-convergence/",
     photoCount: 10,
     coverImage: "/images/exhibitions/arora-vale/exhibition-1.webp",
     images: [
@@ -37,7 +35,6 @@ export const exhibitions: Exhibition[] = [
     title: "Witness Your World for VINCI",
     slug: "witness-your-world-vinci",
     year: "2020",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157712825109917",
     photoCount: 44,
     coverImage: "/images/exhibitions/witness-your-world-vinci/01.jpg",
     images: [
@@ -67,7 +64,6 @@ export const exhibitions: Exhibition[] = [
     slug: "lightroom-35-ghent",
     year: "2019",
     location: "Ghent, Belgium",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157711901545756",
     photoCount: 39,
     coverImage: "/images/exhibitions/lightroom-35-ghent/01.jpg",
     images: [
@@ -92,7 +88,6 @@ export const exhibitions: Exhibition[] = [
     slug: "ghost-x-stuk",
     year: "2017",
     location: "STUK, Leuven",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157687485070281",
     photoCount: 12,
     coverImage: "/images/exhibitions/ghost-x-stuk/01.jpg",
     images: [
@@ -115,7 +110,6 @@ export const exhibitions: Exhibition[] = [
     title: "Celibataire Diva's",
     slug: "celibataire-divas",
     year: "2017",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157687741678510",
     photoCount: 20,
     coverImage: "/images/exhibitions/celibataire-divas/01.jpg",
     images: [
@@ -143,7 +137,6 @@ export const exhibitions: Exhibition[] = [
     title: "MaART Kunstroute",
     slug: "maart-kunstroute",
     year: "2017",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157681713511146",
     photoCount: 13,
     coverImage: "/images/exhibitions/maart-kunstroute/01.jpg",
     images: [
@@ -166,7 +159,6 @@ export const exhibitions: Exhibition[] = [
     title: "S-T-ARTS Art Tech Exhibition",
     slug: "starts-art-tech-exhibition",
     year: "2017",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157681305432136",
     photoCount: 11,
     coverImage: "/images/exhibitions/starts-art-tech-exhibition/01.jpg",
     images: [
@@ -184,7 +176,6 @@ export const exhibitions: Exhibition[] = [
     title: "If I Disappear",
     slug: "if-i-disappear",
     year: "2017",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157680932489616",
     photoCount: 7,
     coverImage: "/images/exhibitions/if-i-disappear/01.jpg",
     images: [
@@ -203,7 +194,6 @@ export const exhibitions: Exhibition[] = [
     slug: "ghost-2017",
     year: "2017",
     location: "Ghent & Brussels",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157680922825926",
     photoCount: 49,
     coverImage: "/images/exhibitions/ghost-2017/01.jpg",
     images: [
@@ -221,7 +211,6 @@ export const exhibitions: Exhibition[] = [
     title: "Trademarks 2016",
     slug: "trademarks-2016",
     year: "2016",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157671552168894",
     photoCount: 12,
     coverImage: "/images/exhibitions/trademarks-2016/01.jpg",
     images: [
@@ -240,7 +229,6 @@ export const exhibitions: Exhibition[] = [
     slug: "ifa-gallery-brussels",
     year: "2016",
     location: "Brussels, Belgium",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157673263043020",
     photoCount: 17,
     coverImage: "/images/exhibitions/ifa-gallery-brussels/01.jpg",
     images: [
@@ -258,7 +246,6 @@ export const exhibitions: Exhibition[] = [
     title: "Witness My Face at Pukkelpop Music Festival",
     slug: "witness-my-face-pukkelpop",
     year: "2016",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157672144973742",
     photoCount: 46,
     coverImage: "/images/exhibitions/witness-my-face-pukkelpop/01.jpg",
     images: [
@@ -293,7 +280,6 @@ export const exhibitions: Exhibition[] = [
     slug: "podgorny-robinson-saint-paul-de-vence",
     year: "2016",
     location: "Saint Paul de Vence, France",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157669985316114",
     photoCount: 37,
     coverImage: "/images/exhibitions/podgorny-robinson-saint-paul-de-vence/01.jpg",
     images: [
@@ -329,7 +315,6 @@ export const exhibitions: Exhibition[] = [
     slug: "teleportation-shanghai",
     year: "2016",
     location: "Shanghai, China",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157668168188705",
     photoCount: 5,
     coverImage: "/images/exhibitions/teleportation-shanghai/01.jpg",
     images: [
@@ -346,7 +331,6 @@ export const exhibitions: Exhibition[] = [
     slug: "podgorny-robinson-paris",
     year: "2016",
     location: "Paris, France",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157667786953932",
     photoCount: 26,
     coverImage: "/images/exhibitions/podgorny-robinson-paris/01.jpg",
     images: [
@@ -365,7 +349,6 @@ export const exhibitions: Exhibition[] = [
     slug: "spazio-borgogno-milan",
     year: "2015",
     location: "Milan, Italy",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157652009841779",
     photoCount: 44,
     coverImage: "/images/exhibitions/spazio-borgogno-milan/01.jpg",
     images: [
@@ -399,7 +382,6 @@ export const exhibitions: Exhibition[] = [
     title: "Delvaux/Delvoye/Leroy Brothers",
     slug: "delvaux-delvoye-leroy-brothers",
     year: "2015",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157650263886488",
     photoCount: 9,
     coverImage: "/images/exhibitions/delvaux-delvoye-leroy-brothers/01.jpg",
     images: [
@@ -417,7 +399,6 @@ export const exhibitions: Exhibition[] = [
     title: "Leroy Brothers Summer Show",
     slug: "leroy-brothers-summer-show",
     year: "2014",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157648348874353",
     photoCount: 52,
     coverImage: "/images/exhibitions/leroy-brothers-summer-show/01.jpg",
     images: [
@@ -436,7 +417,6 @@ export const exhibitions: Exhibition[] = [
     slug: "antwerp-2014",
     year: "2014",
     location: "Antwerp, Belgium",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157644030548669",
     photoCount: 40,
     coverImage: "/images/exhibitions/antwerp-2014/01.jpg",
     images: [
@@ -472,7 +452,6 @@ export const exhibitions: Exhibition[] = [
     slug: "moscow-moma-saint-petersburg-lazarev",
     year: "2013",
     location: "Moscow & Saint Petersburg, Russia",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157638518161044",
     photoCount: 214,
     coverImage: "/images/exhibitions/moscow-moma-saint-petersburg-lazarev/01.jpg",
     images: [
@@ -527,7 +506,6 @@ export const exhibitions: Exhibition[] = [
     slug: "sh-contemporary-2011",
     year: "2011",
     location: "Shanghai, China",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157636283812596",
     photoCount: 10,
     coverImage: "/images/exhibitions/sh-contemporary-2011/01.jpg",
     images: [
@@ -546,7 +524,6 @@ export const exhibitions: Exhibition[] = [
     slug: "art-beijing-2010",
     year: "2010",
     location: "Beijing, China",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157650262150558",
     photoCount: 23,
     coverImage: "/images/exhibitions/art-beijing-2010/01.jpg",
     images: [
@@ -565,7 +542,6 @@ export const exhibitions: Exhibition[] = [
     slug: "artetazh-2013",
     year: "2013",
     location: "Vladivostok, Russia",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157648348063403",
     photoCount: 53,
     coverImage: "/images/exhibitions/artetazh-2013/01.jpg",
     images: [
@@ -584,7 +560,6 @@ export const exhibitions: Exhibition[] = [
     slug: "guy-pieters-gallery",
     year: "2012",
     location: "Saint Paul de Vence, France",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157650664433101",
     photoCount: 19,
     coverImage: "/images/exhibitions/guy-pieters-gallery/01.jpg",
     images: [
@@ -603,7 +578,6 @@ export const exhibitions: Exhibition[] = [
     slug: "how-to-be-successful-artist-a-to-z",
     year: "2011",
     location: "Art Labor Gallery, Shanghai",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157627091751518",
     photoCount: 46,
     coverImage: "/images/exhibitions/how-to-be-successful-artist-a-to-z/01.jpg",
     images: [
@@ -622,7 +596,6 @@ export const exhibitions: Exhibition[] = [
     slug: "acb-galeria",
     year: "2014",
     location: "Budapest, Hungary",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157650255053289",
     photoCount: 30,
     coverImage: "/images/exhibitions/acb-galeria/01.jpg",
     images: [
@@ -657,7 +630,6 @@ export const exhibitions: Exhibition[] = [
     slug: "miad-singapore",
     year: "2014",
     location: "Singapore",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157650259374580",
     photoCount: 16,
     coverImage: "/images/exhibitions/miad-singapore/01.jpg",
     images: [
@@ -676,7 +648,6 @@ export const exhibitions: Exhibition[] = [
     slug: "fights-aids-monaco-2011",
     year: "2011",
     location: "Monaco",
-    flickrAlbumUrl: "https://www.flickr.com/photos/leroybrothers/albums/72157636288511186",
     photoCount: 25,
     coverImage: "/images/exhibitions/fights-aids-monaco-2011/01.jpg",
     images: [

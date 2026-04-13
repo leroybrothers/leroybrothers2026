@@ -1,7 +1,7 @@
 import { exhibitions } from "@/data/exhibitions";
 import { useMemo, useState } from "react";
 import ImageLightbox from "@/components/ImageLightbox";
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import SafeImg from "@/components/SafeImg";
 
 interface ExhibitionGalleryProps {
@@ -71,17 +71,6 @@ const ExhibitionGallery = ({ slug: slugProp }: ExhibitionGalleryProps) => {
             <p className="project-label mb-4">{exhibition.year}</p>
             <h1 className="mb-4">{exhibition.title}</h1>
             {exhibition.location && <p className="text-lg text-muted-foreground">{exhibition.location}</p>}
-            {exhibition.flickrAlbumUrl && (
-              <a
-                href={exhibition.flickrAlbumUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 text-sm font-medium mt-6 px-4 py-2 border border-foreground/20 hover:border-foreground hover:bg-foreground hover:text-background transition-all duration-300 group"
-              >
-                Explore full album →
-                <ExternalLink className="w-4 h-4 group-hover:rotate-12 transition-transform" />
-              </a>
-            )}
           </div>
         </div>
       </section>
