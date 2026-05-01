@@ -230,7 +230,7 @@ Artistic designation: scheduled April 30th 2026 (TBC).
 Michelin Key, 2024.
 System status: Active.`,
     images: [
-      "/images/projects/toile-blanche/plaque.png",
+      "/images/projects/toile-blanche/plaque-2026-04-30.png",
       "/images/projects/toile-blanche/hotel1.png",
       "/images/projects/toile-blanche/hotel2.png",
       "/images/projects/toile-blanche/hotel3.png",
@@ -238,7 +238,7 @@ System status: Active.`,
       "/images/projects/toile-blanche/hotel5.png",
       "/images/projects/toile-blanche/hotel6.png"
     ],
-    thumbnail: "/images/projects/toile-blanche/plaque.png",
+    thumbnail: "/images/projects/toile-blanche/plaque-2026-04-30.png",
     category: "Institutional Readymade / Durational",
     featured: true,
     externalLink: "https://www.toileblanche.com"
