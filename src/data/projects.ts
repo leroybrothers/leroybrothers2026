@@ -43,7 +43,7 @@ export const projects: Project[] = [
     yearEnd: "ongoing",
     yearLabel: "Scheduled 30 April 2026 (TBC) — ongoing",
     tagline: "A functioning hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: scheduled April 30th 2026 (TBC).",
-    description: "A boutique hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: scheduled April 30th 2026 (TBC). The hotel has operated since 2004.",
+    description: "A boutique hotel in Saint-Paul-de-Vence designated as a durational artwork. Artistic designation: scheduled April 30th 2026 (TBC). The hotel has operated continuously since 2004.",
     projectPageContent: `An Institution as Readymade
 
 A boutique hotel in Saint-Paul-de-Vence. 22 suites. Two restaurants. 7 pools. A full operational staff. Active debt instruments. A Michelin Key designation earned through standard inspection criteria. The hotel has been in continuous operation since 2004.
