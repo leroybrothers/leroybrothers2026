@@ -53,8 +53,18 @@ A hotel in continuous operation since 2004. Twenty-two suites, two restaurants, 
 
 On 30 April 2026, a cast brass plaque was installed on the exterior facade. It reads:
 
-Concrete, organic matter, algorithms, labor, capital, and Mediterranean sunlight.
-43.7011° N, 7.1211° E
+LEROY BROTHERS
+
+TOILE BLANCHE
+2026
+Site-specific durational ecosystem
+
+Architectural substrate, cultivated biomass, linen inventory,
+service labor, circulating capital, and transcient biological occupancy.
+
+43.7011°N, 7.1211° E
+
+Variable dimensions (17.576m² - 24/24h)
 
 The plaque is the wall label for the entire building. From that date, everything inside the threshold, staff, guests, inventory, tax returns, maintenance cycles, debt instruments, biological residue, is classified as sculptural material.
 
@@ -241,7 +251,7 @@ Complete transfer of the Toile Blanche system: the deed to the land, architectur
 Valuation: €100,000,000.00 (excl. closing costs).
 Pending liquidation. Artist role upon execution: inactive.
 
-Toile Blanche, 2026- . Brass, legal instruments, hotel infrastructure, labor, capital, Mediterranean sunlight. Saint-Paul-de-Vence, France. Michelin Key, 2024. Designated 30 April 2026.`,
+Toile Blanche, 2026-. Cast brass, architectural substrate, cultivated biomass, linen inventory, service labor, circulating capital, and transcient biological occupancy. Saint-Paul-de-Vence, France. Michelin Key, 2024. Designated 30 April 2026.`,
     exploreContent: `An Institution as Readymade - Statement
 
 Institutional readymade, durational. Saint-Paul-de-Vence, France.
