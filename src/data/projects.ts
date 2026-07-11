@@ -53,18 +53,8 @@ A hotel in continuous operation since 2004. Twenty-two suites, two restaurants, 
 
 On 30 April 2026, a cast brass plaque was installed on the exterior facade. It reads:
 
-LEROY BROTHERS
-
-TOILE BLANCHE
-2026
-Site-specific durational ecosystem
-
-Architectural substrate, cultivated biomass, linen inventory,
-service labor, circulating capital, and transcient biological occupancy.
-
-43.7011°N, 7.1211° E
-
-Variable dimensions (17.576m² - 24/24h)
+Concrete, organic matter, algorithms, labor, capital, and Mediterranean sunlight.
+43.7011° N, 7.1211° E
 
 The plaque is the wall label for the entire building. From that date, everything inside the threshold, staff, guests, inventory, tax returns, maintenance cycles, debt instruments, biological residue, is classified as sculptural material.
 
@@ -248,10 +238,10 @@ Open - ten allocations. Artist role upon subscription: Debtor.
 
 The Exit Strategy (100% Equity)
 Complete transfer of the Toile Blanche system: the deed to the land, architectural structures, operational protocols and access systems, labor contracts and service agreements, active liabilities and outstanding debt, institutional accreditations including the Michelin Key, and all registered encumbrances. No discrete artwork is conveyed. Upon execution, the artists cease all operational, administrative, and decision-making involvement; no provisions are made for artistic oversight following transfer. The installation continues under new ownership as an active asset. The execution of the transfer constitutes the completion of the work in its authored form.
-Valuation: €100,000,000.00 (excl. closing costs).
+The only work in the system that carries a price. The price is stated in the founding publication.
 Pending liquidation. Artist role upon execution: inactive.
 
-Toile Blanche, 2026-. Cast brass, architectural substrate, cultivated biomass, linen inventory, service labor, circulating capital, and transcient biological occupancy. Saint-Paul-de-Vence, France. Michelin Key, 2024. Designated 30 April 2026.`,
+Toile Blanche, 2026- . Brass, legal instruments, hotel infrastructure, labor, capital, Mediterranean sunlight. Saint-Paul-de-Vence, France. Michelin Key, 2024. Designated 30 April 2026.`,
     exploreContent: `An Institution as Readymade - Statement
 
 Institutional readymade, durational. Saint-Paul-de-Vence, France.
@@ -275,7 +265,7 @@ The Constructive Obligation is a notarized 99-year lease granting a Real Propert
 
 The Syndicate constitutes the founding human record of the institution's expansion. It binds ten collectors to Toile Blanche through a diptych instrument: one panel is the obligation, a loan to the institution at a fixed annual return, the artists designated as debtor; the other is the equity, entry into Le Cercle des Fondateurs, the permanent founding record, each position inscribed by hand in graphite. The diptych is the agreement; no separate purchase contract exists. The corporate documents that flow from it are its administrative consequence. They do not supersede the work. The work supersedes them.
 
-The Exit Strategy defines the conditions under which the artists' authority terminates. It prices the complete transfer of the system, the deed to the land, architectural structures, operational protocols, labor contracts, active liabilities, institutional accreditations, and all registered encumbrances, at €100,000,000.00, excluding closing costs. It is the only work in the system that carries a price, because the price is the artwork. The figure is not derived from comparable sales, replacement cost, or income yield. It is authored, the way a dimension is authored, and it is exact. Upon execution, the artists cease all operational, administrative, and decision-making involvement. No provisions are made for artistic oversight following transfer. All subsequent actions, maintenance, modification, expansion, neglect, or dissolution, are the responsibility of the acquiring party. The execution of the transfer constitutes the completion of the work in its authored form. Until then, its status is pending liquidation.
+The Exit Strategy defines the conditions under which the artists' authority terminates. It prices the complete transfer of the system, the deed to the land, architectural structures, operational protocols, labor contracts, active liabilities, institutional accreditations, and all registered encumbrances. It is the only work in the system that carries a price, because the price is the artwork. The figure is not derived from comparable sales, replacement cost, or income yield. It is authored, the way a dimension is authored, and it is exact. It is stated in one place: the founding publication. Upon execution, the artists cease all operational, administrative, and decision-making involvement. No provisions are made for artistic oversight following transfer. All subsequent actions, maintenance, modification, expansion, neglect, or dissolution, are the responsibility of the acquiring party. The execution of the transfer constitutes the completion of the work in its authored form. Until then, its status is pending liquidation.
 
 The hotel opened in 2004 as a hospitality asset. It was designated on 30 April 2026. The twenty-two years between those dates are not prologue. They are the operational history of a readymade that did not yet know it had been selected. The Liability contains documents from the entire period, the deed, the guarantees, the loan agreements, going back to the founding year. The metabolic residue the work produces includes two decades of accumulated operation. The designation did not create the institution. It found it already running, already encumbered, already generating the material the work required, and named it.
 
